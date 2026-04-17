@@ -3,37 +3,19 @@ import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight, CheckCircle } from "lucide-react";
 import Layout from "@/components/Layout";
 
+const heroTitle = "Moderný nábytok pre laboratórne učebne";
+
 const heroSlides = [
-  {
-    image:
-      "https://static.wixstatic.com/media/713410_beeb14688cb440bab3d89ddfe9a1221a~mv2.png/v1/fill/w_1920,h_608,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/713410_beeb14688cb440bab3d89ddfe9a1221a~mv2.png",
-    title: "Hotové riešenia nábytku pre matematické a STEM učebne",
-  },
-  {
-    image:
-      "https://static.wixstatic.com/media/713410_38d2ced3a5cf48668b9de81bcab814a3~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_38d2ced3a5cf48668b9de81bcab814a3~mv2.jpg",
-    title: "Školský nábytok pre moderné vzdelávacie inštitúcie",
-  },
-  {
-    image:
-      "https://static.wixstatic.com/media/713410_2ff7be57ad1c4f279b48e39df44dd2a6~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_2ff7be57ad1c4f279b48e39df44dd2a6~mv2.jpg",
-    title: "Detský nábytok pre materské školy a herne",
-  },
-  {
-    image:
-      "https://static.wixstatic.com/media/713410_4cad429869bf4d009856dd6082540f35~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_4cad429869bf4d009856dd6082540f35~mv2.jpg",
-    title: "Kancelársky nábytok pre produktívne pracovisko",
-  },
-  {
-    image:
-      "https://static.wixstatic.com/media/713410_d8fbf10efb5143a8a979c4b59f90e83b~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_d8fbf10efb5143a8a979c4b59f90e83b~mv2.jpg",
-    title: "Nábytok pre ubytovne a internáty",
-  },
-  {
-    image:
-      "https://static.wixstatic.com/media/713410_e0ceb898ae944e369f85cbd288a58a0a~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_e0ceb898ae944e369f85cbd288a58a0a~mv2.jpg",
-    title: "Nábytok pre univerzity a vysoké školy",
-  },
+  "https://static.wixstatic.com/media/713410_beeb14688cb440bab3d89ddfe9a1221a~mv2.png/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_beeb14688cb440bab3d89ddfe9a1221a~mv2.png",
+  "https://static.wixstatic.com/media/713410_38d2ced3a5cf48668b9de81bcab814a3~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_38d2ced3a5cf48668b9de81bcab814a3~mv2.jpg",
+  "https://static.wixstatic.com/media/713410_2ff7be57ad1c4f279b48e39df44dd2a6~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_2ff7be57ad1c4f279b48e39df44dd2a6~mv2.jpg",
+  "https://static.wixstatic.com/media/713410_4cad429869bf4d009856dd6082540f35~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_4cad429869bf4d009856dd6082540f35~mv2.jpg",
+  "https://static.wixstatic.com/media/713410_d8fbf10efb5143a8a979c4b59f90e83b~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_d8fbf10efb5143a8a979c4b59f90e83b~mv2.jpg",
+  "https://static.wixstatic.com/media/713410_e0ceb898ae944e369f85cbd288a58a0a~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_e0ceb898ae944e369f85cbd288a58a0a~mv2.jpg",
+  "https://static.wixstatic.com/media/713410_5fe67f3c894641099648032129e25f14~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_5fe67f3c894641099648032129e25f14~mv2.jpg",
+  "https://static.wixstatic.com/media/713410_832e3c4009544591a368ac3acd802717~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_832e3c4009544591a368ac3acd802717~mv2.jpg",
+  "https://static.wixstatic.com/media/713410_647058a5a31d455a858df4060416aa03~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_647058a5a31d455a858df4060416aa03~mv2.jpg",
+  "https://static.wixstatic.com/media/713410_9bc510f6974b47b0b5695d6992910c4a~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_9bc510f6974b47b0b5695d6992910c4a~mv2.jpg",
 ];
 
 const categories = [
