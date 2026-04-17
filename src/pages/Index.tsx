@@ -92,15 +92,9 @@ const Index = () => {
             <div className="absolute inset-0 bg-black/30" />
             <div className="relative h-full flex items-center justify-center text-center px-4">
               <div className="bg-background/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 max-w-2xl">
-                <h1 className="text-2xl md:text-4xl font-bold text-foreground mb-6">
+                <h1 className="text-2xl md:text-4xl font-bold text-foreground">
                   {slide.title}
                 </h1>
-                <Link
-                  to="/katalog"
-                  className="inline-block border-2 border-primary text-primary px-8 py-3 rounded-full font-medium hover:bg-primary hover:text-primary-foreground transition-colors"
-                >
-                  {slide.cta}
-                </Link>
               </div>
             </div>
           </div>
