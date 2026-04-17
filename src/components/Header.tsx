@@ -33,12 +33,6 @@ const Header = () => {
           </div>
         </div>
 
-        <Link
-          to="/katalog"
-          className="hidden md:inline-flex bg-primary text-primary-foreground px-6 py-2.5 rounded-full text-sm font-medium hover:opacity-90 transition-opacity"
-        >
-          Stiahnuť katalóg
-        </Link>
 
         <div className="hidden md:flex flex-col text-sm text-right shrink-0">
           <a href="tel:+421900000000" className="flex items-center gap-1 text-foreground hover:text-primary">
