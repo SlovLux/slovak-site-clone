@@ -5,19 +5,34 @@ import Layout from "@/components/Layout";
 
 const heroSlides = [
   {
-    image: "https://static.wixstatic.com/media/4b4f69_c2f1b5d4d0b44e6e8e4d7f7b8e7f7b8e~mv2.jpg",
+    image:
+      "https://static.wixstatic.com/media/713410_beeb14688cb440bab3d89ddfe9a1221a~mv2.png/v1/fill/w_1920,h_608,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/713410_beeb14688cb440bab3d89ddfe9a1221a~mv2.png",
     title: "Hotové riešenia nábytku pre matematické a STEM učebne",
-    cta: "Otvoriť katalóg",
   },
   {
-    image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200",
-    title: "Kvalitný školský nábytok pre moderné vzdelávanie",
-    cta: "Zobraziť produkty",
+    image:
+      "https://static.wixstatic.com/media/713410_38d2ced3a5cf48668b9de81bcab814a3~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_38d2ced3a5cf48668b9de81bcab814a3~mv2.jpg",
+    title: "Školský nábytok pre moderné vzdelávacie inštitúcie",
   },
   {
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200",
+    image:
+      "https://static.wixstatic.com/media/713410_2ff7be57ad1c4f279b48e39df44dd2a6~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_2ff7be57ad1c4f279b48e39df44dd2a6~mv2.jpg",
+    title: "Detský nábytok pre materské školy a herne",
+  },
+  {
+    image:
+      "https://static.wixstatic.com/media/713410_4cad429869bf4d009856dd6082540f35~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_4cad429869bf4d009856dd6082540f35~mv2.jpg",
     title: "Kancelársky nábytok pre produktívne pracovisko",
-    cta: "Zobraziť ponuku",
+  },
+  {
+    image:
+      "https://static.wixstatic.com/media/713410_d8fbf10efb5143a8a979c4b59f90e83b~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_d8fbf10efb5143a8a979c4b59f90e83b~mv2.jpg",
+    title: "Nábytok pre ubytovne a internáty",
+  },
+  {
+    image:
+      "https://static.wixstatic.com/media/713410_e0ceb898ae944e369f85cbd288a58a0a~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_e0ceb898ae944e369f85cbd288a58a0a~mv2.jpg",
+    title: "Nábytok pre univerzity a vysoké školy",
   },
 ];
 
