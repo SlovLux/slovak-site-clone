@@ -1,22 +1,42 @@
-import CategoryPage from "@/components/CategoryPage";
-
-const products = [
-  { name: "Školské zostavy", image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600", description: "Kompletné riešenia pre učebne vrátane lavíc, stoličiek a úložného priestoru." },
-  { name: "Dvojmiestne lavice", image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600", description: "Ergonomické dvojmiestne lavice pre pohodlné učenie." },
-  { name: "Žiacke stoličky", image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600", description: "Nastaviteľné stoličky pre správne sedenie." },
-  { name: "Jedálenský nábytok", image: "https://images.unsplash.com/photo-1567521464027-f127ff144326?w=600", description: "Stoly a stoličky pre školské jedálne." },
-  { name: "Školské tabule", image: "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=600", description: "Biele a zelené tabule rôznych rozmerov." },
-  { name: "Laboratórny nábytok", image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600", description: "Špeciálny nábytok pre chemické a fyzikálne laboratóriá." },
-  { name: "Postele a nočné stolíky", image: "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=600", description: "Nábytok pre internáty a ubytovacie zariadenia." },
-  { name: "Príslušenstvo", image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600", description: "Podnosy, doplnky a príslušenstvo pre školy." },
-];
+import { Link } from "react-router-dom";
+import Layout from "@/components/Layout";
+import { schoolCategories } from "@/data/schoolCategories";
 
 const SchoolFurniture = () => (
-  <CategoryPage
-    title="Školský nábytok"
-    description="Široký sortiment kvalitného školského nábytku pre všetky typy vzdelávacích inštitúcií. Naše produkty spĺňajú prísne bezpečnostné a ergonomické normy."
-    products={products}
-  />
+  <Layout>
+    <section className="container mx-auto px-4 py-16">
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">Školský nábytok</h1>
+      <p className="text-muted-foreground mb-12 max-w-2xl">
+        Vyberte si z našich kategórií školského nábytku. Ponúkame kompletný sortiment pre
+        všetky typy vzdelávacích inštitúcií.
+      </p>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {schoolCategories.map((cat) => (
+          <Link
+            key={cat.slug}
+            to={`/skolsky-nabytok/${cat.slug}`}
+            className="group rounded-xl overflow-hidden border border-border bg-card hover:shadow-lg transition-shadow"
+          >
+            <div className="aspect-[4/3] overflow-hidden bg-muted">
+              <img
+                src={cat.image}
+                alt={cat.title}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                loading="lazy"
+              />
+            </div>
+            <div className="p-4">
+              <h2 className="font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
+                {cat.title}
+              </h2>
+              <p className="text-sm text-muted-foreground line-clamp-2">{cat.description}</p>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </section>
+  </Layout>
 );
 
 export default SchoolFurniture;

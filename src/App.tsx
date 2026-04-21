@@ -11,6 +11,7 @@ import PaymentDelivery from "./pages/PaymentDelivery.tsx";
 import Privacy from "./pages/Privacy.tsx";
 import Procurement from "./pages/Procurement.tsx";
 import SchoolFurniture from "./pages/SchoolFurniture.tsx";
+import SchoolSubcategory from "./pages/SchoolSubcategory.tsx";
 import ChildrenFurniture from "./pages/ChildrenFurniture.tsx";
 import OfficeFurniture from "./pages/OfficeFurniture.tsx";
 import ShelterFurniture from "./pages/ShelterFurniture.tsx";
@@ -35,6 +36,7 @@ const App = () => (
           <Route path="/ochrana-sukromia" element={<Privacy />} />
           <Route path="/verejne-obstaravanie" element={<Procurement />} />
           <Route path="/skolsky-nabytok" element={<SchoolFurniture />} />
+          <Route path="/skolsky-nabytok/:slug" element={<SchoolSubcategory />} />
           <Route path="/detsky-nabytok" element={<ChildrenFurniture />} />
           <Route path="/kancelarsky-nabytok" element={<OfficeFurniture />} />
           <Route path="/nabytok-pre-utulky" element={<ShelterFurniture />} />
