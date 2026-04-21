@@ -67,9 +67,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-border/60 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-muted-foreground">
+        <div className="mt-12 pt-6 border-t border-border/60 flex justify-center items-center text-xs text-muted-foreground">
           <span>© 2025 ARD Consulting. Všetky práva vyhradené.</span>
-          <span className="tracking-wide">Made with care in Slovakia</span>
         </div>
       </div>
     </footer>
