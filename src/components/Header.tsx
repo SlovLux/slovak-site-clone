@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Search, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import ardLogo from "@/assets/ard-logo.png";
 
 const navItems = [
@@ -23,16 +23,7 @@ const Header = () => {
           <img src={ardLogo} alt="ARD Consulting" className="h-11 w-auto object-contain" />
         </Link>
 
-        <div className="hidden md:flex items-center flex-1 max-w-md mx-4">
-          <div className="relative w-full">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-            <input
-              type="text"
-              placeholder="Čo hľadáte..."
-              className="w-full pl-10 pr-4 py-2 border border-border rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-            />
-          </div>
-        </div>
+        <div className="hidden md:flex flex-1" />
 
         <button
           className="md:hidden p-2"
@@ -66,14 +57,6 @@ const Header = () => {
       {mobileOpen && (
         <div className="md:hidden bg-background border-t border-border">
           <div className="p-4">
-            <div className="relative mb-4">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-              <input
-                type="text"
-                placeholder="Čo hľadáte..."
-                className="w-full pl-10 pr-4 py-2 border border-border rounded-full text-sm"
-              />
-            </div>
             <ul className="space-y-1">
               {navItems.map((item) => (
                 <li key={item.path}>
