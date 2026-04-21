@@ -1,11 +1,11 @@
-import { Building2, MapPin, FileText } from "lucide-react";
+import { Building2, MapPin, Phone, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
     <footer className="relative bg-gradient-to-b from-background to-secondary/30 border-t border-border/60">
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
       <div className="container mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-2 gap-10 lg:gap-16 items-start">
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-start">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -21,48 +21,58 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <p className="text-sm text-muted-foreground leading-relaxed max-w-md">
+            <p className="text-sm text-muted-foreground leading-relaxed max-w-md mb-6">
               Kvalitný nábytok pre školy, škôlky, kancelárie a sociálne ubytovanie.
             </p>
+
+            <div className="space-y-3 text-sm">
+              <a href="tel:+421907024315" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
+                <Phone className="h-4 w-4 text-primary shrink-0" />
+                <span>+421 907 024 315</span>
+              </a>
+              <a href="tel:+421903434591" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
+                <Phone className="h-4 w-4 text-primary shrink-0" />
+                <span>+421 903 434 591</span>
+              </a>
+              <a href="mailto:info@nikan.sk" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
+                <Mail className="h-4 w-4 text-primary shrink-0" />
+                <span>info@nikan.sk</span>
+              </a>
+            </div>
           </div>
 
-          {/* Company details */}
-          <div className="grid sm:grid-cols-2 gap-6">
-            <div className="rounded-2xl bg-card/60 backdrop-blur border border-border/60 p-5">
-              <div className="flex items-center gap-2 mb-3">
-                <FileText className="h-4 w-4 text-primary" />
-                <span className="text-xs font-semibold tracking-widest uppercase text-foreground">
-                  Fakturačné údaje
-                </span>
+          {/* Company details — unified card */}
+          <div className="rounded-2xl bg-card/60 backdrop-blur border border-border/60 p-6 lg:p-8">
+            <div className="flex items-center gap-2 mb-5">
+              <MapPin className="h-4 w-4 text-primary" />
+              <span className="text-xs font-semibold tracking-widest uppercase text-foreground">
+                Spoločnosť
+              </span>
+            </div>
+
+            <div className="grid sm:grid-cols-2 gap-x-8 gap-y-5 text-sm">
+              <div>
+                <dt className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Sídlo</dt>
+                <dd className="not-italic text-foreground leading-relaxed">
+                  Zelená 883/13<br />
+                  900 45 Malinovo<br />
+                  Slovenská republika
+                </dd>
               </div>
-              <dl className="space-y-2 text-sm">
-                <div className="flex justify-between gap-4">
-                  <dt className="text-muted-foreground">IČO</dt>
+              <dl className="space-y-3">
+                <div>
+                  <dt className="text-xs uppercase tracking-wider text-muted-foreground mb-0.5">IČO</dt>
                   <dd className="font-mono font-medium text-foreground">54 766 206</dd>
                 </div>
-                <div className="flex justify-between gap-4">
-                  <dt className="text-muted-foreground">DIČ</dt>
+                <div>
+                  <dt className="text-xs uppercase tracking-wider text-muted-foreground mb-0.5">DIČ</dt>
                   <dd className="font-mono font-medium text-foreground">2121955561</dd>
                 </div>
-                <div className="flex justify-between gap-4">
-                  <dt className="text-muted-foreground">IČ DPH</dt>
+                <div>
+                  <dt className="text-xs uppercase tracking-wider text-muted-foreground mb-0.5">IČ DPH</dt>
                   <dd className="font-mono font-medium text-foreground">SK2121955561</dd>
                 </div>
               </dl>
-            </div>
-
-            <div className="rounded-2xl bg-card/60 backdrop-blur border border-border/60 p-5">
-              <div className="flex items-center gap-2 mb-3">
-                <MapPin className="h-4 w-4 text-primary" />
-                <span className="text-xs font-semibold tracking-widest uppercase text-foreground">
-                  Sídlo spoločnosti
-                </span>
-              </div>
-              <address className="not-italic text-sm text-muted-foreground leading-relaxed">
-                Zelená 883/13<br />
-                900 45 Malinovo<br />
-                Slovenská republika
-              </address>
             </div>
           </div>
         </div>
