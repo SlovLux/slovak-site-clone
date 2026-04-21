@@ -24,21 +24,21 @@ const slugify = (s: string): string =>
 
 export const schoolCatalog: CatalogSubcategory[] = [
   {
-    name: "Stoly a stoličky žiacke",
-    slug: slugify("Stoly a stoličky žiacke"),
+    name: "Stoly a stoličky študentské",
+    slug: slugify("Stoly a stoličky študentské"),
     products: [
       {
         page: 4,
         image: "page-04.jpg",
         code: "54178",
         name: "Školský stôl pre 1 žiaka bez police, výškovo nastaviteľný pre rastové skupiny č. 4-7",
-        description: "Obsahuje aj: Lakovaný/HPL žiacky študentský stôl s T-podnožou na okrúhlej rúrke, výškovo nastaviteľný pre rastové skupiny; Súprava zásuviek a vodiacich líšt k stolu",
+        description: "Obsahuje aj: Lakovaný/HPL študentský študentský stôl s T-podnožou na okrúhlej rúrke, výškovo nastaviteľný pre rastové skupiny; Súprava zásuviek a vodiacich líšt k stolu",
       },
     ],
   },
   {
-    name: "Stoly žiacke",
-    slug: slugify("Stoly žiacke"),
+    name: "Stoly študentské",
+    slug: slugify("Stoly študentské"),
     products: [
       {
         page: 5,
@@ -71,8 +71,8 @@ export const schoolCatalog: CatalogSubcategory[] = [
     ],
   },
   {
-    name: "Stoličky žiacke",
-    slug: slugify("Stoličky žiacke"),
+    name: "Stoličky študentské",
+    slug: slugify("Stoličky študentské"),
     products: [
       {
         page: 9,
