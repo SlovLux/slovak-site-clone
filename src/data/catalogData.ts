@@ -623,3 +623,101 @@ export const shelterCatalog: CatalogSubcategory[] = [
   },
 ];
 
+export const officeCatalog: CatalogSubcategory[] = [
+  {
+    name: "Kancelárske stoly",
+    slug: slugify("Kancelarske stoly"),
+    products: [
+      {
+        page: 42,
+        image: "photos/page-42-1.jpg",
+        code: "8188",
+        name: "Rohový písací stôl",
+        description: "Priestranný rohový písací stôl pre moderné kancelárie. Rozmery: 1400x900x750 mm.",
+      },
+      {
+        page: 26,
+        image: "photos/page-26-1.jpg",
+        code: "4105",
+        name: "Písací stôl bez police",
+        description: "Klasický písací stôl s priestrannou pracovnou doskou. Rozmery: 1200x600x750 mm.",
+      },
+      {
+        page: 30,
+        image: "photos/page-30-1.jpg",
+        code: "4141",
+        name: "Písací stôl s 1 dvierkami",
+        description: "Praktický písací stôl s úložnou skrinkou a dvierkami pre osobné veci.",
+      },
+      {
+        page: 36,
+        image: "photos/page-36-1.jpg",
+        code: "33601",
+        name: "Komplet stolov na zasadnutia",
+        description: "Veľkokapacitný konferenčný stôl pre rokovacie miestnosti. Rozmery: 3800x1200x750 mm.",
+      },
+    ],
+  },
+  {
+    name: "Kancelárske skrine a kontajnery",
+    slug: slugify("Kancelarske skrine a kontajnery"),
+    products: [
+      {
+        page: 35,
+        image: "photos/page-35-1.jpg",
+        code: "6608",
+        name: "Šatníková a hospodárska skriňa",
+        description: "Robustná dvojdverová skriňa s policami a výsuvnou tyčou pre kancelárske priestory.",
+      },
+      {
+        page: 37,
+        image: "photos/page-37-1.jpg",
+        code: "6619",
+        name: "Pojazdná skrinka so zásuvkami",
+        description: "Mobilná kancelárska skrinka s dvierkami a zásuvkami. Rozmery: 440x450x610 mm.",
+      },
+      {
+        page: 38,
+        image: "photos/page-38-1.jpg",
+        code: "0638",
+        name: "Šatníková skriňa s výsuvnou tyčou",
+        description: "Dvojdverová šatníková skriňa pre kancelárie. Rozmery: 802x403x1816 mm.",
+      },
+      {
+        page: 39,
+        image: "photos/page-39-1.jpg",
+        code: "0655",
+        name: "Knižnica so sklenenými dvierkami",
+        description: "Elegantná knižnica v rámovom prevedení pre reprezentatívne kancelárie.",
+      },
+    ],
+  },
+  {
+    name: "Konferenčný a recepčný nábytok",
+    slug: slugify("Konferencny a recepcny nabytok"),
+    products: [
+      {
+        page: 25,
+        image: "photos/page-25-1.jpg",
+        code: "48500",
+        name: "Banketová stolička MUSIC SOUL",
+        description: "Elegantná stolička pre zasadacie miestnosti a reprezentatívne priestory. Rozmery: 440x400x910 mm.",
+      },
+      {
+        page: 24,
+        image: "photos/page-24-1.jpg",
+        code: "29537",
+        name: "Polomäkká stolička „Prestiž“",
+        description: "Pohodlná stolička s polomäkkým čalúnením v koženke alebo látke pre kancelárie a aulu.",
+      },
+      {
+        page: 23,
+        image: "photos/page-23-1.jpg",
+        code: "30085",
+        name: "Konferenčný stôl s HPL doskou",
+        description: "Odolný konferenčný stôl s HPL pracovnou doskou. Rozmery: 1200x750x760 mm.",
+      },
+    ],
+  },
+];
+
