@@ -35,12 +35,12 @@ const Header = () => {
 
 
         <div className="hidden md:flex flex-col text-sm text-right shrink-0">
-          <a href="tel:+421900000000" className="flex items-center gap-1 text-foreground hover:text-primary">
+          <a href="tel:+421907024315" className="flex items-center gap-1 text-foreground hover:text-primary">
             <Phone className="h-3.5 w-3.5" />
-            +421 900 000 000
+            +421 907 024 315
           </a>
-          <a href="tel:+421900000001" className="text-foreground hover:text-primary">
-            +421 900 000 001
+          <a href="tel:+421903434591" className="text-foreground hover:text-primary">
+            +421 903 434 591
           </a>
         </div>
 
@@ -98,8 +98,11 @@ const Header = () => {
               ))}
             </ul>
             <div className="mt-4 space-y-2 text-sm">
-              <a href="tel:+421900000000" className="flex items-center gap-2 text-foreground">
-                <Phone className="h-4 w-4" /> +421 900 000 000
+              <a href="tel:+421907024315" className="flex items-center gap-2 text-foreground">
+                <Phone className="h-4 w-4" /> +421 907 024 315
+              </a>
+              <a href="tel:+421903434591" className="flex items-center gap-2 text-foreground">
+                <Phone className="h-4 w-4" /> +421 903 434 591
               </a>
             </div>
           </div>
