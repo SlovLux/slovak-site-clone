@@ -6,7 +6,7 @@ const navItems = [
   { label: "Školský nábytok", path: "/skolsky-nabytok" },
   { label: "Detský nábytok", path: "/detsky-nabytok" },
   { label: "Kancelársky nábytok", path: "/kancelarsky-nabytok" },
-  { label: "Nábytok pre útulky", path: "/nabytok-pre-utulky" },
+  { label: "Nábytok pre sociálne ubytovanie", path: "/nabytok-pre-utulky" },
   { label: "Nábytok pre univerzity", path: "/nabytok-pre-univerzity" },
 ];
 

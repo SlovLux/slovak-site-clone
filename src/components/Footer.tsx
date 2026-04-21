@@ -34,7 +34,7 @@ const Footer = () => {
               <li><Link to="/skolsky-nabytok" className="text-muted-foreground hover:text-primary">Školský nábytok</Link></li>
               <li><Link to="/detsky-nabytok" className="text-muted-foreground hover:text-primary">Detský nábytok</Link></li>
               <li><Link to="/kancelarsky-nabytok" className="text-muted-foreground hover:text-primary">Kancelársky nábytok</Link></li>
-              <li><Link to="/nabytok-pre-utulky" className="text-muted-foreground hover:text-primary">Nábytok pre útulky</Link></li>
+              <li><Link to="/nabytok-pre-utulky" className="text-muted-foreground hover:text-primary">Nábytok pre sociálne ubytovanie</Link></li>
               <li><Link to="/nabytok-pre-univerzity" className="text-muted-foreground hover:text-primary">Nábytok pre univerzity</Link></li>
             </ul>
           </div>
