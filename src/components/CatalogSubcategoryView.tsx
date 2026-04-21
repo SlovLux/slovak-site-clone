@@ -12,11 +12,6 @@ const CatalogSubcategoryView = ({ title, intro, subcategories, imageBasePath }: 
     <div className="bg-gradient-to-b from-secondary/40 via-background to-background">
       <section className="container mx-auto px-4 py-16">
         <header className="mb-12 max-w-4xl">
-          <div className="inline-block mb-4">
-            <span className="text-xs font-semibold tracking-widest uppercase text-primary bg-primary/10 px-3 py-1.5 rounded-full">
-              Katalóg produktov
-            </span>
-          </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 tracking-tight text-foreground">
             {title}
           </h1>
