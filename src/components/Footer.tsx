@@ -14,9 +14,6 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold tracking-tight leading-none">ARD Consulting</h3>
-                <p className="text-[11px] text-background/60 mt-1.5 tracking-widest uppercase">
-                  Nábytkové riešenia
-                </p>
               </div>
             </div>
             <p className="text-sm text-background/70 leading-relaxed max-w-sm">
