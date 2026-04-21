@@ -721,3 +721,114 @@ export const officeCatalog: CatalogSubcategory[] = [
   },
 ];
 
+export const universityCatalog: CatalogSubcategory[] = [
+  {
+    name: "Posluchárenský nábytok a aula",
+    slug: slugify("Posluchatensky nabytok a aula"),
+    products: [
+      {
+        page: 24,
+        image: "photos/page-24-1.jpg",
+        code: "29537",
+        name: "Polomäkká stolička „Prestiž“ / ISO",
+        description: "Pohodlné polomäkké stoličky v koženke alebo látke pre prednáškové sály a auly.",
+      },
+      {
+        page: 25,
+        image: "photos/page-25-1.jpg",
+        code: "48500",
+        name: "Banketová stolička MUSIC SOUL",
+        description: "Elegantná stolička pre auly a reprezentatívne priestory. Rozmery: 440x400x910 mm.",
+      },
+      {
+        page: 23,
+        image: "photos/page-23-1.jpg",
+        code: "30085",
+        name: "Stôl pre posluchárne s HPL doskou",
+        description: "Odolný stôl s HPL pracovnou doskou pre prednáškové miestnosti. Rozmery: 1200x750x760 mm.",
+      },
+    ],
+  },
+  {
+    name: "Laboratórny nábytok",
+    slug: slugify("Laboratorny nabytok"),
+    products: [
+      {
+        page: 28,
+        image: "photos/page-28-1.jpg",
+        code: "0302",
+        name: "Demonštračný stôl so zásuvkami",
+        description: "Demonštračný stôl pre univerzitné laboratóriá fyziky a chémie. Rozmery: 1200x600x900 mm.",
+      },
+      {
+        page: 29,
+        image: "photos/page-29-1.jpg",
+        code: "0304",
+        name: "Pomocný laboratórny stôl",
+        description: "Pomocný stôl so zásuvkou pre kabinety a laboratóriá. Rozmery: 1200x600x900 mm.",
+      },
+      {
+        page: 30,
+        image: "photos/page-30-1.jpg",
+        code: "0101",
+        name: "Fyzikálny laboratórny stôl s policou",
+        description: "Laboratórny stôl s policou a zásuvkami pre vysokoškolské laboratóriá. Rozmery: 1200x600x760 mm.",
+      },
+    ],
+  },
+  {
+    name: "Knižničný nábytok",
+    slug: slugify("Kniznicny nabytok"),
+    products: [
+      {
+        page: 39,
+        image: "photos/page-39-1.jpg",
+        code: "0655",
+        name: "Knižnica so sklenenými dvierkami",
+        description: "Reprezentatívna knižnica v rámovom prevedení pre akademické knižnice a študovne.",
+      },
+      {
+        page: 38,
+        image: "photos/page-38-1.jpg",
+        code: "0633",
+        name: "Uzavretá knižnica 2-dverová",
+        description: "Praktická uzavretá knižnica pre vysokoškolské knižnice a kabinety.",
+      },
+      {
+        page: 40,
+        image: "photos/page-40-1.jpg",
+        code: "08071",
+        name: "Rečnícky pult",
+        description: "Rečnícky pult s úzkou základňou pre prednáškové sály a konferencie.",
+      },
+    ],
+  },
+  {
+    name: "Kancelársky nábytok pre fakulty",
+    slug: slugify("Kancelarsky nabytok pre fakulty"),
+    products: [
+      {
+        page: 26,
+        image: "photos/page-26-1.jpg",
+        code: "4105",
+        name: "Písací stôl pre kabinet",
+        description: "Klasický písací stôl pre kabinety pedagógov. Rozmery: 1200x600x750 mm.",
+      },
+      {
+        page: 42,
+        image: "photos/page-42-1.jpg",
+        code: "8188",
+        name: "Rohový písací stôl",
+        description: "Priestranný rohový písací stôl pre administratívne priestory fakúlt. Rozmery: 1400x900x750 mm.",
+      },
+      {
+        page: 35,
+        image: "photos/page-35-1.jpg",
+        code: "6608",
+        name: "Šatníková a hospodárska skriňa",
+        description: "Robustná dvojdverová skriňa s policami a výsuvnou tyčou pre kabinety.",
+      },
+    ],
+  },
+];
+
