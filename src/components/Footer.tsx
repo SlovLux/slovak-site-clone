@@ -1,84 +1,84 @@
-import { Building2, MapPin, Phone, Mail } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
+import ardLogo from "@/assets/ard-logo.png";
 
 const Footer = () => {
   return (
-    <footer className="relative bg-gradient-to-b from-background to-secondary/30 border-t border-border/60">
-      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
-      <div className="container mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-start">
+    <footer className="relative bg-foreground text-background">
+      <div className="container mx-auto px-4 py-14">
+        <div className="grid gap-10 lg:gap-14 md:grid-cols-12">
           {/* Brand */}
-          <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="h-12 w-12 rounded-2xl bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center shadow-lg shadow-primary/20">
-                <Building2 className="h-6 w-6 text-primary-foreground" />
+          <div className="md:col-span-4 space-y-4">
+            <div className="flex items-center gap-3">
+              <div className="h-12 w-12 rounded-xl bg-background flex items-center justify-center p-1.5">
+                <img src={ardLogo} alt="ARD Consulting" className="h-full w-full object-contain" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold tracking-tight text-foreground leading-none">
-                  ARD Consulting
-                </h3>
-                <p className="text-xs text-muted-foreground mt-1.5 tracking-wide uppercase">
+                <h3 className="text-xl font-bold tracking-tight leading-none">ARD Consulting</h3>
+                <p className="text-[11px] text-background/60 mt-1.5 tracking-widest uppercase">
                   Nábytkové riešenia
                 </p>
               </div>
             </div>
-            <p className="text-sm text-muted-foreground leading-relaxed max-w-md mb-6">
+            <p className="text-sm text-background/70 leading-relaxed max-w-sm">
               Kvalitný nábytok pre školy, škôlky, kancelárie a sociálne ubytovanie.
             </p>
-
-            <div className="space-y-3 text-sm">
-              <a href="tel:+421907024315" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
-                <Phone className="h-4 w-4 text-primary shrink-0" />
-                <span>+421 907 024 315</span>
-              </a>
-              <a href="tel:+421903434591" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
-                <Phone className="h-4 w-4 text-primary shrink-0" />
-                <span>+421 903 434 591</span>
-              </a>
-              <a href="mailto:info@nikan.sk" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
-                <Mail className="h-4 w-4 text-primary shrink-0" />
-                <span>info@nikan.sk</span>
-              </a>
-            </div>
           </div>
 
-          {/* Company details — unified card */}
-          <div className="rounded-2xl bg-card/60 backdrop-blur border border-border/60 p-6 lg:p-8">
-            <div className="flex items-center gap-2 mb-5">
-              <MapPin className="h-4 w-4 text-primary" />
-              <span className="text-xs font-semibold tracking-widest uppercase text-foreground">
-                Spoločnosť
-              </span>
-            </div>
+          {/* Kontakt */}
+          <div className="md:col-span-4 space-y-4">
+            <h4 className="text-[11px] font-semibold tracking-widest uppercase text-background/60">
+              Kontakt
+            </h4>
+            <ul className="space-y-3 text-sm">
+              <li>
+                <a href="tel:+421907024315" className="flex items-center gap-3 text-background/85 hover:text-primary transition-colors">
+                  <Phone className="h-4 w-4 shrink-0" />
+                  <span>+421 907 024 315</span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+421903434591" className="flex items-center gap-3 text-background/85 hover:text-primary transition-colors">
+                  <Phone className="h-4 w-4 shrink-0" />
+                  <span>+421 903 434 591</span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@nikan.sk" className="flex items-center gap-3 text-background/85 hover:text-primary transition-colors">
+                  <Mail className="h-4 w-4 shrink-0" />
+                  <span>info@nikan.sk</span>
+                </a>
+              </li>
+              <li className="flex items-start gap-3 text-background/85">
+                <MapPin className="h-4 w-4 shrink-0 mt-0.5" />
+                <span>Zelená 883/13, 900 45 Malinovo</span>
+              </li>
+            </ul>
+          </div>
 
-            <div className="grid sm:grid-cols-2 gap-x-8 gap-y-5 text-sm">
-              <div>
-                <dt className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Sídlo</dt>
-                <dd className="not-italic text-foreground leading-relaxed">
-                  Zelená 883/13<br />
-                  900 45 Malinovo<br />
-                  Slovenská republika
-                </dd>
+          {/* Fakturačné údaje */}
+          <div className="md:col-span-4 space-y-4">
+            <h4 className="text-[11px] font-semibold tracking-widest uppercase text-background/60">
+              Fakturačné údaje
+            </h4>
+            <dl className="text-sm divide-y divide-background/10">
+              <div className="flex justify-between py-2.5">
+                <dt className="text-background/60">IČO</dt>
+                <dd className="font-mono font-medium">54 766 206</dd>
               </div>
-              <dl className="space-y-3">
-                <div>
-                  <dt className="text-xs uppercase tracking-wider text-muted-foreground mb-0.5">IČO</dt>
-                  <dd className="font-mono font-medium text-foreground">54 766 206</dd>
-                </div>
-                <div>
-                  <dt className="text-xs uppercase tracking-wider text-muted-foreground mb-0.5">DIČ</dt>
-                  <dd className="font-mono font-medium text-foreground">2121955561</dd>
-                </div>
-                <div>
-                  <dt className="text-xs uppercase tracking-wider text-muted-foreground mb-0.5">IČ DPH</dt>
-                  <dd className="font-mono font-medium text-foreground">SK2121955561</dd>
-                </div>
-              </dl>
-            </div>
+              <div className="flex justify-between py-2.5">
+                <dt className="text-background/60">DIČ</dt>
+                <dd className="font-mono font-medium">2121955561</dd>
+              </div>
+              <div className="flex justify-between py-2.5">
+                <dt className="text-background/60">IČ DPH</dt>
+                <dd className="font-mono font-medium">SK2121955561</dd>
+              </div>
+            </dl>
           </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-border/60 flex justify-center items-center text-xs text-muted-foreground">
-          <span>© 2025 ARD Consulting. Všetky práva vyhradené.</span>
+        <div className="mt-12 pt-6 border-t border-background/10 text-center text-xs text-background/50">
+          © 2025 ARD Consulting. Všetky práva vyhradené.
         </div>
       </div>
     </footer>
