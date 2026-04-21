@@ -14,23 +14,30 @@ const SchoolFurniture = () => (
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {allProducts.map((product, idx) => (
-          <div
-            key={`${product.name}-${idx}`}
-            className="group rounded-xl overflow-hidden border border-border bg-card hover:shadow-lg transition-shadow"
+          <article
+            key={`${product.sku}-${idx}`}
+            className="group bg-card rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
           >
-            <div className="aspect-square overflow-hidden bg-muted">
+            <div className="relative aspect-square bg-background">
+              <span className="absolute top-3 left-3 z-10 bg-primary text-primary-foreground text-xs font-medium px-3 py-1 rounded-md shadow-sm">
+                Kód {product.sku}
+              </span>
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+                className="w-full h-full object-contain p-6 group-hover:scale-105 transition-transform duration-300"
                 loading="lazy"
               />
             </div>
-            <div className="p-4">
-              <h3 className="font-semibold text-foreground mb-1">{product.name}</h3>
-              <p className="text-sm text-muted-foreground">{product.description}</p>
+            <div className="p-4 pt-3">
+              <h3 className="text-sm text-foreground leading-snug mb-2 line-clamp-2 min-h-[2.5rem]">
+                {product.name}
+              </h3>
+              <p className="text-base font-semibold text-foreground">
+                {product.price.toFixed(2)} €
+              </p>
             </div>
-          </div>
+          </article>
         ))}
       </div>
     </section>
