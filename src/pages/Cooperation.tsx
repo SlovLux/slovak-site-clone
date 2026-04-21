@@ -31,7 +31,7 @@ const Cooperation = () => (
 
         <div className="bg-primary/10 rounded-xl p-6 mt-8">
           <h3 className="font-semibold text-foreground mb-2">Zaujíma vás spolupráca?</h3>
-          <p>Kontaktujte nás na <a href="mailto:info@nikan.sk" className="text-primary underline">info@nikan.sk</a> alebo zavolajte na +421 900 000 000.</p>
+          <p>Kontaktujte nás na <a href="mailto:info@nikan.sk" className="text-primary underline">info@nikan.sk</a> alebo zavolajte na +421 907 024 315.</p>
         </div>
       </div>
     </section>
