@@ -32,7 +32,7 @@ export const schoolCatalog: CatalogSubcategory[] = [
         image: "photos/page-04-1.jpg",
         code: "54178",
         name: "Školský stôl pre 1 žiaka bez police, výškovo nastaviteľný pre rastové skupiny č. 4-7",
-        description: "Obsahuje aj: Lakovaný/HPL študentský študentský stôl s T-podnožou na okrúhlej rúrke, výškovo nastaviteľný pre rastové skupiny; Súprava zásuviek a vodiacich líšt k stolu",
+        description: "Obsahuje aj: Lakovaný/HPL študentský stôl s T-podnožou na okrúhlej rúrke, výškovo nastaviteľný pre rastové skupiny; Súprava zásuviek a vodiacich líšt k stolu",
       },
     ],
   },
