@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Search, Phone, Menu, X } from "lucide-react";
+import { Search, Menu, X } from "lucide-react";
 import ardLogo from "@/assets/ard-logo.png";
 
 const navItems = [
@@ -32,17 +32,6 @@ const Header = () => {
               className="w-full pl-10 pr-4 py-2 border border-border rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-primary"
             />
           </div>
-        </div>
-
-
-        <div className="hidden md:flex flex-col text-sm text-right shrink-0">
-          <a href="tel:+421907024315" className="flex items-center gap-1 text-foreground hover:text-primary">
-            <Phone className="h-3.5 w-3.5" />
-            +421 907 024 315
-          </a>
-          <a href="tel:+421903434591" className="text-foreground hover:text-primary">
-            +421 903 434 591
-          </a>
         </div>
 
         <button
@@ -98,14 +87,6 @@ const Header = () => {
                 </li>
               ))}
             </ul>
-            <div className="mt-4 space-y-2 text-sm">
-              <a href="tel:+421907024315" className="flex items-center gap-2 text-foreground">
-                <Phone className="h-4 w-4" /> +421 907 024 315
-              </a>
-              <a href="tel:+421903434591" className="flex items-center gap-2 text-foreground">
-                <Phone className="h-4 w-4" /> +421 903 434 591
-              </a>
-            </div>
           </div>
         </div>
       )}
