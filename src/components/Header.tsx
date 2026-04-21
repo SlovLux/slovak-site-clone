@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Search, Phone, Menu, X } from "lucide-react";
+import ardLogo from "@/assets/ard-logo.png";
 
 const navItems = [
   { label: "Školský nábytok", path: "/skolsky-nabytok" },
@@ -19,7 +20,7 @@ const Header = () => {
       {/* Top bar */}
       <div className="container mx-auto px-4 py-3 flex items-center justify-between gap-4">
         <Link to="/" className="shrink-0 flex items-center gap-2" aria-label="Domov">
-          <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-primary to-primary/70 shadow-md shadow-primary/20" />
+          <img src={ardLogo} alt="ARD Consulting" className="h-11 w-auto object-contain" />
         </Link>
 
         <div className="hidden md:flex items-center flex-1 max-w-md mx-4">
