@@ -18,8 +18,8 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-background shadow-sm">
       {/* Top bar */}
       <div className="container mx-auto px-4 py-3 flex items-center justify-between gap-4">
-        <Link to="/" className="text-2xl font-bold tracking-tight text-foreground shrink-0">
-          NIKAN
+        <Link to="/" className="shrink-0 flex items-center gap-2" aria-label="Domov">
+          <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-primary to-primary/70 shadow-md shadow-primary/20" />
         </Link>
 
         <div className="hidden md:flex items-center flex-1 max-w-md mx-4">

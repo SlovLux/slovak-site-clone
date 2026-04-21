@@ -21,16 +21,31 @@ const CatalogSubcategoryView = ({ title, intro, subcategories, imageBasePath }: 
         </header>
 
         {/* Subcategory quick nav */}
-        <nav aria-label="Podkategórie" className="mb-16 flex flex-wrap gap-2 sticky top-0 z-10 py-4 -mx-4 px-4 bg-background/80 backdrop-blur-md border-b border-border/50">
-          {subcategories.map((sub) => (
-            <a
-              key={sub.slug}
-              href={`#${sub.slug}`}
-              className="px-4 py-2 text-sm font-medium rounded-full bg-card border border-border text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary hover:shadow-md transition-all duration-200"
-            >
-              {sub.name}
-            </a>
-          ))}
+        <nav aria-label="Podkategórie" className="mb-16">
+          <div className="rounded-3xl bg-gradient-to-br from-card to-secondary/40 border border-border/60 p-6 md:p-8 shadow-sm">
+            <div className="flex items-center gap-3 mb-5">
+              <div className="h-px w-8 bg-primary" />
+              <span className="text-xs font-semibold tracking-widest uppercase text-primary">
+                Prehľad podkategórií
+              </span>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+              {subcategories.map((sub, idx) => (
+                <a
+                  key={sub.slug}
+                  href={`#${sub.slug}`}
+                  className="group relative flex items-center gap-3 px-4 py-3 rounded-xl bg-background border border-border/60 hover:border-primary hover:bg-primary hover:text-primary-foreground hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-0.5 transition-all duration-200"
+                >
+                  <span className="flex-shrink-0 h-7 w-7 rounded-lg bg-primary/10 group-hover:bg-primary-foreground/20 flex items-center justify-center text-[11px] font-mono font-semibold text-primary group-hover:text-primary-foreground transition-colors">
+                    {String(idx + 1).padStart(2, "0")}
+                  </span>
+                  <span className="text-sm font-medium leading-tight">
+                    {sub.name}
+                  </span>
+                </a>
+              ))}
+            </div>
+          </div>
         </nav>
 
         <div className="space-y-20">
