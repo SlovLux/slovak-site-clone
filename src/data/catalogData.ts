@@ -525,3 +525,101 @@ export const kidsCatalog: CatalogSubcategory[] = [
   },
 ];
 
+export const shelterCatalog: CatalogSubcategory[] = [
+  {
+    name: "Postele a poschodové postele",
+    slug: slugify("Postele a poschodove postele"),
+    products: [
+      {
+        page: 60,
+        image: "photos/page-60-1.jpg",
+        code: "60-01",
+        name: "Jednolôžková posteľ pre ubytovacie zariadenia",
+        description: "Robustná kovová konštrukcia s lamelovým roštom. Vhodná pre ubytovne, internáty a sociálne ubytovacie zariadenia.",
+      },
+      {
+        page: 61,
+        image: "photos/page-61-1.jpg",
+        code: "61-01",
+        name: "Poschodová posteľ – 2 lôžka",
+        description: "Kovová poschodová posteľ s rebríkom a bezpečnostným zábradlím. Ideálna pre hromadné ubytovanie.",
+      },
+      {
+        page: 61,
+        image: "photos/page-61-2.jpg",
+        code: "61-02",
+        name: "Poschodová posteľ s úložným priestorom",
+        description: "Variant poschodovej postele s integrovanými zásuvkami pod spodným lôžkom.",
+      },
+      {
+        page: 62,
+        image: "photos/page-62-1.jpg",
+        code: "62-01",
+        name: "Matrace pre ubytovacie zariadenia",
+        description: "Penové a pružinové matrace v rôznych rozmeroch, vhodné pre dlhodobé používanie.",
+      },
+    ],
+  },
+  {
+    name: "Skrine a úložný nábytok",
+    slug: slugify("Skrine a uloznt nabytok"),
+    products: [
+      {
+        page: 63,
+        image: "photos/page-63-1.jpg",
+        code: "63-01",
+        name: "Šatníková skriňa pre ubytovne",
+        description: "Uzamykateľná šatníková skriňa s vešiakovou tyčou a policou. Pre osobné veci ubytovaných.",
+      },
+      {
+        page: 63,
+        image: "photos/page-63-2.jpg",
+        code: "63-02",
+        name: "Dvojdverová úložná skriňa",
+        description: "Praktická úložná skriňa s nastaviteľnými policami pre internáty a sociálne zariadenia.",
+      },
+      {
+        page: 63,
+        image: "photos/page-63-3.jpg",
+        code: "63-03",
+        name: "Nočný stolík",
+        description: "Nočný stolík so zásuvkou a poličkou, dopĺňa ubytovaciu zostavu pri posteli.",
+      },
+      {
+        page: 64,
+        image: "photos/page-64-1.jpg",
+        code: "64-01",
+        name: "Komoda s úložnými zásuvkami",
+        description: "Viaczásuvková komoda pre osobné veci. Robustná konštrukcia pre intenzívne používanie.",
+      },
+    ],
+  },
+  {
+    name: "Jedálenský a spoločenský nábytok",
+    slug: slugify("Jedalensky a spolocenskt nabytok"),
+    products: [
+      {
+        page: 65,
+        image: "photos/page-65-1.jpg",
+        code: "65-01",
+        name: "Jedálenský stôl pre spoločné jedálne",
+        description: "Veľkokapacitný jedálenský stôl s odolnou pracovnou doskou. Vhodný pre jedálne ubytovní a útulkov.",
+      },
+      {
+        page: 68,
+        image: "photos/page-68-1.jpg",
+        code: "68-01",
+        name: "Stolička pre spoločné priestory",
+        description: "Pevná stolička s kovovou konštrukciou, stohovateľná. Pre jedálne a spoločenské miestnosti.",
+      },
+      {
+        page: 69,
+        image: "photos/page-69-1.jpg",
+        code: "69-01",
+        name: "Lavica pre spoločné priestory",
+        description: "Lavica s odolným poťahom pre šatne, chodby a spoločné priestory ubytovacích zariadení.",
+      },
+    ],
+  },
+];
+
