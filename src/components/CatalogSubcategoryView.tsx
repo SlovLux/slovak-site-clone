@@ -89,11 +89,6 @@ const CatalogSubcategoryView = ({ title, intro, subcategories, imageBasePath }: 
                       <h3 className="text-lg font-semibold text-foreground leading-tight group-hover:text-primary transition-colors">
                         {product.name}
                       </h3>
-                      {product.description && (
-                        <p className="text-sm text-muted-foreground leading-relaxed line-clamp-4">
-                          {product.description}
-                        </p>
-                      )}
                     </div>
                   </article>
                 ))}

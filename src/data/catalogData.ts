@@ -4808,3 +4808,9 @@ export const schoolCatalog: CatalogSubcategory[] = [
     ],
   },
 ];
+
+// Placeholder exporty pre ostatné kategórie (bude doplnené neskôr)
+export const kidsCatalog: CatalogSubcategory[] = [];
+export const officeCatalog: CatalogSubcategory[] = [];
+export const shelterCatalog: CatalogSubcategory[] = [];
+export const universityCatalog: CatalogSubcategory[] = [];
