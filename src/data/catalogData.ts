@@ -5323,5 +5323,1413 @@ export const officeCatalog: CatalogSubcategory[] = [
     ],
   },
 ];
-export const shelterCatalog: CatalogSubcategory[] = [];
+export const shelterCatalog: CatalogSubcategory[] = [
+  {
+    name: "Nábytok pre ubytovne",
+    slug: "shelter-furniture",
+    products: [
+      {
+        name: "Stolička školská T-typu výškovo nastaviteľná č.(4)5-7",
+        image: "https://static.wixstatic.com/media/713410_1e7243a0cab849dbb9f5f67aa2871a81~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1e7243a0cab849dbb9f5f67aa2871a81~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička školská T-typu na štvorcovej trubke, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_94769d7d09934be1966133e3a6248dcf~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_94769d7d09934be1966133e3a6248dcf~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stôl rokovací zasadací",
+        image: "https://static.wixstatic.com/media/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička školská T-typu na okrúhlej trubke s HPL povrchom, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička školská T-typu na okrúhlej trubke s HPL povrchom, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_13eea88ee6cf495d9596e15067af0fc2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_13eea88ee6cf495d9596e15067af0fc2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička T-typu, výškovo nastaviteľný č.(3)4-6 s HPL",
+        image: "https://static.wixstatic.com/media/713410_01a85e94ece24e6893557292ad393d24~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01a85e94ece24e6893557292ad393d24~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička T-typu, výškovo nastaviteľný č.(3)4-6",
+        image: "https://static.wixstatic.com/media/713410_01a85e94ece24e6893557292ad393d24~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01a85e94ece24e6893557292ad393d24~mv2.png",
+        code: "",
+      },
+      {
+        name: "Skriňa bunková (lokra)",
+        image: "https://static.wixstatic.com/media/713410_95fe1ca725504261a535a55a08586ae8~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_95fe1ca725504261a535a55a08586ae8~mv2.png",
+        code: "",
+      },
+      {
+        name: "Skriňa bunková (lokra) na 6 дверок",
+        image: "https://static.wixstatic.com/media/713410_4ddf10fad2774fc29be69f54559528aa~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4ddf10fad2774fc29be69f54559528aa~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička T-typu s anatomickým sedákom s HPL, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_b3cf464dcb0047b2909e611b723dfd8f~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b3cf464dcb0047b2909e611b723dfd8f~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička T-typu s anatomickým sedákom, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_b3cf464dcb0047b2909e611b723dfd8f~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b3cf464dcb0047b2909e611b723dfd8f~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička s celohnutým rámom a plastovým monoblokom s perforáciou",
+        image: "https://static.wixstatic.com/media/713410_4e9ac7422b574d2b8cc4556c302c4431~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4e9ac7422b574d2b8cc4556c302c4431~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stôl písací na kovovej konštrukcii",
+        image: "https://static.wixstatic.com/media/713410_1fdba48f2b6447069daaee3f0d869f50~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1fdba48f2b6447069daaee3f0d869f50~mv2.png",
+        code: "",
+      },
+      {
+        name: "Puf Куб",
+        image: "https://static.wixstatic.com/media/713410_8f3aa4e1c4dc477cac33886492df67da~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8f3aa4e1c4dc477cac33886492df67da~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička pre jedáleň s plastovým 3-vrstveným monoblokom",
+        image: "https://static.wixstatic.com/media/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička s celohnutým rámom a preglejkovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_80107266b65e4e8580e5073a02080613~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_80107266b65e4e8580e5073a02080613~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička s preglejkovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička s preglejkovým monoblokom, s povrchom preglejky HPL",
+        image: "https://static.wixstatic.com/media/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička pre laboratórnych kabinetov s plastovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_1bf173f0ba994affa4a6f9c6627cf2f4~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1bf173f0ba994affa4a6f9c6627cf2f4~mv2.png",
+        code: "",
+      },
+      {
+        name: "Kreslo-vak Hruška 90х65 cm",
+        image: "https://static.wixstatic.com/media/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png",
+        code: "",
+      },
+      {
+        name: "Kreslo-vak Hruška 90х65",
+        image: "https://static.wixstatic.com/media/713410_ad43dac1d48140769aa51ac08f3b7d3c~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ad43dac1d48140769aa51ac08f3b7d3c~mv2.png",
+        code: "",
+      },
+      {
+        name: "Kreslo-vak Hruška 100х70",
+        image: "https://static.wixstatic.com/media/713410_a5822a8d19b8497ab2ac507616449c06~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a5822a8d19b8497ab2ac507616449c06~mv2.png",
+        code: "",
+      },
+      {
+        name: "Kreslo-vak Hruška 100х70 cm",
+        image: "https://static.wixstatic.com/media/713410_6247cd6b3d9f4ee3ab968d707c7ec759~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6247cd6b3d9f4ee3ab968d707c7ec759~mv2.png",
+        code: "",
+      },
+      {
+        name: "Kreslo-vak Hruška 130х100 cm",
+        image: "https://static.wixstatic.com/media/713410_aec9648fdbd44df5951bed36064c6d8b~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_aec9648fdbd44df5951bed36064c6d8b~mv2.png",
+        code: "",
+      },
+      {
+        name: "Kreslo-vak Hruška 100х75 cm",
+        image: "https://static.wixstatic.com/media/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png",
+        code: "",
+      },
+      {
+        name: "Lavica školská, stôl žiacky pre skupinovú prácu č.4-6",
+        image: "https://static.wixstatic.com/media/713410_8e1cf3dda2d44637af8a58e8da58747f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8e1cf3dda2d44637af8a58e8da58747f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stôl detský \"Ostrovček\" nastavuje sa na ростові групи č. 1-3",
+        image: "https://static.wixstatic.com/media/713410_1a3f04d63c86427dbd13e2cc9aac7c68~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1a3f04d63c86427dbd13e2cc9aac7c68~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička pre školskej jedálne plastový SIESTA",
+        image: "https://static.wixstatic.com/media/713410_c7059db83bd1471889f3d2d85f9a8b63~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c7059db83bd1471889f3d2d85f9a8b63~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička pre školskej jedálne plastový",
+        image: "https://static.wixstatic.com/media/713410_c3b76be8b1124535a8ba96bf168e2551~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c3b76be8b1124535a8ba96bf168e2551~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička detský plastový, висотою sedák 355 mm",
+        image: "https://static.wixstatic.com/media/713410_4ad6db4d9a03412ca9bd731d2ad37658~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4ad6db4d9a03412ca9bd731d2ad37658~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Lavica školská, stôl rozkladací na kovovej konštrukcii",
+        image: "https://static.wixstatic.com/media/713410_b1e5f8805a6c457393710ae5180ee0aa~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b1e5f8805a6c457393710ae5180ee0aa~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička rozkladací напівmäkký, шкірзамінник",
+        image: "https://static.wixstatic.com/media/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička pre školskej jedálne so operadlom (з preglejkovým monoblokom, potiahnutý HPL)",
+        image: "https://static.wixstatic.com/media/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stôl rozkladací na kovovej konštrukcii na колесиках",
+        image: "https://static.wixstatic.com/media/713410_87e7ad68a14247edb0a71361f0bd93bb~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_87e7ad68a14247edb0a71361f0bd93bb~mv2.png",
+        code: "",
+      },
+      {
+        name: "Set pufів дитячих \"М'який конструктор\"",
+        image: "https://static.wixstatic.com/media/713410_6bd159ba36fc4a0aaf5e181ec74d1837~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6bd159ba36fc4a0aaf5e181ec74d1837~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Beanbag chair, size S",
+        image: "https://static.wixstatic.com/media/713410_2744813678884cd281404e31e2fd6c96~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2744813678884cd281404e31e2fd6c96~mv2.png",
+        code: "",
+      },
+      {
+        name: "Beanbag chair, size M",
+        image: "https://static.wixstatic.com/media/713410_2744813678884cd281404e31e2fd6c96~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2744813678884cd281404e31e2fd6c96~mv2.png",
+        code: "",
+      },
+      {
+        name: "Set of 1-seat student`s table without a shelf, č.4-7 + chair on slades, round tube, with HPL coating, č.6",
+        image: "https://static.wixstatic.com/media/713410_c360ba42f8f34fc3910f8eb4d07e0de5~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c360ba42f8f34fc3910f8eb4d07e0de5~mv2.png",
+        code: "",
+      },
+      {
+        name: "Set of 1-seat student`s table without a shelf, č.4-7 + chair with a plastic monoblock",
+        image: "https://static.wixstatic.com/media/713410_a714ae8cc6074a579616e3fdaddbc0e7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a714ae8cc6074a579616e3fdaddbc0e7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's swing \"Bee\"",
+        image: "https://static.wixstatic.com/media/713410_9bc55e59c4714ee3a44455a931bc9448~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_9bc55e59c4714ee3a44455a931bc9448~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's swing \"Unicorn\"",
+        image: "https://static.wixstatic.com/media/713410_8b7901f4788040a785aef78b737a06e7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8b7901f4788040a785aef78b737a06e7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's swing \"Bunny\"",
+        image: "https://static.wixstatic.com/media/713410_63f309856e1b4492bf7b55eb28229be2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_63f309856e1b4492bf7b55eb28229be2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Set of round children's game poufs",
+        image: "https://static.wixstatic.com/media/713410_8695adb416a04fd28fe480316dd34545~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8695adb416a04fd28fe480316dd34545~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Round children's game pouf (chair)",
+        image: "https://static.wixstatic.com/media/713410_783207de9fb84db1b40f91fdaaedfe5e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_783207de9fb84db1b40f91fdaaedfe5e~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Round children's game pouf (table)",
+        image: "https://static.wixstatic.com/media/713410_6098671b1fe44e62adee29b572e3cc66~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6098671b1fe44e62adee29b572e3cc66~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair on slades, round tube, č.6, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_6dc5a6c6dbeb4c30bf90f5f2cee33a1f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6dc5a6c6dbeb4c30bf90f5f2cee33a1f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Semi-soft bench with a back",
+        image: "https://static.wixstatic.com/media/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png",
+        code: "",
+      },
+      {
+        name: "Chair with a plastic monoblock",
+        image: "https://static.wixstatic.com/media/713410_55f13f101e294055a61b7f3ffbf6c990~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_55f13f101e294055a61b7f3ffbf6c990~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair with a plywood monoblock",
+        image: "https://static.wixstatic.com/media/713410_907749b3ee364f3cba076c8a5fbb2127~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_907749b3ee364f3cba076c8a5fbb2127~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair on slades, round tube, height group č.6",
+        image: "https://static.wixstatic.com/media/713410_99e3352c3663497d916e05755fdb986c~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_99e3352c3663497d916e05755fdb986c~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Two-seat student`s table with a shelf, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_d27060995b5849a9b29d4214f477f0ca~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d27060995b5849a9b29d4214f477f0ca~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "1-seat table with a shelf, č.6",
+        image: "https://static.wixstatic.com/media/713410_5bac866675ae4f1294d707dffd88c62d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5bac866675ae4f1294d707dffd88c62d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's table \"Mysterious universe\", height adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_588db28aec5d4a40a4e1b246b99ac9d5~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_588db28aec5d4a40a4e1b246b99ac9d5~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's plastic chair, height group č.3",
+        image: "https://static.wixstatic.com/media/713410_e13155a6345f4ed5851e4a1285c657b0~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_e13155a6345f4ed5851e4a1285c657b0~mv2.png",
+        code: "",
+      },
+      {
+        name: "Children's semi-circular table, height-adjustable No. 1-3",
+        image: "https://static.wixstatic.com/media/713410_55babf86d0fd4764975bda56d280b8b3~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_55babf86d0fd4764975bda56d280b8b3~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Rectangular children's table, adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_1ab075f2391c48a684448711c0eb1c3e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1ab075f2391c48a684448711c0eb1c3e~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s round table, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_0aa5c07f3d494585a21391f999acde0b~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_0aa5c07f3d494585a21391f999acde0b~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's rectangular table, adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_11d5586cfc914d63b26d1d73caac41cb~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_11d5586cfc914d63b26d1d73caac41cb~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s square table, adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_fae164b0b49c47dea79ebc32d44d4966~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_fae164b0b49c47dea79ebc32d44d4966~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Trapezoidal children`s table, adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_990ce3a584864d1a979ce1d6cdef3f2b~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_990ce3a584864d1a979ce1d6cdef3f2b~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Hexagonal children's table, adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_f4950a50988b42439970a9df5897674e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_f4950a50988b42439970a9df5897674e~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat children's table with drawers, height-adjustable",
+        image: "https://static.wixstatic.com/media/713410_56f89c7732564e7c8afd1827c2b3c3a2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_56f89c7732564e7c8afd1827c2b3c3a2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat children`s table without a shelf, height-adjustable",
+        image: "https://static.wixstatic.com/media/713410_1c22644820434a86a4fadec661cde602~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1c22644820434a86a4fadec661cde602~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat children`s table without a shelf, height adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_5c3e0d3d130f4ba0ba8a88d2d2a1f4e4~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5c3e0d3d130f4ba0ba8a88d2d2a1f4e4~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s T-shaped chair, on a square tube, height adjusted for groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_def1306fe5fb40b0bb4333cda3e202a6~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_def1306fe5fb40b0bb4333cda3e202a6~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's T-shaped chair on round tube, height adjusted for groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_88844018e2234ccc8212561e5b783e2e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_88844018e2234ccc8212561e5b783e2e~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Antoshka\", painted, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_c0db4dcc2f6c4a9fbbf80919b46344a0~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c0db4dcc2f6c4a9fbbf80919b46344a0~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Antoshka\", painted seat back and seat, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_70639d87ae434c8c95d9b41b141cda50~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_70639d87ae434c8c95d9b41b141cda50~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Antoshka\", varnished, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_371dc5927ebe4bf2b7268d7dedb57f7f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_371dc5927ebe4bf2b7268d7dedb57f7f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children`s chair \"Fantasy\", painted back and seat, height group č.3",
+        image: "https://static.wixstatic.com/media/713410_b557b8c9fe514f64b8de21ada992767a~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b557b8c9fe514f64b8de21ada992767a~mv2.png",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Fantasy\", painted seat back and seat, height group č.1",
+        image: "https://static.wixstatic.com/media/713410_79920f92f7a04a81a31038724c52cb3d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_79920f92f7a04a81a31038724c52cb3d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children`s chair \"Fantasy\", painted, height group č.2",
+        image: "https://static.wixstatic.com/media/713410_61b1ab5fbaca45b2b7a2790a80a7cffb~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_61b1ab5fbaca45b2b7a2790a80a7cffb~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children`s chair \"Fantasy\", painted, height group č.3",
+        image: "https://static.wixstatic.com/media/713410_4b20967cf89c4a9c90a03cfb26396d70~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4b20967cf89c4a9c90a03cfb26396d70~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Fantasy\", painted seat back and seat, height group č.2",
+        image: "https://static.wixstatic.com/media/713410_8e8b1ef3e1414243b57f637a5c75985e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8e8b1ef3e1414243b57f637a5c75985e~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children`s chair \"Fantasy\", painted, height group č.1",
+        image: "https://static.wixstatic.com/media/713410_bf7374b9d4da458280fa1f12831ccdb0~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bf7374b9d4da458280fa1f12831ccdb0~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Fantasy\", height group č.1",
+        image: "https://static.wixstatic.com/media/713410_ebe1671d6b5f42da98141fa516926a02~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ebe1671d6b5f42da98141fa516926a02~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's chair ISO, height group č. 1",
+        image: "https://static.wixstatic.com/media/713410_a7c12f51681443fba50b5b3e40aa213b~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a7c12f51681443fba50b5b3e40aa213b~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s chair ISO, height group č.1, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_3035dab837c0456cb37c5def400b37c4~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3035dab837c0456cb37c5def400b37c4~mv2.png",
+        code: "",
+      },
+      {
+        name: "Children`s chair ISO, height group č.1, painted",
+        image: "https://static.wixstatic.com/media/713410_d08ef3aad14b4bb9b1a73c2abb0e4c38~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d08ef3aad14b4bb9b1a73c2abb0e4c38~mv2.png",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Fantasy\", height group č.3",
+        image: "https://static.wixstatic.com/media/713410_ebe1671d6b5f42da98141fa516926a02~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ebe1671d6b5f42da98141fa516926a02~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children' chair \"Fantasy\", height group č.2",
+        image: "https://static.wixstatic.com/media/713410_ebe1671d6b5f42da98141fa516926a02~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ebe1671d6b5f42da98141fa516926a02~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s chair ISO, height group č.3",
+        image: "https://static.wixstatic.com/media/713410_d222f448ef0445a49ae45496b5a97a2d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d222f448ef0445a49ae45496b5a97a2d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s chair ISO, height group č.3, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_1a7617cc2b584d13ba92cd798afb3ec2~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1a7617cc2b584d13ba92cd798afb3ec2~mv2.png",
+        code: "",
+      },
+      {
+        name: "Children's chair ISO, painted, height group č.3",
+        image: "https://static.wixstatic.com/media/713410_bb41a2da935d44988a99275076d49b7a~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bb41a2da935d44988a99275076d49b7a~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s chair ISO, height group č.2",
+        image: "https://static.wixstatic.com/media/713410_abf516ea2f874d758bd85123ebc4ff59~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_abf516ea2f874d758bd85123ebc4ff59~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's chair ISO, height group č.2, with HPL covering",
+        image: "https://static.wixstatic.com/media/713410_61b00740ef584528ba5940f5a8d0a83b~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_61b00740ef584528ba5940f5a8d0a83b~mv2.png",
+        code: "",
+      },
+      {
+        name: "Children`s chair ISO, painted, height group č.2",
+        image: "https://static.wixstatic.com/media/713410_4f7770f12de749729fa5a6b51e06089d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4f7770f12de749729fa5a6b51e06089d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Writing table without a shelf",
+        image: "https://static.wixstatic.com/media/713410_5c0ba4007a16420dbbbd5c42f85681f4~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5c0ba4007a16420dbbbd5c42f85681f4~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Writing table with a shelf",
+        image: "https://static.wixstatic.com/media/713410_0b2d8d2cbdad4d0d984457affd274c3d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_0b2d8d2cbdad4d0d984457affd274c3d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "One-door writing table",
+        image: "https://static.wixstatic.com/media/713410_b28f8b9592f54baab134f52a61800a17~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b28f8b9592f54baab134f52a61800a17~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair ISO č.6, the plywood is coated with HPL plastic",
+        image: "https://static.wixstatic.com/media/713410_96338f493d174de18db5354ff801b538~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_96338f493d174de18db5354ff801b538~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stool on metal frame",
+        image: "https://static.wixstatic.com/media/713410_a8fc6eec44fb46858a5cc3ff4e6dd39e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a8fc6eec44fb46858a5cc3ff4e6dd39e~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Semi-soft chair ISO, fabric",
+        image: "https://static.wixstatic.com/media/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png",
+        code: "",
+      },
+      {
+        name: "Semi-soft chair ISO, leatherette",
+        image: "https://static.wixstatic.com/media/713410_6c8edd7ead7943f7878a59f3ca5f2bbd~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6c8edd7ead7943f7878a59f3ca5f2bbd~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Semi-soft chair \"Prestige\", fabric",
+        image: "https://static.wixstatic.com/media/713410_154d49611c044afc87991057c9847cb2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_154d49611c044afc87991057c9847cb2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "T-shaped chair, height-adjustable, with HPL coating No. 4-7",
+        image: "https://static.wixstatic.com/media/713410_1e7243a0cab849dbb9f5f67aa2871a81~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1e7243a0cab849dbb9f5f67aa2871a81~mv2.png",
+        code: "",
+      },
+      {
+        name: "Student`s T-shaped chair, height groups č.4-7",
+        image: "https://static.wixstatic.com/media/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student's T-shaped chair, height groups č.4-7 with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_11361ba9cfe1421a84b0961898906dbb~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_11361ba9cfe1421a84b0961898906dbb~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s chair on slades, height groups č.4-6 coated with HPL",
+        image: "https://static.wixstatic.com/media/713410_883165195f224f81a1b912419dcbaebe~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_883165195f224f81a1b912419dcbaebe~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s chair on slades, a round tube, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_56f090bbe07a4484adb0ed3867531dbc~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_56f090bbe07a4484adb0ed3867531dbc~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s chair on slades, a round tube, č.4-6, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_a965ff594e66437990bef8957688d4ae~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a965ff594e66437990bef8957688d4ae~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s T-shaped chair, height groups č.4-6, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_84b303f50303464a951ae0c01c14e1ea~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_84b303f50303464a951ae0c01c14e1ea~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s T-shaped chair, height groups č.4-6",
+        image: "https://static.wixstatic.com/media/713410_13eea88ee6cf495d9596e15067af0fc2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_13eea88ee6cf495d9596e15067af0fc2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s T-shaped chair, height-adjustable, height groups č.4-6, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_45092db5232546f89b282a926f3be039~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_45092db5232546f89b282a926f3be039~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s T-shaped chair on a square tube, height groups č.4-6",
+        image: "https://static.wixstatic.com/media/713410_94769d7d09934be1966133e3a6248dcf~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_94769d7d09934be1966133e3a6248dcf~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair on skids, square tube, č.6, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_972f1c7653e0498381b0deefb4dd0db7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_972f1c7653e0498381b0deefb4dd0db7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair on skids, square tube, č.6",
+        image: "https://static.wixstatic.com/media/713410_b27890b8f3434d94a85d5e20835c1e11~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b27890b8f3434d94a85d5e20835c1e11~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat student`s table on flat-oval tube, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_905681a74bfd47fba8e33c8443815bbd~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_905681a74bfd47fba8e33c8443815bbd~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat student`s table, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_8b4fcdc2423f4674bb0b7457f936087a~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8b4fcdc2423f4674bb0b7457f936087a~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s 2-seat table with a shelf, č. 6",
+        image: "https://static.wixstatic.com/media/713410_3f1bf0bdc5f649ada3bbeb0cfacc66e5~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3f1bf0bdc5f649ada3bbeb0cfacc66e5~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat student table, without a shelf, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_ad9e7a24d1cd4726ab57c3714044caaa~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ad9e7a24d1cd4726ab57c3714044caaa~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s 2-seat table with a shelf, height-adjustable, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_14419030aab448a2b7351e6bd33428ba~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_14419030aab448a2b7351e6bd33428ba~mv2.jpeg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Postele, tumby a matrace",
+    slug: "beds-cabinets-mattresses",
+    products: [
+      {
+        name: "Posteľ poschodová kovové",
+        image: "https://static.wixstatic.com/media/713410_956516582d7e4971982ee703d912c09c~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_956516582d7e4971982ee703d912c09c~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Posteľ jednolôžková kovové",
+        image: "https://static.wixstatic.com/media/713410_5ecad4de66244e2192836bd15d2f08f6~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5ecad4de66244e2192836bd15d2f08f6~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Vešiak na oblečenie",
+        image: "https://static.wixstatic.com/media/713410_8d92d82ceef54700a72867bb7629f4c7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8d92d82ceef54700a72867bb7629f4c7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Matrac z polyuretánovej peny pre dospelých",
+        image: "https://static.wixstatic.com/media/713410_6f94e921f8ac44e09865ae61f43905e1~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6f94e921f8ac44e09865ae61f43905e1~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Posteľ poschodová na kovovej konštrukcii",
+        image: "https://static.wixstatic.com/media/713410_a3208217f1014ac7963dfdc886e1adcc~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a3208217f1014ac7963dfdc886e1adcc~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Hanger with a shelf and 5 hooks",
+        image: "https://static.wixstatic.com/media/713410_3296bfea0ba440adbefb086fbdbbd254~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3296bfea0ba440adbefb086fbdbbd254~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Single bed, headbacks with rounded corners",
+        image: "https://static.wixstatic.com/media/713410_95af76f0e4f74f93844f2aa3e2eb828b~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_95af76f0e4f74f93844f2aa3e2eb828b~mv2.jpeg",
+        code: "",
+      },
+      {
+        name: "Low cabinet on adjustable legs with a door and a niche",
+        image: "https://static.wixstatic.com/media/713410_776898ebd6b7432cb65faf9db212d43b~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_776898ebd6b7432cb65faf9db212d43b~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Low cabinet on adjustable legs with a door and a drawer",
+        image: "https://static.wixstatic.com/media/713410_1f8afa118dbe459fb198744715b517fd~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1f8afa118dbe459fb198744715b517fd~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Low cabinet on adjustable legs with 3 drawers",
+        image: "https://static.wixstatic.com/media/713410_4df4278ba11f42b4b93088ca6eadff72~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4df4278ba11f42b4b93088ca6eadff72~mv2.jpeg",
+        code: "",
+      },
+      {
+        name: "Double side hanger made of the chipboard with 22 hooks",
+        image: "https://static.wixstatic.com/media/713410_e8407de8c0be496586dd7a9ef6702bd4~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_e8407de8c0be496586dd7a9ef6702bd4~mv2.jpeg",
+        code: "",
+      },
+      {
+        name: "Double side hanger on a metal frame with 22 hooks",
+        image: "https://static.wixstatic.com/media/713410_bfd45177f3d84a99a4d5d4cee7eeafe7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bfd45177f3d84a99a4d5d4cee7eeafe7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Mattress of cotton for adults",
+        image: "https://static.wixstatic.com/media/713410_41133e9830a14aaf940af4447131aea6~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_41133e9830a14aaf940af4447131aea6~mv2.jpg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Stoly pre ubytovne",
+    slug: "shelter-tables",
+    products: [
+      {
+        name: "Stôl rokovací zasadací",
+        image: "https://static.wixstatic.com/media/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stôl žiacky 1-miestny без police, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_2cba92b3ccdc4c759f6794ba48f7ac45~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2cba92b3ccdc4c759f6794ba48f7ac45~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stôl písací na kovovej konštrukcii",
+        image: "https://static.wixstatic.com/media/713410_1fdba48f2b6447069daaee3f0d869f50~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1fdba48f2b6447069daaee3f0d869f50~mv2.png",
+        code: "",
+      },
+      {
+        name: "Lavica školská, stôl žiacky pre skupinovú prácu č.4-6",
+        image: "https://static.wixstatic.com/media/713410_8e1cf3dda2d44637af8a58e8da58747f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8e1cf3dda2d44637af8a58e8da58747f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stôl detský \"Ostrovček\" nastavuje sa na ростові групи č. 1-3",
+        image: "https://static.wixstatic.com/media/713410_1a3f04d63c86427dbd13e2cc9aac7c68~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1a3f04d63c86427dbd13e2cc9aac7c68~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Lavica školská, stôl rozkladací na kovovej konštrukcii",
+        image: "https://static.wixstatic.com/media/713410_b1e5f8805a6c457393710ae5180ee0aa~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b1e5f8805a6c457393710ae5180ee0aa~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stôl rozkladací na kovovej konštrukcii na колесиках",
+        image: "https://static.wixstatic.com/media/713410_87e7ad68a14247edb0a71361f0bd93bb~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_87e7ad68a14247edb0a71361f0bd93bb~mv2.png",
+        code: "",
+      },
+      {
+        name: "Two-seat student`s table with a shelf, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_d27060995b5849a9b29d4214f477f0ca~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d27060995b5849a9b29d4214f477f0ca~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "1-seat table with a shelf, č.6",
+        image: "https://static.wixstatic.com/media/713410_5bac866675ae4f1294d707dffd88c62d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5bac866675ae4f1294d707dffd88c62d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "One-door writing table",
+        image: "https://static.wixstatic.com/media/713410_b28f8b9592f54baab134f52a61800a17~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b28f8b9592f54baab134f52a61800a17~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Writing table without a shelf",
+        image: "https://static.wixstatic.com/media/713410_5c0ba4007a16420dbbbd5c42f85681f4~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5c0ba4007a16420dbbbd5c42f85681f4~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Writing table with a shelf",
+        image: "https://static.wixstatic.com/media/713410_0b2d8d2cbdad4d0d984457affd274c3d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_0b2d8d2cbdad4d0d984457affd274c3d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s 2-seat table with a shelf, č. 6",
+        image: "https://static.wixstatic.com/media/713410_3f1bf0bdc5f649ada3bbeb0cfacc66e5~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3f1bf0bdc5f649ada3bbeb0cfacc66e5~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat student table, without a shelf, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_ad9e7a24d1cd4726ab57c3714044caaa~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ad9e7a24d1cd4726ab57c3714044caaa~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s 2-seat table with a shelf, height-adjustable, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_14419030aab448a2b7351e6bd33428ba~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_14419030aab448a2b7351e6bd33428ba~mv2.jpeg",
+        code: "",
+      },
+      {
+        name: "2-seat student`s table on flat-oval tube, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_905681a74bfd47fba8e33c8443815bbd~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_905681a74bfd47fba8e33c8443815bbd~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat student`s table, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_8b4fcdc2423f4674bb0b7457f936087a~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8b4fcdc2423f4674bb0b7457f936087a~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's table \"Mysterious universe\", height adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_588db28aec5d4a40a4e1b246b99ac9d5~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_588db28aec5d4a40a4e1b246b99ac9d5~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's semi-circular table, height-adjustable No. 1-3",
+        image: "https://static.wixstatic.com/media/713410_55babf86d0fd4764975bda56d280b8b3~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_55babf86d0fd4764975bda56d280b8b3~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Rectangular children's table, adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_1ab075f2391c48a684448711c0eb1c3e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1ab075f2391c48a684448711c0eb1c3e~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s round table, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_0aa5c07f3d494585a21391f999acde0b~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_0aa5c07f3d494585a21391f999acde0b~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's rectangular table, adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_11d5586cfc914d63b26d1d73caac41cb~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_11d5586cfc914d63b26d1d73caac41cb~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s square table, adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_fae164b0b49c47dea79ebc32d44d4966~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_fae164b0b49c47dea79ebc32d44d4966~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Trapezoidal children`s table, adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_990ce3a584864d1a979ce1d6cdef3f2b~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_990ce3a584864d1a979ce1d6cdef3f2b~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Hexagonal children's table, adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_f4950a50988b42439970a9df5897674e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_f4950a50988b42439970a9df5897674e~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat children's table with drawers, height-adjustable",
+        image: "https://static.wixstatic.com/media/713410_56f89c7732564e7c8afd1827c2b3c3a2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_56f89c7732564e7c8afd1827c2b3c3a2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat children`s table without a shelf, height-adjustable",
+        image: "https://static.wixstatic.com/media/713410_1c22644820434a86a4fadec661cde602~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1c22644820434a86a4fadec661cde602~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat children`s table without a shelf, height adjustable, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_5c3e0d3d130f4ba0ba8a88d2d2a1f4e4~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5c3e0d3d130f4ba0ba8a88d2d2a1f4e4~mv2.jpg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Stoličky pre ubytovne",
+    slug: "shelter-chairs",
+    products: [
+      {
+        name: "Stolička školská T-typu výškovo nastaviteľná č.(4)5-7",
+        image: "https://static.wixstatic.com/media/713410_1e7243a0cab849dbb9f5f67aa2871a81~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1e7243a0cab849dbb9f5f67aa2871a81~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička školská T-typu na štvorcovej trubke, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_94769d7d09934be1966133e3a6248dcf~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_94769d7d09934be1966133e3a6248dcf~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička školská T-typu na okrúhlej trubke s HPL povrchom, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička školská T-typu na okrúhlej trubke s HPL povrchom, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_13eea88ee6cf495d9596e15067af0fc2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_13eea88ee6cf495d9596e15067af0fc2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička T-typu, výškovo nastaviteľný č.(3)4-6 s HPL",
+        image: "https://static.wixstatic.com/media/713410_01a85e94ece24e6893557292ad393d24~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01a85e94ece24e6893557292ad393d24~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička T-typu, výškovo nastaviteľný č.(3)4-6",
+        image: "https://static.wixstatic.com/media/713410_01a85e94ece24e6893557292ad393d24~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01a85e94ece24e6893557292ad393d24~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička T-typu s anatomickým sedákom s HPL, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_b3cf464dcb0047b2909e611b723dfd8f~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b3cf464dcb0047b2909e611b723dfd8f~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička s celohnutým rámom a plastovým monoblokom s perforáciou",
+        image: "https://static.wixstatic.com/media/713410_4e9ac7422b574d2b8cc4556c302c4431~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4e9ac7422b574d2b8cc4556c302c4431~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička T-typu s anatomickým sedákom, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_b3cf464dcb0047b2909e611b723dfd8f~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b3cf464dcb0047b2909e611b723dfd8f~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička pre jedáleň s plastovým 3-vrstveným monoblokom",
+        image: "https://static.wixstatic.com/media/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička s celohnutým rámom a preglejkovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_80107266b65e4e8580e5073a02080613~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_80107266b65e4e8580e5073a02080613~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička s preglejkovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička s preglejkovým monoblokom, s povrchom preglejky HPL",
+        image: "https://static.wixstatic.com/media/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička pre laboratórnych kabinetov s plastovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_1bf173f0ba994affa4a6f9c6627cf2f4~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1bf173f0ba994affa4a6f9c6627cf2f4~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička pre školskej jedálne plastový SIESTA",
+        image: "https://static.wixstatic.com/media/713410_c7059db83bd1471889f3d2d85f9a8b63~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c7059db83bd1471889f3d2d85f9a8b63~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička pre školskej jedálne plastový",
+        image: "https://static.wixstatic.com/media/713410_c3b76be8b1124535a8ba96bf168e2551~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c3b76be8b1124535a8ba96bf168e2551~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička detský plastový, висотою sedák 355 mm",
+        image: "https://static.wixstatic.com/media/713410_4ad6db4d9a03412ca9bd731d2ad37658~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4ad6db4d9a03412ca9bd731d2ad37658~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička rozkladací напівmäkký, шкірзамінник",
+        image: "https://static.wixstatic.com/media/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička pre školskej jedálne so operadlom (з preglejkovým monoblokom, potiahnutý HPL)",
+        image: "https://static.wixstatic.com/media/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png",
+        code: "",
+      },
+      {
+        name: "Chair on slades, round tube, č.6, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_6dc5a6c6dbeb4c30bf90f5f2cee33a1f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6dc5a6c6dbeb4c30bf90f5f2cee33a1f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's plastic chair, height group č.3",
+        image: "https://static.wixstatic.com/media/713410_e13155a6345f4ed5851e4a1285c657b0~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_e13155a6345f4ed5851e4a1285c657b0~mv2.png",
+        code: "",
+      },
+      {
+        name: "Chair with a plastic monoblock",
+        image: "https://static.wixstatic.com/media/713410_55f13f101e294055a61b7f3ffbf6c990~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_55f13f101e294055a61b7f3ffbf6c990~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair with a plywood monoblock",
+        image: "https://static.wixstatic.com/media/713410_907749b3ee364f3cba076c8a5fbb2127~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_907749b3ee364f3cba076c8a5fbb2127~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair on slades, round tube, height group č.6",
+        image: "https://static.wixstatic.com/media/713410_99e3352c3663497d916e05755fdb986c~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_99e3352c3663497d916e05755fdb986c~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair ISO č.6, the plywood is coated with HPL plastic",
+        image: "https://static.wixstatic.com/media/713410_96338f493d174de18db5354ff801b538~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_96338f493d174de18db5354ff801b538~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Semi-soft chair ISO, fabric",
+        image: "https://static.wixstatic.com/media/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png",
+        code: "",
+      },
+      {
+        name: "Semi-soft chair ISO, leatherette",
+        image: "https://static.wixstatic.com/media/713410_6c8edd7ead7943f7878a59f3ca5f2bbd~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6c8edd7ead7943f7878a59f3ca5f2bbd~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Semi-soft chair \"Prestige\", fabric",
+        image: "https://static.wixstatic.com/media/713410_154d49611c044afc87991057c9847cb2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_154d49611c044afc87991057c9847cb2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair on skids, square tube, č.6",
+        image: "https://static.wixstatic.com/media/713410_b27890b8f3434d94a85d5e20835c1e11~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b27890b8f3434d94a85d5e20835c1e11~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair on skids, square tube, č.6, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_972f1c7653e0498381b0deefb4dd0db7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_972f1c7653e0498381b0deefb4dd0db7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "T-shaped chair, height-adjustable, with HPL coating No. 4-7",
+        image: "https://static.wixstatic.com/media/713410_1e7243a0cab849dbb9f5f67aa2871a81~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1e7243a0cab849dbb9f5f67aa2871a81~mv2.png",
+        code: "",
+      },
+      {
+        name: "Student`s T-shaped chair, height groups č.4-7",
+        image: "https://static.wixstatic.com/media/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student's T-shaped chair, height groups č.4-7 with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_11361ba9cfe1421a84b0961898906dbb~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_11361ba9cfe1421a84b0961898906dbb~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s chair on slades, a round tube, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_56f090bbe07a4484adb0ed3867531dbc~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_56f090bbe07a4484adb0ed3867531dbc~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s chair on slades, a round tube, č.4-6, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_a965ff594e66437990bef8957688d4ae~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a965ff594e66437990bef8957688d4ae~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s T-shaped chair, height groups č.4-6, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_84b303f50303464a951ae0c01c14e1ea~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_84b303f50303464a951ae0c01c14e1ea~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s T-shaped chair, height groups č.4-6",
+        image: "https://static.wixstatic.com/media/713410_13eea88ee6cf495d9596e15067af0fc2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_13eea88ee6cf495d9596e15067af0fc2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s T-shaped chair, height-adjustable, height groups č.4-6, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_45092db5232546f89b282a926f3be039~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_45092db5232546f89b282a926f3be039~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s T-shaped chair on a square tube, height groups č.4-6",
+        image: "https://static.wixstatic.com/media/713410_94769d7d09934be1966133e3a6248dcf~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_94769d7d09934be1966133e3a6248dcf~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Student`s chair on slades, height groups č.4-6 coated with HPL",
+        image: "https://static.wixstatic.com/media/713410_883165195f224f81a1b912419dcbaebe~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_883165195f224f81a1b912419dcbaebe~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stool on metal frame",
+        image: "https://static.wixstatic.com/media/713410_a8fc6eec44fb46858a5cc3ff4e6dd39e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a8fc6eec44fb46858a5cc3ff4e6dd39e~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's chair ISO, height group č. 1",
+        image: "https://static.wixstatic.com/media/713410_a7c12f51681443fba50b5b3e40aa213b~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a7c12f51681443fba50b5b3e40aa213b~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s chair ISO, height group č.2",
+        image: "https://static.wixstatic.com/media/713410_abf516ea2f874d758bd85123ebc4ff59~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_abf516ea2f874d758bd85123ebc4ff59~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s chair ISO, height group č.3",
+        image: "https://static.wixstatic.com/media/713410_d222f448ef0445a49ae45496b5a97a2d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d222f448ef0445a49ae45496b5a97a2d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s chair ISO, height group č.1, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_3035dab837c0456cb37c5def400b37c4~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3035dab837c0456cb37c5def400b37c4~mv2.png",
+        code: "",
+      },
+      {
+        name: "Children's chair ISO, height group č.2, with HPL covering",
+        image: "https://static.wixstatic.com/media/713410_61b00740ef584528ba5940f5a8d0a83b~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_61b00740ef584528ba5940f5a8d0a83b~mv2.png",
+        code: "",
+      },
+      {
+        name: "Children`s chair ISO, height group č.3, with HPL coating",
+        image: "https://static.wixstatic.com/media/713410_1a7617cc2b584d13ba92cd798afb3ec2~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1a7617cc2b584d13ba92cd798afb3ec2~mv2.png",
+        code: "",
+      },
+      {
+        name: "Children`s chair ISO, height group č.1, painted",
+        image: "https://static.wixstatic.com/media/713410_d08ef3aad14b4bb9b1a73c2abb0e4c38~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d08ef3aad14b4bb9b1a73c2abb0e4c38~mv2.png",
+        code: "",
+      },
+      {
+        name: "Children`s chair ISO, painted, height group č.2",
+        image: "https://static.wixstatic.com/media/713410_4f7770f12de749729fa5a6b51e06089d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4f7770f12de749729fa5a6b51e06089d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's chair ISO, painted, height group č.3",
+        image: "https://static.wixstatic.com/media/713410_bb41a2da935d44988a99275076d49b7a~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bb41a2da935d44988a99275076d49b7a~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Antoshka\", varnished, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_371dc5927ebe4bf2b7268d7dedb57f7f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_371dc5927ebe4bf2b7268d7dedb57f7f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Antoshka\", painted seat back and seat, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_70639d87ae434c8c95d9b41b141cda50~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_70639d87ae434c8c95d9b41b141cda50~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Antoshka\", painted, height groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_c0db4dcc2f6c4a9fbbf80919b46344a0~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c0db4dcc2f6c4a9fbbf80919b46344a0~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children' chair \"Fantasy\", height group č.2",
+        image: "https://static.wixstatic.com/media/713410_ebe1671d6b5f42da98141fa516926a02~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ebe1671d6b5f42da98141fa516926a02~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Fantasy\", height group č.1",
+        image: "https://static.wixstatic.com/media/713410_ebe1671d6b5f42da98141fa516926a02~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ebe1671d6b5f42da98141fa516926a02~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Fantasy\", height group č.3",
+        image: "https://static.wixstatic.com/media/713410_ebe1671d6b5f42da98141fa516926a02~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ebe1671d6b5f42da98141fa516926a02~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children`s chair \"Fantasy\", painted, height group č.1",
+        image: "https://static.wixstatic.com/media/713410_bf7374b9d4da458280fa1f12831ccdb0~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bf7374b9d4da458280fa1f12831ccdb0~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Fantasy\", painted seat back and seat, height group č.2",
+        image: "https://static.wixstatic.com/media/713410_8e8b1ef3e1414243b57f637a5c75985e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8e8b1ef3e1414243b57f637a5c75985e~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children`s chair \"Fantasy\", painted, height group č.3",
+        image: "https://static.wixstatic.com/media/713410_4b20967cf89c4a9c90a03cfb26396d70~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4b20967cf89c4a9c90a03cfb26396d70~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children`s chair \"Fantasy\", painted back and seat, height group č.3",
+        image: "https://static.wixstatic.com/media/713410_b557b8c9fe514f64b8de21ada992767a~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b557b8c9fe514f64b8de21ada992767a~mv2.png",
+        code: "",
+      },
+      {
+        name: "Plywood children's chair \"Fantasy\", painted seat back and seat, height group č.1",
+        image: "https://static.wixstatic.com/media/713410_79920f92f7a04a81a31038724c52cb3d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_79920f92f7a04a81a31038724c52cb3d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Plywood children`s chair \"Fantasy\", painted, height group č.2",
+        image: "https://static.wixstatic.com/media/713410_61b1ab5fbaca45b2b7a2790a80a7cffb~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_61b1ab5fbaca45b2b7a2790a80a7cffb~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s T-shaped chair, on a square tube, height adjusted for groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_def1306fe5fb40b0bb4333cda3e202a6~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_def1306fe5fb40b0bb4333cda3e202a6~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children's T-shaped chair on round tube, height adjusted for groups č.1-3",
+        image: "https://static.wixstatic.com/media/713410_88844018e2234ccc8212561e5b783e2e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_88844018e2234ccc8212561e5b783e2e~mv2.jpg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Nábytok pre jedálne",
+    slug: "dining-furniture",
+    products: [
+      {
+        name: "Stôl pre školskej jedálne 6-miestny nastaviteľný s HPL, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_c79234c4ecc0416c980d054d69336696~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c79234c4ecc0416c980d054d69336696~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stôl pre školskej jedálne 4 miestny, nastaviteľný č.4-6 s HPL",
+        image: "https://static.wixstatic.com/media/713410_57b1126eb7bd4038b69de0227729c575~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_57b1126eb7bd4038b69de0227729c575~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stôl pre školskej jedálne 4-miestny štvorcový, okrúhla trubka, výšková skupina č.6,HPL",
+        image: "https://static.wixstatic.com/media/713410_2c4ed9dbc0ee464eab8d33baace18cdd~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2c4ed9dbc0ee464eab8d33baace18cdd~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička s celohnutým rámom a plastovým monoblokom s perforáciou",
+        image: "https://static.wixstatic.com/media/713410_4e9ac7422b574d2b8cc4556c302c4431~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4e9ac7422b574d2b8cc4556c302c4431~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička pre jedáleň s plastovým 3-vrstveným monoblokom",
+        image: "https://static.wixstatic.com/media/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička s celohnutým rámom a preglejkovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_80107266b65e4e8580e5073a02080613~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_80107266b65e4e8580e5073a02080613~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička s preglejkovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička s preglejkovým monoblokom, s povrchom preglejky HPL",
+        image: "https://static.wixstatic.com/media/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička pre laboratórnych kabinetov s plastovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_1bf173f0ba994affa4a6f9c6627cf2f4~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1bf173f0ba994affa4a6f9c6627cf2f4~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička pre školskej jedálne plastový SIESTA",
+        image: "https://static.wixstatic.com/media/713410_c7059db83bd1471889f3d2d85f9a8b63~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c7059db83bd1471889f3d2d85f9a8b63~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička pre školskej jedálne plastový",
+        image: "https://static.wixstatic.com/media/713410_c3b76be8b1124535a8ba96bf168e2551~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c3b76be8b1124535a8ba96bf168e2551~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Lavica pre školskej jedálne bez operadla 3-miestna, nastaviteľná HPL",
+        image: "https://static.wixstatic.com/media/713410_d2d2f9a3d7cc41a3a8e33a4f66d66125~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d2d2f9a3d7cc41a3a8e33a4f66d66125~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Lavica pre školskej jedálne bez operadla 2-miestna, nastaviteľná HPL",
+        image: "https://static.wixstatic.com/media/713410_77ad54b19c7a4942a6bce1a6ab9c15aa~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_77ad54b19c7a4942a6bce1a6ab9c15aa~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička pre školskej jedálne so operadlom (з preglejkovým monoblokom, potiahnutý HPL)",
+        image: "https://static.wixstatic.com/media/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stôl pre školskej jedálne 6-miestny",
+        image: "https://static.wixstatic.com/media/713410_8e714e1d0bc64f5095126acd97dcb253~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8e714e1d0bc64f5095126acd97dcb253~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Table for dining rooms, the desktop is coated with HPL plastic",
+        image: "https://static.wixstatic.com/media/713410_3ce615c02ec047d9967c10e08e8a05f7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3ce615c02ec047d9967c10e08e8a05f7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair with a plastic monoblock",
+        image: "https://static.wixstatic.com/media/713410_55f13f101e294055a61b7f3ffbf6c990~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_55f13f101e294055a61b7f3ffbf6c990~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair with a plywood monoblock",
+        image: "https://static.wixstatic.com/media/713410_907749b3ee364f3cba076c8a5fbb2127~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_907749b3ee364f3cba076c8a5fbb2127~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Semi-soft bench with a back",
+        image: "https://static.wixstatic.com/media/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png",
+        code: "",
+      },
+      {
+        name: "Square 4-seat table for dining rooms, round tube, height group č.6",
+        image: "https://static.wixstatic.com/media/713410_2c4ed9dbc0ee464eab8d33baace18cdd~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2c4ed9dbc0ee464eab8d33baace18cdd~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Square 4-seat table for dining rooms, height group č.6",
+        image: "https://static.wixstatic.com/media/713410_bdb2716cf518495aaddbe00cc3b6c553~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bdb2716cf518495aaddbe00cc3b6c553~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "6-seat table for dining rooms, flat-oval tube, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_57b1126eb7bd4038b69de0227729c575~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_57b1126eb7bd4038b69de0227729c575~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "4-seat table for dining rooms, flat-oval tube, height group č.4-6",
+        image: "https://static.wixstatic.com/media/713410_396a5da5ec5f4363bcf7c76fca6bf2a5~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_396a5da5ec5f4363bcf7c76fca6bf2a5~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Chair ISO č.6, the plywood is coated with HPL plastic",
+        image: "https://static.wixstatic.com/media/713410_96338f493d174de18db5354ff801b538~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_96338f493d174de18db5354ff801b538~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat bench without a backrest, flat-oval tube, height groups č.4-6",
+        image: "https://static.wixstatic.com/media/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "3-seat bench without a backrest, flat-oval tube, height groups č.4-6",
+        image: "https://static.wixstatic.com/media/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat bench with a backrest, flat-oval tube, height groups č.4-6",
+        image: "https://static.wixstatic.com/media/713410_56f0c66793414ba09948691fa72f75d0~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_56f0c66793414ba09948691fa72f75d0~mv2.png",
+        code: "",
+      },
+      {
+        name: "2-seat bench with a backrest, height group č.6",
+        image: "https://static.wixstatic.com/media/713410_c3a8297a62c74ff7b7ed26e6071dcce8~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c3a8297a62c74ff7b7ed26e6071dcce8~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stool on metal frame",
+        image: "https://static.wixstatic.com/media/713410_a8fc6eec44fb46858a5cc3ff4e6dd39e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a8fc6eec44fb46858a5cc3ff4e6dd39e~mv2.jpg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Kuchyne",
+    slug: "kitchens",
+    products: [
+      {
+        name: "Stôlá doska do kuchyne (2771-4160mm)",
+        image: "https://static.wixstatic.com/media/713410_93797bc4ca384747b0c73f1b13eb98ff~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_93797bc4ca384747b0c73f1b13eb98ff~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stôlá doska do kuchyne (2081-2770mm)",
+        image: "https://static.wixstatic.com/media/713410_93797bc4ca384747b0c73f1b13eb98ff~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_93797bc4ca384747b0c73f1b13eb98ff~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stôlá doska do kuchyne (1386-2080mm)",
+        image: "https://static.wixstatic.com/media/713410_93797bc4ca384747b0c73f1b13eb98ff~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_93797bc4ca384747b0c73f1b13eb98ff~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stôlá doska do kuchyne (1036-1385 mm)",
+        image: "https://static.wixstatic.com/media/713410_a0ee0596dd1f4ee6874ec48dac40cbc6~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a0ee0596dd1f4ee6874ec48dac40cbc6~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stôlá doska do kuchyne ( do 1035 mm)",
+        image: "https://static.wixstatic.com/media/713410_a0ee0596dd1f4ee6874ec48dac40cbc6~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a0ee0596dd1f4ee6874ec48dac40cbc6~mv2.png",
+        code: "",
+      },
+      {
+        name: "Skriňa spodná \"Komfort\" 60V",
+        image: "https://static.wixstatic.com/media/713410_83de18d799f649feba4347aef832d172~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_83de18d799f649feba4347aef832d172~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa spodná «Komfort» 80VМ",
+        image: "https://static.wixstatic.com/media/713410_86427c5de64040df9022dcec93991472~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_86427c5de64040df9022dcec93991472~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa spodná \"Komfort\" 80V",
+        image: "https://static.wixstatic.com/media/713410_5b5b4fcff4864b9891ee9bdd1928ada0~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5b5b4fcff4864b9891ee9bdd1928ada0~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa spodná \"Komfort\" 60VМ",
+        image: "https://static.wixstatic.com/media/713410_eb6bf7b531cc432281434088d98274d5~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_eb6bf7b531cc432281434088d98274d5~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa spodná \"Komfort\" 45V1Ш",
+        image: "https://static.wixstatic.com/media/713410_ab3e827a754f4e5faf7dd5a4692b6c5f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ab3e827a754f4e5faf7dd5a4692b6c5f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa spodná \"Komfort\" 40V3Ш",
+        image: "https://static.wixstatic.com/media/713410_7762d09014954bb0bec7776bd4b23d44~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_7762d09014954bb0bec7776bd4b23d44~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa spodná \"Komfort\" 30V",
+        image: "https://static.wixstatic.com/media/713410_6caa482ec92a4115be7ef58824a60625~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6caa482ec92a4115be7ef58824a60625~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa závesná \"Komfort\" 80ŠП",
+        image: "https://static.wixstatic.com/media/713410_fe61f12ee51642a3b9765294ed0ac12c~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_fe61f12ee51642a3b9765294ed0ac12c~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa závesná \"Komfort\" 80Š",
+        image: "https://static.wixstatic.com/media/713410_01f23ea6d322465d9724220ab3ca44e2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01f23ea6d322465d9724220ab3ca44e2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa závesná \"Komfort\"&nbsp; 60ŠП",
+        image: "https://static.wixstatic.com/media/713410_09aafc09feae4ca38a9445752ead0c7d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_09aafc09feae4ca38a9445752ead0c7d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa závesná \"Komfort\" 60Š",
+        image: "https://static.wixstatic.com/media/713410_01bb659f4e754b488c20f1938661ae80~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01bb659f4e754b488c20f1938661ae80~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa závesná \"Komfort\" 45Š",
+        image: "https://static.wixstatic.com/media/713410_ad945eb7d13b4c81b20035959e1a2b6a~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ad945eb7d13b4c81b20035959e1a2b6a~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa závesná \"Komfort\" 40Š",
+        image: "https://static.wixstatic.com/media/713410_5ec7c81d96eb4d3ba263a7f800042ee7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5ec7c81d96eb4d3ba263a7f800042ee7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa závesná \"Komfort\" 30Š",
+        image: "https://static.wixstatic.com/media/713410_a45e6fb74f124f6e9081d76f14460239~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a45e6fb74f124f6e9081d76f14460239~mv2.jpg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Lavice",
+    slug: "benches",
+    products: [
+      {
+        name: "Lavica pre školskej jedálne bez operadla 3-miestna, nastaviteľná HPL",
+        image: "https://static.wixstatic.com/media/713410_d2d2f9a3d7cc41a3a8e33a4f66d66125~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d2d2f9a3d7cc41a3a8e33a4f66d66125~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Lavica pre školskej jedálne bez operadla 2-miestna, nastaviteľná HPL",
+        image: "https://static.wixstatic.com/media/713410_77ad54b19c7a4942a6bce1a6ab9c15aa~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_77ad54b19c7a4942a6bce1a6ab9c15aa~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Semi-soft bench with a back",
+        image: "https://static.wixstatic.com/media/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png",
+        code: "",
+      },
+      {
+        name: "2-seat bench with a backrest, flat-oval tube, height groups č.4-6",
+        image: "https://static.wixstatic.com/media/713410_56f0c66793414ba09948691fa72f75d0~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_56f0c66793414ba09948691fa72f75d0~mv2.png",
+        code: "",
+      },
+      {
+        name: "3-seat bench without a backrest, flat-oval tube, height groups č.4-6",
+        image: "https://static.wixstatic.com/media/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat bench without a backrest, flat-oval tube, height groups č.4-6",
+        image: "https://static.wixstatic.com/media/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-seat bench with a backrest, height group č.6",
+        image: "https://static.wixstatic.com/media/713410_c3a8297a62c74ff7b7ed26e6071dcce8~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c3a8297a62c74ff7b7ed26e6071dcce8~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Children`s bench for a locker room with rounded corners",
+        image: "https://static.wixstatic.com/media/713410_b8afa8713a574e70b48e7e34b8adb81c~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b8afa8713a574e70b48e7e34b8adb81c~mv2.jpg",
+        code: "",
+      },
+    ],
+  },
+];
 export const universityCatalog: CatalogSubcategory[] = [];
