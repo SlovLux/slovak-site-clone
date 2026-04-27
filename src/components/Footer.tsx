@@ -64,7 +64,7 @@ const Footer = () => {
               </div>
               <div className="flex justify-between py-2.5">
                 <dt className="text-muted-foreground">DIČ</dt>
-                <dd className="font-mono font-medium">2022905995</dd>
+                <dd className="font-mono font-medium">2022 905 995</dd>
               </div>
             </dl>
           </div>
