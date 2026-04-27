@@ -36,7 +36,7 @@ export const schoolCatalog: CatalogSubcategory[] = [
  link:"",
  },
  {
- image:"https://static.wixstatic.com/media/713410_dfa2fe76dec24709ac774eb6f8134fdf~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_dfa2fe76dec24709ac774eb6f8134fdf~mv2.png",
+ image:"/catalog/cleaned/uf-clean-1eea380ae2d4.png",
  code:"0333",
  name:"Otočná stolička",
  link:"",
@@ -396,7 +396,7 @@ export const schoolCatalog: CatalogSubcategory[] = [
  link:"",
  },
  {
- image:"https://static.wixstatic.com/media/713410_dfa2fe76dec24709ac774eb6f8134fdf~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_dfa2fe76dec24709ac774eb6f8134fdf~mv2.png",
+ image:"/catalog/cleaned/uf-clean-1eea380ae2d4.png",
  code:"0333",
  name:"Otočná stolička",
  link:"",
@@ -810,7 +810,7 @@ export const schoolCatalog: CatalogSubcategory[] = [
  link:"",
  },
  {
- image:"https://static.wixstatic.com/media/713410_d0314e472a8d41bb8563f3abdca8cbcd~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d0314e472a8d41bb8563f3abdca8cbcd~mv2.png",
+ image:"/catalog/cleaned/uf-clean-3b9ba463fac2.png",
  code:"77700+Ффіз",
  name:"Stena pre predmetné kabinety s fototlačou (14 prvkov)",
  link:"",
@@ -822,7 +822,7 @@ export const schoolCatalog: CatalogSubcategory[] = [
  link:"",
  },
  {
- image:"https://static.wixstatic.com/media/713410_dfa2fe76dec24709ac774eb6f8134fdf~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_dfa2fe76dec24709ac774eb6f8134fdf~mv2.png",
+ image:"/catalog/cleaned/uf-clean-1eea380ae2d4.png",
  code:"0333",
  name:"Otočná stolička",
  link:"",
@@ -1470,7 +1470,7 @@ export const schoolCatalog: CatalogSubcategory[] = [
  link:"",
  },
  {
- image:"https://static.wixstatic.com/media/713410_dfa2fe76dec24709ac774eb6f8134fdf~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_dfa2fe76dec24709ac774eb6f8134fdf~mv2.png",
+ image:"/catalog/cleaned/uf-clean-1eea380ae2d4.png",
  code:"0333",
  name:"Otočná stolička",
  link:"",
@@ -5088,13 +5088,13 @@ export const kidsCatalog: CatalogSubcategory[] = [
  { name:"Jednodverová detská skriňa s fotopotlačou „Tajomný vesmír\"", image:"https://static.wixstatic.com/media/713410_937a3fa19c1c488ea9adfd12d351036e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_937a3fa19c1c488ea9adfd12d351036e~mv2.jpg", code:"" },
  { name:"Trojdverová detská skriňa s fotopotlačou „Tajomný vesmír\"", image:"/catalog/6bc07efa61ed206b.png", code:"" },
  { name:"Jednodverová detská skriňa s fotopotlačou „Tajomný vesmír\"", image:"https://static.wixstatic.com/media/713410_109cebbbe2b44a19871c8de3897af736~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_109cebbbe2b44a19871c8de3897af736~mv2.jpg", code:"" },
- { name:"Trojdverová detská skriňa s fotopotlačou „Tajomný vesmír\"", image:"https://static.wixstatic.com/media/713410_da3609a717ea45499c7781261f748830~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_da3609a717ea45499c7781261f748830~mv2.png", code:"" },
+ { name:"Trojdverová detská skriňa s fotopotlačou „Tajomný vesmír\"", image:"/catalog/cleaned/uf-clean-7591a7c24ce8.png", code:"" },
  { name:"Trojdverová detská skriňa s fotopotlačou „Staré mesto“", image:"https://static.wixstatic.com/media/713410_81afb65d031d4d4b93f146ae3c11f429~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_81afb65d031d4d4b93f146ae3c11f429~mv2.jpg", code:"" },
  { name:"Jednodverová detská skriňa s fotopotlačou \"Staré mesto\"", image:"https://static.wixstatic.com/media/713410_a9b02b1084c8404d84ca0c53b9222145~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a9b02b1084c8404d84ca0c53b9222145~mv2.jpg", code:"" },
  { name:"Jednodverová detská skriňa s vyrezávanými dverami (pochrómované rúrky)", image:"https://static.wixstatic.com/media/713410_aa3ba9dd709a4a039819df41f824bcfc~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_aa3ba9dd709a4a039819df41f824bcfc~mv2.jpg", code:"" },
  { name:"Dvojdverová detská skriňa s tvarovanými dverami (chrómované rúrky)", image:"https://static.wixstatic.com/media/713410_85ac9c5094774688afeec875d572a83e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_85ac9c5094774688afeec875d572a83e~mv2.jpg", code:"" },
  { name:"Päťdverová detská skriňa do šatne s tvarovanými dverami", image:"https://static.wixstatic.com/media/713410_20a17679e88248f798944c6a36f32bb3~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_20a17679e88248f798944c6a36f32bb3~mv2.jpg", code:"" },
- { name:"Trojdverová detská skriňa s tvarovanými dverami", image:"https://static.wixstatic.com/media/713410_dd056069cd994f05859679249df254a8~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_dd056069cd994f05859679249df254a8~mv2.png", code:"" },
+ { name:"Trojdverová detská skriňa s tvarovanými dverami", image:"/catalog/cleaned/uf-clean-d6aa9b5d09c5.png", code:"" },
  { name:"Štvordverová detská skriňa s lavicou do šatne", image:"https://static.wixstatic.com/media/713410_4acaac5ab86e40da9f6706351f4ce147~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4acaac5ab86e40da9f6706351f4ce147~mv2.jpg", code:"" },
  { name:"Detská skriňa \"Mozaika\" s dverami", image:"https://static.wixstatic.com/media/713410_ff830dccd57f4649839897a85b522fd8~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ff830dccd57f4649839897a85b522fd8~mv2.jpg", code:"" },
  { name:"Jednodverová skriňa s lavicou, s fotopotlačou \"Podmorský svet\"", image:"https://static.wixstatic.com/media/713410_165dcba3393f4898bcb2847ce346b031~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_165dcba3393f4898bcb2847ce346b031~mv2.jpg", code:"" },
@@ -5121,7 +5121,7 @@ export const kidsCatalog: CatalogSubcategory[] = [
  { name:"Sedací vak \"Hruška\" 100x70", image:"https://static.wixstatic.com/media/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png", code:"" },
  { name:"Sedací vak \"Hruška\" 100x75 cm", image:"https://static.wixstatic.com/media/713410_2744813678884cd281404e31e2fd6c96~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2744813678884cd281404e31e2fd6c96~mv2.png", code:"" },
  { name:"Detský stôl \"Ostrovček\" nastaviteľný na výškové skupiny č. 1-3", image:"/catalog/151a7b52c3162b9a.png", code:"" },
- { name:"Detská stolička ISO, výšková skupina č.2, s HPL poťahom", image:"https://static.wixstatic.com/media/713410_ebb977ed00ca40ee97ff8893f5e100c5~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ebb977ed00ca40ee97ff8893f5e100c5~mv2.png", code:"" },
+ { name:"Detská stolička ISO, výšková skupina č.2, s HPL poťahom", image:"/catalog/cleaned/uf-clean-f6ae4323df0f.png", code:"" },
  { name:"Stena \"Morské dobrodružstvá\"", image:"https://static.wixstatic.com/media/713410_a5822a8d19b8497ab2ac507616449c06~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a5822a8d19b8497ab2ac507616449c06~mv2.png", code:"" },
  { name:"Stena „Morské dobrodružstvá\" prvok č. 13", image:"https://static.wixstatic.com/media/713410_2744813678884cd281404e31e2fd6c96~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2744813678884cd281404e31e2fd6c96~mv2.png", code:"" },
  { name:"Stena „Morské dobrodružstvá\" prvok č. 12", image:"https://static.wixstatic.com/media/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png", code:"" },
@@ -5250,7 +5250,7 @@ export const officeCatalog: CatalogSubcategory[] = [
  { name:"Šatníková skriňa s výsuvnou tyčou", image:"https://static.wixstatic.com/media/713410_c4a18ae707cb4aeda3794b2f1f7b3aa4~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c4a18ae707cb4aeda3794b2f1f7b3aa4~mv2.jpg", code:"7714" },
  { name:"Uzavretá skriňa 2-dverová s policami", image:"https://static.wixstatic.com/media/713410_14789804bb13427aa33903e827ccd065~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_14789804bb13427aa33903e827ccd065~mv2.jpg", code:"6617" },
  { name:"Skriňa s policami otvorená", image:"https://static.wixstatic.com/media/713410_f8f1e5c26e1c4460ba888c510151b140~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_f8f1e5c26e1c4460ba888c510151b140~mv2.jpg", code:"6627" },
- { name:"Regál obojstranný na 25 priehradiek", image:"https://static.wixstatic.com/media/713410_da3609a717ea45499c7781261f748830~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_da3609a717ea45499c7781261f748830~mv2.png", code:"62418" },
+ { name:"Regál obojstranný na 25 priehradiek", image:"/catalog/cleaned/uf-clean-87753ae8b6d5.png", code:"62418" },
  { name:"Poloovorená skriňa s policami", image:"https://static.wixstatic.com/media/713410_da9b61c2ac3049e9b2f040fb2ddf9ffa~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_da9b61c2ac3049e9b2f040fb2ddf9ffa~mv2.jpg", code:"7805" },
  { name:"Poloovorená skriňa s policami", image:"https://static.wixstatic.com/media/713410_b69ff3019714434eb92e068b000a10ec~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b69ff3019714434eb92e068b000a10ec~mv2.jpg", code:"7804" },
  { name:"Otvorená skriňa s policami", image:"https://static.wixstatic.com/media/713410_32c9416c3e274469a715fc8af4779057~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_32c9416c3e274469a715fc8af4779057~mv2.jpg", code:"7801" },
@@ -5308,7 +5308,7 @@ export const officeCatalog: CatalogSubcategory[] = [
  { name:"Komplet sedacej súpravy v kancelárskom priestore z umelej kože s 5 prvkami", image:"https://static.wixstatic.com/media/713410_26fbbc0a0be04ca994745e25b7c06b02~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_26fbbc0a0be04ca994745e25b7c06b02~mv2.jpg", code:"" },
  { name:"Puf rohový tvarovaný látkový", image:"https://static.wixstatic.com/media/713410_c970db4f23ad4fb5b2cf7a829c2d452a~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c970db4f23ad4fb5b2cf7a829c2d452a~mv2.jpg", code:"64146" },
  { name:"Puf tvarovaný látkový", image:"/catalog/1e512195e6712cab.png", code:"64143" },
- { name:"Puf tvarovaný látkový", image:"https://static.wixstatic.com/media/713410_fe0013b36f27415a9395009f9b48b777~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_fe0013b36f27415a9395009f9b48b777~mv2.png", code:"64132" },
+ { name:"Puf tvarovaný látkový", image:"/catalog/cleaned/uf-clean-dd2f210f35e6.png", code:"64132" },
  { name:"Puf s operadlom, tvarovaný látkový", image:"/catalog/b724b291723cccea.png", code:"64129" },
  { name:"Kancelárska sedačka z umelej kože", image:"/catalog/c11efe75f0158935.png", code:"55602" },
  { name:"Kreslo lira gtp", image:"https://static.wixstatic.com/media/713410_c2464acf469e49b78eefe068d17fb1ac~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c2464acf469e49b78eefe068d17fb1ac~mv2.png", code:"TILT" },
@@ -6765,12 +6765,12 @@ export const universityCatalog: CatalogSubcategory[] = [
  },
  {
  name:"Školská lavica, skladací stôl na kovovom ráme",
- image:"https://static.wixstatic.com/media/713410_b1e5f8805a6c457393710ae5180ee0aa~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b1e5f8805a6c457393710ae5180ee0aa~mv2.png",
+ image:"/catalog/cleaned/uf-clean-ac1bd5e746ea.png",
  code:"",
  },
  {
  name:"Zostava jednomiestneho žiackeho stola bez police, č.4-7 + stolička na lyžinách, okrúhla rúrka, s HPL úpravou, č.6",
- image:"https://static.wixstatic.com/media/713410_c360ba42f8f34fc3910f8eb4d07e0de5~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c360ba42f8f34fc3910f8eb4d07e0de5~mv2.png",
+ image:"/catalog/cleaned/uf-clean-7948a5abdca2.png",
  code:"",
  },
  {
@@ -6831,7 +6831,7 @@ export const universityCatalog: CatalogSubcategory[] = [
  },
  {
  name:"Písací stôl na kovovom ráme",
- image:"https://static.wixstatic.com/media/713410_925c4a0fbc3848e58c5c7e6745da2ecf~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_925c4a0fbc3848e58c5c7e6745da2ecf~mv2.png",
+ image:"/catalog/cleaned/uf-clean-abb633ddc8a0.png",
  code:"",
  },
  {
@@ -6912,7 +6912,7 @@ export const universityCatalog: CatalogSubcategory[] = [
  products: [
  {
  name:"Rokovací stôl na zasadnutia",
- image:"https://static.wixstatic.com/media/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png",
+ image:"/catalog/cleaned/uf-clean-7b3766149e80.png",
  code:"",
  },
  {
@@ -6932,7 +6932,7 @@ export const universityCatalog: CatalogSubcategory[] = [
  },
  {
  name:"Skladací stôl na kovovom ráme na kolieskach",
- image:"https://static.wixstatic.com/media/713410_87e7ad68a14247edb0a71361f0bd93bb~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_87e7ad68a14247edb0a71361f0bd93bb~mv2.png",
+ image:"/catalog/cleaned/uf-clean-760cc0883212.png",
  code:"",
  },
  {
@@ -6983,12 +6983,12 @@ export const universityCatalog: CatalogSubcategory[] = [
  },
  {
  name:"Stolička v tvare T, výškovo nastaviteľná č.(3)4-6 s HPL",
- image:"https://static.wixstatic.com/media/713410_01a85e94ece24e6893557292ad393d24~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01a85e94ece24e6893557292ad393d24~mv2.png",
+ image:"/catalog/cleaned/uf-clean-b0a46e6a5ebc.png",
  code:"",
  },
  {
  name:"Stolička v tvare T, výškovo nastaviteľná č.(3)4-6",
- image:"https://static.wixstatic.com/media/713410_01a85e94ece24e6893557292ad393d24~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01a85e94ece24e6893557292ad393d24~mv2.png",
+ image:"/catalog/cleaned/uf-clean-b0a46e6a5ebc.png",
  code:"",
  },
  {
@@ -7003,17 +7003,17 @@ export const universityCatalog: CatalogSubcategory[] = [
  },
  {
  name:"Stolička s celoohýbaným rámom a preglejkovým monoblokom",
- image:"https://static.wixstatic.com/media/713410_1f6e48e9dae34d82aa6ba52195218174~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1f6e48e9dae34d82aa6ba52195218174~mv2.png",
+ image:"/catalog/cleaned/uf-clean-6a45ef05e67a.png",
  code:"",
  },
  {
  name:"Stolička s preglejkovým monoblokom",
- image:"https://static.wixstatic.com/media/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png",
+ image:"/catalog/cleaned/uf-clean-db57b97a68c1.png",
  code:"",
  },
  {
  name:"Stolička s preglejkovým monoblokom, s HPL povrchovou úpravou preglejky",
- image:"https://static.wixstatic.com/media/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png",
+ image:"/catalog/cleaned/uf-clean-5f2118a8febb.png",
  code:"",
  },
  {
@@ -7028,7 +7028,7 @@ export const universityCatalog: CatalogSubcategory[] = [
  },
  {
  name:"Skladacia polomäkká stolička, koženka",
- image:"https://static.wixstatic.com/media/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png",
+ image:"/catalog/cleaned/uf-clean-b03e73da1643.png",
  code:"",
  },
  {
@@ -7068,7 +7068,7 @@ export const universityCatalog: CatalogSubcategory[] = [
  },
  {
  name:"Polomäkká stolička ISO, látka",
- image:"https://static.wixstatic.com/media/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png",
+ image:"/catalog/cleaned/uf-clean-4b950accb0b6.png",
  code:"",
  },
  {
@@ -7169,7 +7169,7 @@ export const universityCatalog: CatalogSubcategory[] = [
  },
  {
  name:"Polomäkká lavica s operadlom",
- image:"https://static.wixstatic.com/media/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png",
+ image:"/catalog/cleaned/uf-clean-d167f823a768.png",
  code:"",
  },
  ],
@@ -7180,17 +7180,17 @@ export const universityCatalog: CatalogSubcategory[] = [
  products: [
  {
  name:"Uzamykateľná skrinka (locker)",
- image:"https://static.wixstatic.com/media/713410_95fe1ca725504261a535a55a08586ae8~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_95fe1ca725504261a535a55a08586ae8~mv2.png",
+ image:"/catalog/cleaned/uf-clean-fcc8a728d3fe.png",
  code:"",
  },
  {
  name:"Uzamykateľná skrinka (locker) s 8 dvierkami",
- image:"https://static.wixstatic.com/media/713410_95eeb0699098433b9f035c610e9e51e2~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_95eeb0699098433b9f035c610e9e51e2~mv2.png",
+ image:"/catalog/cleaned/uf-clean-ed84c3c6ba5d.png",
  code:"",
  },
  {
  name:"Uzamykateľná skrinka (locker) so 6 dvierkami",
- image:"https://static.wixstatic.com/media/713410_4ddf10fad2774fc29be69f54559528aa~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4ddf10fad2774fc29be69f54559528aa~mv2.png",
+ image:"/catalog/cleaned/uf-clean-0d5d448c8f4c.png",
  code:"",
  },
  {
@@ -7402,7 +7402,7 @@ export const universityCatalog: CatalogSubcategory[] = [
  products: [
  {
  name:"Obojstranný regál s 25 priehradkami",
- image:"https://static.wixstatic.com/media/713410_da3609a717ea45499c7781261f748830~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_da3609a717ea45499c7781261f748830~mv2.png",
+ image:"/catalog/cleaned/uf-clean-7591a7c24ce8.png",
  code:"",
  },
  {
@@ -7428,7 +7428,7 @@ export const universityCatalog: CatalogSubcategory[] = [
  products: [
  {
  name:"Jedálenská stolička s plastovým 3-vrstvovým monoblokom",
- image:"https://static.wixstatic.com/media/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png",
+ image:"/catalog/cleaned/uf-clean-ea0f993dd0f0.png",
  code:"",
  },
  {
@@ -7438,7 +7438,7 @@ export const universityCatalog: CatalogSubcategory[] = [
  },
  {
  name:"Stolička do školskej jedálne s operadlom (s preglejkovým monoblokom, potiahnutým HPL)",
- image:"https://static.wixstatic.com/media/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png",
+ image:"/catalog/cleaned/uf-clean-04adaf97bb21.png",
  code:"",
  },
  ],
