@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import ardLogo from "@/assets/ard-logo.png";
+import effisLogo from "@/assets/effis-logo.png";
 
 const navItems = [
   { label: "Školský nábytok", path: "/skolsky-nabytok" },
@@ -20,7 +20,7 @@ const Header = () => {
       {/* Top bar */}
       <div className="container mx-auto px-4 py-3 flex items-center justify-between gap-4">
         <Link to="/" className="shrink-0 flex items-center gap-2" aria-label="Domov">
-          <img src={ardLogo} alt="effis s.r.o." className="h-11 w-auto object-contain" />
+          <img src={effisLogo} alt="effis s.r.o." className="h-11 w-auto object-contain" />
         </Link>
 
         <div className="hidden md:flex flex-1" />
