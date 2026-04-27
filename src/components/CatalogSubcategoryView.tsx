@@ -58,7 +58,7 @@ const SubcategoryBlock = ({ sub, imageBasePath }: { sub: CatalogSubcategory; ima
                 className="absolute top-0 right-0 w-[28%] h-[14%] bg-white pointer-events-none"
               />
               {product.code && (
-                <div className="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-background/90 backdrop-blur-sm border border-border/60 text-[10px] font-mono font-medium text-muted-foreground shadow-sm">
+                <div className="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-background/90 backdrop-blur-sm border border-border/60 text-[10px] font-mono font-medium text-muted-foreground shadow-sm">
                   {product.code}
                 </div>
               )}
