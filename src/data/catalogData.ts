@@ -6732,4 +6732,715 @@ export const shelterCatalog: CatalogSubcategory[] = [
     ],
   },
 ];
-export const universityCatalog: CatalogSubcategory[] = [];
+export const universityCatalog: CatalogSubcategory[] = [
+  {
+    name: "Postele a matrace",
+    slug: "postele-matrace",
+    products: [
+      {
+        name: "Jednolôžková kovová posteľ",
+        image: "https://static.wixstatic.com/media/713410_5ecad4de66244e2192836bd15d2f08f6~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5ecad4de66244e2192836bd15d2f08f6~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Poschodová kovová posteľ",
+        image: "https://static.wixstatic.com/media/713410_956516582d7e4971982ee703d912c09c~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_956516582d7e4971982ee703d912c09c~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Jednolôžková posteľ, čelá so zaoblenými rohmi",
+        image: "https://static.wixstatic.com/media/713410_95af76f0e4f74f93844f2aa3e2eb828b~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_95af76f0e4f74f93844f2aa3e2eb828b~mv2.jpeg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Žiacke a študentské stoly",
+    slug: "ziacke-studentske-stoly",
+    products: [
+      {
+        name: "Školská lavica, žiacky stôl pre skupinovú prácu č.4-6",
+        image: "https://static.wixstatic.com/media/713410_8e1cf3dda2d44637af8a58e8da58747f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8e1cf3dda2d44637af8a58e8da58747f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Školská lavica, skladací stôl na kovovom ráme",
+        image: "https://static.wixstatic.com/media/713410_b1e5f8805a6c457393710ae5180ee0aa~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b1e5f8805a6c457393710ae5180ee0aa~mv2.png",
+        code: "",
+      },
+      {
+        name: "Zostava jednomiestneho žiackeho stola bez police, č.4-7 + stolička na lyžinách, okrúhla rúrka, s HPL úpravou, č.6",
+        image: "https://static.wixstatic.com/media/713410_c360ba42f8f34fc3910f8eb4d07e0de5~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c360ba42f8f34fc3910f8eb4d07e0de5~mv2.png",
+        code: "",
+      },
+      {
+        name: "Zostava jednomiestneho žiackeho stola bez police, č.4-7 + stolička s plastovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_a714ae8cc6074a579616e3fdaddbc0e7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a714ae8cc6074a579616e3fdaddbc0e7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Dvojmiestny žiacky stôl s policou, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_d27060995b5849a9b29d4214f477f0ca~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d27060995b5849a9b29d4214f477f0ca~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Jednomiestny žiacky stôl s policou, č.6",
+        image: "https://static.wixstatic.com/media/713410_5bac866675ae4f1294d707dffd88c62d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5bac866675ae4f1294d707dffd88c62d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-miestny žiacky stôl na plocho-oválnej rúrke, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_905681a74bfd47fba8e33c8443815bbd~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_905681a74bfd47fba8e33c8443815bbd~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Dvojmiestny žiacky stôl s policou, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_b2d4046c7455452c9251514eb6ed23b7~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b2d4046c7455452c9251514eb6ed23b7~mv2.jpeg",
+        code: "",
+      },
+      {
+        name: "2-miestny žiacky stôl, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_8b4fcdc2423f4674bb0b7457f936087a~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8b4fcdc2423f4674bb0b7457f936087a~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-miestny žiacky stôl s policou, č. 6",
+        image: "https://static.wixstatic.com/media/713410_3f1bf0bdc5f649ada3bbeb0cfacc66e5~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3f1bf0bdc5f649ada3bbeb0cfacc66e5~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-miestny žiacky stôl s policou, výškovo nastaviteľný, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_14419030aab448a2b7351e6bd33428ba~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_14419030aab448a2b7351e6bd33428ba~mv2.jpeg",
+        code: "",
+      },
+      {
+        name: "2-miestny žiacky stôl, bez police, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_ad9e7a24d1cd4726ab57c3714044caaa~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ad9e7a24d1cd4726ab57c3714044caaa~mv2.jpg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Písacie a počítačové stoly",
+    slug: "pisacie-pocitacove-stoly",
+    products: [
+      {
+        name: "Písací stôl na kovovom ráme",
+        image: "https://static.wixstatic.com/media/713410_1fdba48f2b6447069daaee3f0d869f50~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1fdba48f2b6447069daaee3f0d869f50~mv2.png",
+        code: "",
+      },
+      {
+        name: "Písací stôl na kovovom ráme",
+        image: "https://static.wixstatic.com/media/713410_925c4a0fbc3848e58c5c7e6745da2ecf~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_925c4a0fbc3848e58c5c7e6745da2ecf~mv2.png",
+        code: "",
+      },
+      {
+        name: "Súprava stolov s prístavnými stolíkmi do zborovne",
+        image: "https://static.wixstatic.com/media/713410_5d894735d93b4520881e806760960349~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5d894735d93b4520881e806760960349~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Rovný písací stôl s 2 zásuvkami",
+        image: "https://static.wixstatic.com/media/713410_adba9956eddb4e06816e87ac767ea468~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_adba9956eddb4e06816e87ac767ea468~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Rohový stôl, pravostranný alebo ľavostranný",
+        image: "https://static.wixstatic.com/media/713410_2243ba4d224d446a96e45433fa5c0f20~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2243ba4d224d446a96e45433fa5c0f20~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Rovný písací stôl",
+        image: "https://static.wixstatic.com/media/713410_d49183c7212c4231b8aaa351636dd2a3~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d49183c7212c4231b8aaa351636dd2a3~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Pravostranný rohový písací stôl",
+        image: "https://static.wixstatic.com/media/713410_6f7722fd2c80459a893e9b60ad42f52c~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6f7722fd2c80459a893e9b60ad42f52c~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Rohový počítačový stôl a prístavná skrinka",
+        image: "https://static.wixstatic.com/media/713410_b577a614754346f1ae7eae74bfb0e3d6~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b577a614754346f1ae7eae74bfb0e3d6~mv2.jpeg",
+        code: "",
+      },
+      {
+        name: "Rohový počítačový stôl",
+        image: "https://static.wixstatic.com/media/713410_cee5f71b7c37457b854ec83d4228e584~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_cee5f71b7c37457b854ec83d4228e584~mv2.jpeg",
+        code: "",
+      },
+      {
+        name: "Počítačový stôl",
+        image: "https://static.wixstatic.com/media/713410_fca721c5d8814c83914673d5e6a040f9~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_fca721c5d8814c83914673d5e6a040f9~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Rohový počítačový stôl, systémová jednotka vpravo",
+        image: "https://static.wixstatic.com/media/713410_529dbd820c354dcfae699ae297f48bfe~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_529dbd820c354dcfae699ae297f48bfe~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Písací stôl s jednými dvierkami a 3 zásuvkami",
+        image: "https://static.wixstatic.com/media/713410_89021666527a4c828a3a6a7a373153e2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_89021666527a4c828a3a6a7a373153e2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Písací stôl s jednými dvierkami",
+        image: "https://static.wixstatic.com/media/713410_b28f8b9592f54baab134f52a61800a17~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b28f8b9592f54baab134f52a61800a17~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Písací stôl so zásuvkami",
+        image: "https://static.wixstatic.com/media/713410_524d3a0baa6e4d21866fdade227cf39f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_524d3a0baa6e4d21866fdade227cf39f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Písací stôl bez police",
+        image: "https://static.wixstatic.com/media/713410_5c0ba4007a16420dbbbd5c42f85681f4~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5c0ba4007a16420dbbbd5c42f85681f4~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Písací stôl s policou",
+        image: "https://static.wixstatic.com/media/713410_0b2d8d2cbdad4d0d984457affd274c3d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_0b2d8d2cbdad4d0d984457affd274c3d~mv2.jpg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Konferenčné a rokovacie stoly",
+    slug: "konferencne-rokovacie-stoly",
+    products: [
+      {
+        name: "Rokovací stôl na zasadnutia",
+        image: "https://static.wixstatic.com/media/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png",
+        code: "",
+      },
+      {
+        name: "Konferenčný stolík",
+        image: "https://static.wixstatic.com/media/713410_4cfb1e0a51d641cea21edf10c4467f36~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4cfb1e0a51d641cea21edf10c4467f36~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Obdĺžnikový konferenčný stolík",
+        image: "https://static.wixstatic.com/media/713410_f71a12d1085248b5a46240168d48161d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_f71a12d1085248b5a46240168d48161d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Rokovací stôl na zasadnutia",
+        image: "https://static.wixstatic.com/media/713410_141543c991134486b3bc35d7a436cb0d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_141543c991134486b3bc35d7a436cb0d~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skladací stôl na kovovom ráme na kolieskach",
+        image: "https://static.wixstatic.com/media/713410_87e7ad68a14247edb0a71361f0bd93bb~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_87e7ad68a14247edb0a71361f0bd93bb~mv2.png",
+        code: "",
+      },
+      {
+        name: "Prístavný stôl ku konferenčnému stolu",
+        image: "https://static.wixstatic.com/media/713410_dd80336f9244455595add58d10b375cd~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_dd80336f9244455595add58d10b375cd~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Zostava stolov na zasadnutia",
+        image: "https://static.wixstatic.com/media/713410_3282814c21df48ffa28ca524e0c09568~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3282814c21df48ffa28ca524e0c09568~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Prístavný stôl",
+        image: "https://static.wixstatic.com/media/713410_b050af91b1b84328ab8b57481af9460b~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b050af91b1b84328ab8b57481af9460b~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Zostava stolov na porady",
+        image: "https://static.wixstatic.com/media/713410_b81dcc011df44ca9a47e1169169e70a9~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b81dcc011df44ca9a47e1169169e70a9~mv2.jpg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Stoličky a kreslá",
+    slug: "sticky-kresla",
+    products: [
+      {
+        name: "Školská stolička v tvare T, výškovo nastaviteľná č.(4)5-7",
+        image: "https://static.wixstatic.com/media/713410_1e7243a0cab849dbb9f5f67aa2871a81~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1e7243a0cab849dbb9f5f67aa2871a81~mv2.png",
+        code: "",
+      },
+      {
+        name: "Školská stolička v tvare T na štvorcovej rúrke, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_94769d7d09934be1966133e3a6248dcf~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_94769d7d09934be1966133e3a6248dcf~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Školská stolička v tvare T na okrúhlej rúrke s HPL úpravou, č.4-7",
+        image: "https://static.wixstatic.com/media/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Školská stolička v tvare T na okrúhlej rúrke s HPL úpravou, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_13eea88ee6cf495d9596e15067af0fc2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_13eea88ee6cf495d9596e15067af0fc2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička v tvare T, výškovo nastaviteľná č.(3)4-6 s HPL",
+        image: "https://static.wixstatic.com/media/713410_01a85e94ece24e6893557292ad393d24~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01a85e94ece24e6893557292ad393d24~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička v tvare T, výškovo nastaviteľná č.(3)4-6",
+        image: "https://static.wixstatic.com/media/713410_01a85e94ece24e6893557292ad393d24~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01a85e94ece24e6893557292ad393d24~mv2.png",
+        code: "",
+      },
+      {
+        name: "Otočná stolička ULTRA GTP",
+        image: "https://static.wixstatic.com/media/713410_181d3f5df5f242d9b67133c69fce2ae2~mv2.webp/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_181d3f5df5f242d9b67133c69fce2ae2~mv2.webp",
+        code: "",
+      },
+      {
+        name: "Stolička s celoohýbaným rámom a preglejkovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_80107266b65e4e8580e5073a02080613~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_80107266b65e4e8580e5073a02080613~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička s celoohýbaným rámom a preglejkovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_1f6e48e9dae34d82aa6ba52195218174~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1f6e48e9dae34d82aa6ba52195218174~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička s preglejkovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička s preglejkovým monoblokom, s HPL povrchovou úpravou preglejky",
+        image: "https://static.wixstatic.com/media/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička do laboratórií s plastovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_1bf173f0ba994affa4a6f9c6627cf2f4~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1bf173f0ba994affa4a6f9c6627cf2f4~mv2.png",
+        code: "",
+      },
+      {
+        name: "Kreslo LIRA GTP",
+        image: "https://static.wixstatic.com/media/713410_c2464acf469e49b78eefe068d17fb1ac~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c2464acf469e49b78eefe068d17fb1ac~mv2.png",
+        code: "",
+      },
+      {
+        name: "Skladacia polomäkká stolička, koženka",
+        image: "https://static.wixstatic.com/media/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png",
+        code: "",
+      },
+      {
+        name: "Stolička na ráme ISO, látka",
+        image: "https://static.wixstatic.com/media/713410_376b1abea8eb4ce382977b89698101c4~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_376b1abea8eb4ce382977b89698101c4~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička na ráme ISO, látka",
+        image: "https://static.wixstatic.com/media/713410_f178a96ee4dc47b9946be216701b4f54~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_f178a96ee4dc47b9946be216701b4f54~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička na lyžinách, okrúhla rúrka, č.6, s HPL úpravou",
+        image: "https://static.wixstatic.com/media/713410_6dc5a6c6dbeb4c30bf90f5f2cee33a1f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6dc5a6c6dbeb4c30bf90f5f2cee33a1f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička na lyžinách, okrúhla rúrka, výšková skupina č.6",
+        image: "https://static.wixstatic.com/media/713410_99e3352c3663497d916e05755fdb986c~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_99e3352c3663497d916e05755fdb986c~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička s preglejkovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_907749b3ee364f3cba076c8a5fbb2127~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_907749b3ee364f3cba076c8a5fbb2127~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička s plastovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_55f13f101e294055a61b7f3ffbf6c990~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_55f13f101e294055a61b7f3ffbf6c990~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička ISO č.6, preglejka potiahnutá HPL plastom",
+        image: "https://static.wixstatic.com/media/713410_96338f493d174de18db5354ff801b538~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_96338f493d174de18db5354ff801b538~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Polomäkká stolička ISO, látka",
+        image: "https://static.wixstatic.com/media/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png",
+        code: "",
+      },
+      {
+        name: "Polomäkká stolička ISO, koženka",
+        image: "https://static.wixstatic.com/media/713410_6c8edd7ead7943f7878a59f3ca5f2bbd~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6c8edd7ead7943f7878a59f3ca5f2bbd~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Polomäkká stolička \"Prestige\", látka",
+        image: "https://static.wixstatic.com/media/713410_154d49611c044afc87991057c9847cb2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_154d49611c044afc87991057c9847cb2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička v tvare T, výškovo nastaviteľná, s HPL úpravou, č. 4-7",
+        image: "https://static.wixstatic.com/media/713410_1e7243a0cab849dbb9f5f67aa2871a81~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1e7243a0cab849dbb9f5f67aa2871a81~mv2.png",
+        code: "",
+      },
+      {
+        name: "Študentská stolička v tvare T, výškové skupiny č.4-7",
+        image: "https://static.wixstatic.com/media/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Študentská stolička v tvare T, výškové skupiny č.4-7 s HPL úpravou",
+        image: "https://static.wixstatic.com/media/713410_11361ba9cfe1421a84b0961898906dbb~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_11361ba9cfe1421a84b0961898906dbb~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Študentská stolička na lyžinách, výškové skupiny č.4-6 s HPL úpravou",
+        image: "https://static.wixstatic.com/media/713410_883165195f224f81a1b912419dcbaebe~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_883165195f224f81a1b912419dcbaebe~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Študentská stolička na lyžinách, okrúhla rúrka, č.4-6",
+        image: "https://static.wixstatic.com/media/713410_56f090bbe07a4484adb0ed3867531dbc~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_56f090bbe07a4484adb0ed3867531dbc~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Študentská stolička na lyžinách, okrúhla rúrka, č.4-6, s HPL úpravou",
+        image: "https://static.wixstatic.com/media/713410_a965ff594e66437990bef8957688d4ae~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a965ff594e66437990bef8957688d4ae~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Študentská stolička v tvare T, výškové skupiny č.4-6, s HPL úpravou",
+        image: "https://static.wixstatic.com/media/713410_84b303f50303464a951ae0c01c14e1ea~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_84b303f50303464a951ae0c01c14e1ea~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Študentská stolička v tvare T, výškové skupiny č.4-6",
+        image: "https://static.wixstatic.com/media/713410_13eea88ee6cf495d9596e15067af0fc2~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_13eea88ee6cf495d9596e15067af0fc2~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Študentská stolička v tvare T, výškovo nastaviteľná, výškové skupiny č.4-6, s HPL úpravou",
+        image: "https://static.wixstatic.com/media/713410_45092db5232546f89b282a926f3be039~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_45092db5232546f89b282a926f3be039~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Študentská stolička v tvare T na štvorcovej rúrke, výškové skupiny č.4-6",
+        image: "https://static.wixstatic.com/media/713410_94769d7d09934be1966133e3a6248dcf~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_94769d7d09934be1966133e3a6248dcf~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička na lyžinách, štvorcová rúrka, č.6, s HPL úpravou",
+        image: "https://static.wixstatic.com/media/713410_972f1c7653e0498381b0deefb4dd0db7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_972f1c7653e0498381b0deefb4dd0db7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička na lyžinách, štvorcová rúrka, č.6",
+        image: "https://static.wixstatic.com/media/713410_b27890b8f3434d94a85d5e20835c1e11~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b27890b8f3434d94a85d5e20835c1e11~mv2.jpg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Pohovky a pufy",
+    slug: "pohovky-pufy",
+    products: [
+      {
+        name: "Rohová pohovka NINA (látka)",
+        image: "https://static.wixstatic.com/media/713410_1517b16afdb545d5acba030c5ef1f625~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1517b16afdb545d5acba030c5ef1f625~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Pohovka NINA, 2-miestna (látka)",
+        image: "https://static.wixstatic.com/media/713410_42b305a57584415bbc3598c6c71a0110~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_42b305a57584415bbc3598c6c71a0110~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Pohovka NINA, 1-miestna (látka)",
+        image: "https://static.wixstatic.com/media/713410_cbd7ee1a7e7d46d08777462b74c0a4c0~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_cbd7ee1a7e7d46d08777462b74c0a4c0~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Puf NINA (látka)",
+        image: "https://static.wixstatic.com/media/713410_14717ffe7c3b49f8a3d9f3395461bbd3~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_14717ffe7c3b49f8a3d9f3395461bbd3~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Polomäkká lavica s operadlom",
+        image: "https://static.wixstatic.com/media/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Skrine, šatníky a vešiaky",
+    slug: "skrine-satniky-vesiaky",
+    products: [
+      {
+        name: "Uzamykateľná skrinka (locker)",
+        image: "https://static.wixstatic.com/media/713410_95fe1ca725504261a535a55a08586ae8~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_95fe1ca725504261a535a55a08586ae8~mv2.png",
+        code: "",
+      },
+      {
+        name: "Uzamykateľná skrinka (locker) s 8 dvierkami",
+        image: "https://static.wixstatic.com/media/713410_95eeb0699098433b9f035c610e9e51e2~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_95eeb0699098433b9f035c610e9e51e2~mv2.png",
+        code: "",
+      },
+      {
+        name: "Uzamykateľná skrinka (locker) so 6 dvierkami",
+        image: "https://static.wixstatic.com/media/713410_4ddf10fad2774fc29be69f54559528aa~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4ddf10fad2774fc29be69f54559528aa~mv2.png",
+        code: "",
+      },
+      {
+        name: "Šatníková skriňa s výsuvnou tyčou",
+        image: "https://static.wixstatic.com/media/713410_c4a18ae707cb4aeda3794b2f1f7b3aa4~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c4a18ae707cb4aeda3794b2f1f7b3aa4~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Vešiak na šaty",
+        image: "https://static.wixstatic.com/media/713410_8d92d82ceef54700a72867bb7629f4c7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8d92d82ceef54700a72867bb7629f4c7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Vešiak s policou a 5 háčikmi",
+        image: "https://static.wixstatic.com/media/713410_3296bfea0ba440adbefb086fbdbbd254~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3296bfea0ba440adbefb086fbdbbd254~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Polootvorená šatníková skriňa s 2 dverami",
+        image: "https://static.wixstatic.com/media/713410_9aa43a8e60ad4b5c894069e8a2eed1d7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_9aa43a8e60ad4b5c894069e8a2eed1d7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Obojstranný vešiak z drevotriesky s 22 háčikmi",
+        image: "https://static.wixstatic.com/media/713410_e8407de8c0be496586dd7a9ef6702bd4~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_e8407de8c0be496586dd7a9ef6702bd4~mv2.jpeg",
+        code: "",
+      },
+      {
+        name: "Obojstranný vešiak na kovovom ráme s 22 háčikmi",
+        image: "https://static.wixstatic.com/media/713410_bfd45177f3d84a99a4d5d4cee7eeafe7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bfd45177f3d84a99a4d5d4cee7eeafe7~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Skriňa na šaty s oválnou tyčou (vnútorný rozmer 496 mm)",
+        image: "https://static.wixstatic.com/media/713410_55117530758a460ab74d67da42d29dc6~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_55117530758a460ab74d67da42d29dc6~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-dverová uzavretá skriňa na šaty a knihy (hĺbka 496 mm)",
+        image: "https://static.wixstatic.com/media/713410_5e2b8ced18ab4884bdef3608a7798dd3~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5e2b8ced18ab4884bdef3608a7798dd3~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Šatníková skriňa s oválnou tyčou (hĺbka 496 mm)",
+        image: "https://static.wixstatic.com/media/713410_5e2b8ced18ab4884bdef3608a7798dd3~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5e2b8ced18ab4884bdef3608a7798dd3~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Šatníková skriňa s výsuvnou tyčou (hĺbka 380 mm)",
+        image: "https://static.wixstatic.com/media/713410_f86cf21289884997b409d954edd59b69~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_f86cf21289884997b409d954edd59b69~mv2.jpg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Stenové zostavy a kabinety",
+    slug: "stenove-zostavy",
+    products: [
+      {
+        name: "Prístavný kontajner k stolu s priehradkami",
+        image: "https://static.wixstatic.com/media/713410_06f49cdc2ab64476911cdbe6adc7e0ce~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_06f49cdc2ab64476911cdbe6adc7e0ce~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stenová zostava do odborných učební (10 prvkov)",
+        image: "https://static.wixstatic.com/media/713410_2cead6b557f44d758a556c4f0765d88f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2cead6b557f44d758a556c4f0765d88f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Prístavný stolík s dvierkami a zásuvkou",
+        image: "https://static.wixstatic.com/media/713410_94ba16f6853f483c9100167c06b1226f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_94ba16f6853f483c9100167c06b1226f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Prístavný stolík s dvierkami",
+        image: "https://static.wixstatic.com/media/713410_39a34f39c6f447a2994ce5d4da3a9fe9~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_39a34f39c6f447a2994ce5d4da3a9fe9~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Prístavný stolík s dvierkami a 2 zásuvkami",
+        image: "https://static.wixstatic.com/media/713410_3957ae1f3c6a4d2cb7b178d92fa5261f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3957ae1f3c6a4d2cb7b178d92fa5261f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Prístavný stolík s dvierkami",
+        image: "https://static.wixstatic.com/media/713410_7400cd584a674964ae3eee7ebcdacdc4~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_7400cd584a674964ae3eee7ebcdacdc4~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Prístavný stolík s dvierkami, zásuvkou a priehradkou",
+        image: "https://static.wixstatic.com/media/713410_b5767de5437a45609dbca98a4c4dcdad~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b5767de5437a45609dbca98a4c4dcdad~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Prístavný stolík s dvierkami a priehradkami",
+        image: "https://static.wixstatic.com/media/713410_5601771a5e6342deb71d964be1bdd845~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5601771a5e6342deb71d964be1bdd845~mv2.png",
+        code: "",
+      },
+      {
+        name: "Prístavná skrinka",
+        image: "https://static.wixstatic.com/media/713410_8e75471206764e428574cb63c2bc7c14~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8e75471206764e428574cb63c2bc7c14~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Mobilná nízka skrinka",
+        image: "https://static.wixstatic.com/media/713410_89fb8a4b883844d3b63d8602718fe90a~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_89fb8a4b883844d3b63d8602718fe90a~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Nízka skrinka na nastaviteľných nožičkách s dvierkami a zásuvkou",
+        image: "https://static.wixstatic.com/media/713410_1f8afa118dbe459fb198744715b517fd~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1f8afa118dbe459fb198744715b517fd~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Nízka skrinka na nastaviteľných nožičkách s 3 zásuvkami",
+        image: "https://static.wixstatic.com/media/713410_4df4278ba11f42b4b93088ca6eadff72~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4df4278ba11f42b4b93088ca6eadff72~mv2.jpeg",
+        code: "",
+      },
+      {
+        name: "Nízka skrinka na nastaviteľných nožičkách s dvierkami a nikou",
+        image: "https://static.wixstatic.com/media/713410_776898ebd6b7432cb65faf9db212d43b~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_776898ebd6b7432cb65faf9db212d43b~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "1-dverový nadstavec (hĺbka 496 mm)",
+        image: "https://static.wixstatic.com/media/713410_df64d63591de48639bf5c7f20b6f2bc3~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_df64d63591de48639bf5c7f20b6f2bc3~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Konzola ku skrini so zaoblenými policami (hĺbka 380 mm)",
+        image: "https://static.wixstatic.com/media/713410_7a945b2c8fe5455f8aadb805600db037~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_7a945b2c8fe5455f8aadb805600db037~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Nadstavec - rohový prvok (hĺbka 380 mm)",
+        image: "https://static.wixstatic.com/media/713410_cc3df042b2c74ab0beaf4689d8b08886~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_cc3df042b2c74ab0beaf4689d8b08886~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-dverová skriňa s nikou a policami (hĺbka 380 mm)",
+        image: "https://static.wixstatic.com/media/713410_75f2e4f4c3274a6d8a94b8f9339a562a~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_75f2e4f4c3274a6d8a94b8f9339a562a~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "1-dverová skriňa, polootvorená (hĺbka 380 mm)",
+        image: "https://static.wixstatic.com/media/713410_4dd5440a34014f9c8d154aecfea99e91~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4dd5440a34014f9c8d154aecfea99e91~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "1-dverový nadstavec (hĺbka 380 mm)",
+        image: "https://static.wixstatic.com/media/713410_df64d63591de48639bf5c7f20b6f2bc3~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_df64d63591de48639bf5c7f20b6f2bc3~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-dverový nadstavec (hĺbka 496 mm)",
+        image: "https://static.wixstatic.com/media/713410_7031ea624db14a0cb9b06105be5ae771~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_7031ea624db14a0cb9b06105be5ae771~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Otvorený nadstavec (hĺbka 380 mm)",
+        image: "https://static.wixstatic.com/media/713410_e3fea0c925814d43afdad73a1130a23f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_e3fea0c925814d43afdad73a1130a23f~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Otvorená knižnica (hĺbka 380 mm)",
+        image: "https://static.wixstatic.com/media/713410_55d3003fdb644b198d809709aed91043~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_55d3003fdb644b198d809709aed91043~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-dverová knižnica, uzavretá (hĺbka 380 mm)",
+        image: "https://static.wixstatic.com/media/713410_088ef24587f7406fb707ed1a99d1fddc~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_088ef24587f7406fb707ed1a99d1fddc~mv2.jpeg",
+        code: "",
+      },
+      {
+        name: "2-dverová knižnica s 2 zásuvkami",
+        image: "https://static.wixstatic.com/media/713410_7553e582a6d3406eb320d6695a101fff~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_7553e582a6d3406eb320d6695a101fff~mv2.jpeg",
+        code: "",
+      },
+      {
+        name: "Knižnica so sklenenými dverami (hĺbka 380 mm)",
+        image: "https://static.wixstatic.com/media/713410_2029c325101a43f0b27692566d70b5a3~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2029c325101a43f0b27692566d70b5a3~mv2.jpeg",
+        code: "",
+      },
+      {
+        name: "4-dverová polouzavretá knižnica (hĺbka 380 mm)",
+        image: "https://static.wixstatic.com/media/713410_f889f9d424e84fb7ae9a44c66efad7df~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_f889f9d424e84fb7ae9a44c66efad7df~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-dverová polouzavretá knižnica (hĺbka 380 mm)",
+        image: "https://static.wixstatic.com/media/713410_549247190774428187698206093085ed~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_549247190774428187698206093085ed~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "2-dverový nadstavec (hĺbka 380 mm)",
+        image: "https://static.wixstatic.com/media/713410_e7c819c975604259a94538e49b459397~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_e7c819c975604259a94538e49b459397~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Pravý alebo ľavý prístavný stolík",
+        image: "https://static.wixstatic.com/media/713410_1335faf5391c4cc0b0df1c9aaf6189f7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1335faf5391c4cc0b0df1c9aaf6189f7~mv2.jpg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Tribúny, regály a doplnky",
+    slug: "tribuny-regaly-doplnky",
+    products: [
+      {
+        name: "Obojstranný regál s 25 priehradkami",
+        image: "https://static.wixstatic.com/media/713410_da3609a717ea45499c7781261f748830~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_da3609a717ea45499c7781261f748830~mv2.png",
+        code: "",
+      },
+      {
+        name: "Tribúna s okrúhlou základňou",
+        image: "https://static.wixstatic.com/media/713410_a17e7f3e05754327ad684666d175ba89~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a17e7f3e05754327ad684666d175ba89~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Tribúna so znakom a úzkou základňou",
+        image: "https://static.wixstatic.com/media/713410_40fddbf319884354973bbedd0657f24e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_40fddbf319884354973bbedd0657f24e~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Výsuvná polica na klávesnicu",
+        image: "https://static.wixstatic.com/media/713410_2524e79553f4428da9f042c2cc4140ee~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2524e79553f4428da9f042c2cc4140ee~mv2.jpg",
+        code: "",
+      },
+    ],
+  },
+  {
+    name: "Nábytok pre jedálne",
+    slug: "jedalne",
+    products: [
+      {
+        name: "Jedálenská stolička s plastovým 3-vrstvovým monoblokom",
+        image: "https://static.wixstatic.com/media/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png",
+        code: "",
+      },
+      {
+        name: "Plastová stolička do školskej jedálne SIESTA",
+        image: "https://static.wixstatic.com/media/713410_c7059db83bd1471889f3d2d85f9a8b63~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c7059db83bd1471889f3d2d85f9a8b63~mv2.jpg",
+        code: "",
+      },
+      {
+        name: "Stolička do školskej jedálne s operadlom (s preglejkovým monoblokom, potiahnutým HPL)",
+        image: "https://static.wixstatic.com/media/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png",
+        code: "",
+      },
+    ],
+  },
+];
