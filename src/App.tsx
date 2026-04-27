@@ -15,6 +15,7 @@ import ChildrenFurniture from "./pages/ChildrenFurniture.tsx";
 import OfficeFurniture from "./pages/OfficeFurniture.tsx";
 import ShelterFurniture from "./pages/ShelterFurniture.tsx";
 import UniversityFurniture from "./pages/UniversityFurniture.tsx";
+import Projects from "./pages/Projects.tsx";
 import Catalog from "./pages/Catalog.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
@@ -39,6 +40,7 @@ const App = () => (
           <Route path="/kancelarsky-nabytok" element={<OfficeFurniture />} />
           <Route path="/nabytok-pre-utulky" element={<ShelterFurniture />} />
           <Route path="/nabytok-pre-univerzity" element={<UniversityFurniture />} />
+          <Route path="/realizovane-projekty" element={<Projects />} />
           <Route path="/katalog" element={<Catalog />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
