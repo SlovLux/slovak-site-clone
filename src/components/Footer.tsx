@@ -9,11 +9,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="h-12 w-12 rounded-xl bg-background border border-border flex items-center justify-center p-1.5">
+              <div className="h-20 w-20 rounded-xl bg-background border border-border flex items-center justify-center p-2">
                 <img src={effisLogo} alt="effis s.r.o." className="h-full w-full object-contain" />
               </div>
               <div>
-                <h3 className="text-xl font-bold tracking-tight leading-none">effis s.r.o.</h3>
+                <h3 className="text-2xl font-bold tracking-tight leading-none">effis s.r.o.</h3>
               </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-sm">

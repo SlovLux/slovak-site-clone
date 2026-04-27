@@ -20,7 +20,7 @@ const Header = () => {
       {/* Top bar */}
       <div className="container mx-auto px-4 py-3 flex items-center justify-between gap-4">
         <Link to="/" className="shrink-0 flex items-center gap-2" aria-label="Domov">
-          <img src={effisLogo} alt="effis s.r.o." className="h-11 w-auto object-contain" />
+          <img src={effisLogo} alt="effis s.r.o." className="h-16 md:h-20 w-auto object-contain" />
         </Link>
 
         <div className="hidden md:flex flex-1" />
