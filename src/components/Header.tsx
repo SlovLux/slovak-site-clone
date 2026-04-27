@@ -9,6 +9,7 @@ const navItems = [
   { label: "Kancelársky nábytok", path: "/kancelarsky-nabytok" },
   { label: "Nábytok pre sociálne ubytovanie", path: "/nabytok-pre-utulky" },
   { label: "Nábytok pre univerzity", path: "/nabytok-pre-univerzity" },
+  { label: "Kontakt", path: "/kontakt" },
 ];
 
 const Header = () => {
