@@ -44,7 +44,7 @@ const Header = () => {
               <li key={item.path}>
                 <Link
                   to={item.path}
-                  className={`block px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary-foreground/10 transition-colors ${
+                  className={`block px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary-foreground/10 transition-colors whitespace-nowrap ${
                     location.pathname === item.path ? "bg-primary-foreground/10" : ""
                   }`}
                 >
