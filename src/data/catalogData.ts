@@ -18,13 +18,13 @@ export const schoolCatalog: CatalogSubcategory[] = [
     slug: "nabytok-pre-kabinet-fyziky",
     products: [
       {
-        image: "https://static.wixstatic.com/media/713410_752c3ae4fd50437680dc564c015f64f9~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_752c3ae4fd50437680dc564c015f64f9~mv2.png",
+        image: "/catalog/38b90b54488a0854.png",
         code: "77700+Фгеогр",
         name: "Stena pre predmetné kabinety s fototlačou (14 prvkov)",
         link: "",
       },
       {
-        image: "https://static.wixstatic.com/media/713410_0ec01c858c97424f8a7ecb35175934e3~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_0ec01c858c97424f8a7ecb35175934e3~mv2.png",
+        image: "/catalog/e81eb01757de1e8c.png",
         code: "6636+2х190212",
         name: "Súprava stola 2-miestneho na kovovom ráme a stoličiek s klzákmi č. 6",
         link: "",
@@ -1458,7 +1458,7 @@ export const schoolCatalog: CatalogSubcategory[] = [
     slug: "nabytok-pre-kabinet-biologie",
     products: [
       {
-        image: "https://static.wixstatic.com/media/713410_1108720f95d44989908ed36782f7f650~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1108720f95d44989908ed36782f7f650~mv2.png",
+        image: "/catalog/bc4d7bb18907540e.png",
         code: "77700+Фбіол",
         name: "Stena pre predmetné kabinety s fototlačou (14 prvkov)",
         link: "",
@@ -2400,7 +2400,7 @@ export const schoolCatalog: CatalogSubcategory[] = [
     slug: "skolske-steny-a-skrine",
     products: [
       {
-        image: "https://static.wixstatic.com/media/713410_94534d109ea74bf4888a4945c7818994~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_94534d109ea74bf4888a4945c7818994~mv2.png",
+        image: "/catalog/5afe3769b980beea.png",
         code: "7800",
         name: "Stena pre kabinet „Obrana Ukrajiny“",
         link: "",
@@ -4844,15 +4844,15 @@ export const kidsCatalog: CatalogSubcategory[] = [
     slug: "detske-steny",
     products: [
       { name: "Detská skriňa 3-sekčná", image: "https://static.wixstatic.com/media/713410_d92eecefc5b44b7e9dc7d50e5b630d69~mv2.jpg/v1/fill/w_129,h_88,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D0%BB%D0%BE%D0%B3%D0%BE.jpg", code: "" },
-      { name: "Otvorená skriňa „Domček\"", image: "https://static.wixstatic.com/media/713410_8ce515d410bf467ea7abb8d0529bb12e~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8ce515d410bf467ea7abb8d0529bb12e~mv2.png", code: "" },
+      { name: "Otvorená skriňa „Domček\"", image: "/catalog/6e7f7b44ab990401.png", code: "" },
       { name: "Univerzálna stena „Škola-Škôlka\" prvok č. 9", image: "https://static.wixstatic.com/media/713410_85ac9c5094774688afeec875d572a83e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_85ac9c5094774688afeec875d572a83e~mv2.jpg", code: "" },
       { name: "Стелаж мобільний з лотками N2", image: "https://static.wixstatic.com/media/713410_f91fd8b9718440ebbfa03e42ef249194~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_f91fd8b9718440ebbfa03e42ef249194~mv2.jpeg", code: "" },
       { name: "Стелаж мобільний з лотками N2", image: "https://static.wixstatic.com/media/713410_c2970faf673349fdac0e29967cef6a32~mv2.jpeg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c2970faf673349fdac0e29967cef6a32~mv2.jpeg", code: "" },
       { name: "Stena \"Морські пригоди\"", image: "https://static.wixstatic.com/media/713410_956783b9e50745578ef51c52d809c657~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_956783b9e50745578ef51c52d809c657~mv2.jpg", code: "" },
       { name: "Stena „Morské dobrodružstvá\" prvok č. 13", image: "https://static.wixstatic.com/media/713410_06974b284feb4ea9a45668b934e439f8~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_06974b284feb4ea9a45668b934e439f8~mv2.jpg", code: "" },
-      { name: "Stena „Morské dobrodružstvá\" prvok č. 12", image: "https://static.wixstatic.com/media/713410_24bb32e57f0442d0a647bdb3181fc137~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_24bb32e57f0442d0a647bdb3181fc137~mv2.png", code: "" },
+      { name: "Stena „Morské dobrodružstvá\" prvok č. 12", image: "/catalog/b968fb8879410bb2.png", code: "" },
       { name: "Stena „Morské dobrodružstvá\" prvok č. 11", image: "https://static.wixstatic.com/media/713410_1bfca71b68d3497eaad216a3a382f18c~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1bfca71b68d3497eaad216a3a382f18c~mv2.jpg", code: "" },
-      { name: "Stena „Morské dobrodružstvá\" prvok č. 10", image: "https://static.wixstatic.com/media/713410_219ce44ae0724d1984a8a4ef1723b64a~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_219ce44ae0724d1984a8a4ef1723b64a~mv2.png", code: "" },
+      { name: "Stena „Morské dobrodružstvá\" prvok č. 10", image: "/catalog/39f07b48cd5320e5.png", code: "" },
       { name: "Stena „Morské dobrodružstvá\" prvok č. 8", image: "https://static.wixstatic.com/media/713410_b5f5af170ed2458cb9396958eb0d9d66~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b5f5af170ed2458cb9396958eb0d9d66~mv2.png", code: "" },
       { name: "Stena „Morské dobrodružstvá\" prvok č. 7", image: "https://static.wixstatic.com/media/713410_9c2e03cc8b1d4674bbd39c164f09f7de~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_9c2e03cc8b1d4674bbd39c164f09f7de~mv2.jpg", code: "" },
       { name: "Stena „Morské dobrodružstvá\" prvok č. 6", image: "https://static.wixstatic.com/media/713410_d95da679759c47f297f0c0022d9adcef~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d95da679759c47f297f0c0022d9adcef~mv2.jpg", code: "" },
@@ -5076,17 +5076,17 @@ export const kidsCatalog: CatalogSubcategory[] = [
     slug: "skrine-vesiaky",
     products: [
       { name: "Detská skriňa 3-sekčná", image: "https://static.wixstatic.com/media/713410_d92eecefc5b44b7e9dc7d50e5b630d69~mv2.jpg/v1/fill/w_129,h_88,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D0%BB%D0%BE%D0%B3%D0%BE.jpg", code: "" },
-      { name: "Skriňa-locker", image: "https://static.wixstatic.com/media/713410_8ce515d410bf467ea7abb8d0529bb12e~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8ce515d410bf467ea7abb8d0529bb12e~mv2.png", code: "" },
+      { name: "Skriňa-locker", image: "/catalog/6e7f7b44ab990401.png", code: "" },
       { name: "Skriňa-locker s 8 dverami", image: "https://static.wixstatic.com/media/713410_85ac9c5094774688afeec875d572a83e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_85ac9c5094774688afeec875d572a83e~mv2.jpg", code: "" },
-      { name: "Skriňa-locker s 6 dverami", image: "https://static.wixstatic.com/media/713410_95fe1ca725504261a535a55a08586ae8~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_95fe1ca725504261a535a55a08586ae8~mv2.png", code: "" },
+      { name: "Skriňa-locker s 6 dverami", image: "/catalog/012bb73f9b47d567.png", code: "" },
       { name: "Стелаж для книг розбірний 2-во секційний з 6-ма полицями", image: "https://static.wixstatic.com/media/713410_a7abc6b56fbb48589c1b212e797ed049~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a7abc6b56fbb48589c1b212e797ed049~mv2.jpg", code: "" },
-      { name: "Стелаж для книг розбірний 1-но секційний з 6-ма полицями", image: "https://static.wixstatic.com/media/713410_95eeb0699098433b9f035c610e9e51e2~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_95eeb0699098433b9f035c610e9e51e2~mv2.png", code: "" },
+      { name: "Стелаж для книг розбірний 1-но секційний з 6-ма полицями", image: "/catalog/069e4653f26c6e10.png", code: "" },
       { name: "Стелаж 2-сторонній на 25 комірок", image: "https://static.wixstatic.com/media/713410_dad563b3dbd94243bd35fd5f411a4b74~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_dad563b3dbd94243bd35fd5f411a4b74~mv2.jpg", code: "" },
-      { name: "Skriňa дитяча \"Будиночок\" та шафа 3-секційна", image: "https://static.wixstatic.com/media/713410_4ddf10fad2774fc29be69f54559528aa~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4ddf10fad2774fc29be69f54559528aa~mv2.png", code: "" },
+      { name: "Skriňa дитяча \"Будиночок\" та шафа 3-секційна", image: "/catalog/d73cbd3696382f60.png", code: "" },
       { name: "3-section Detský cabinet", image: "https://static.wixstatic.com/media/713410_5ac8bf4a3f3b41b5bcc0fb0c99d6a780~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5ac8bf4a3f3b41b5bcc0fb0c99d6a780~mv2.jpg", code: "" },
-      { name: "Skriňa дитяча \"Будиночок\"", image: "https://static.wixstatic.com/media/713410_68b5f2bfe1884bd79bc48cdab24eb47c~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_68b5f2bfe1884bd79bc48cdab24eb47c~mv2.png", code: "" },
+      { name: "Skriňa дитяча \"Будиночок\"", image: "/catalog/3fd8020e9a4cba57.png", code: "" },
       { name: "Jednodverová detská skriňa s fotopotlačou „Tajomný vesmír\"", image: "https://static.wixstatic.com/media/713410_937a3fa19c1c488ea9adfd12d351036e~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_937a3fa19c1c488ea9adfd12d351036e~mv2.jpg", code: "" },
-      { name: "Trojdverová detská skriňa s fotopotlačou „Tajomný vesmír\"", image: "https://static.wixstatic.com/media/713410_3353e01d89bb4806ba58e2675d2677b8~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3353e01d89bb4806ba58e2675d2677b8~mv2.png", code: "" },
+      { name: "Trojdverová detská skriňa s fotopotlačou „Tajomný vesmír\"", image: "/catalog/6bc07efa61ed206b.png", code: "" },
       { name: "Jednodverová detská skriňa s fotopotlačou „Tajomný vesmír\"", image: "https://static.wixstatic.com/media/713410_109cebbbe2b44a19871c8de3897af736~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_109cebbbe2b44a19871c8de3897af736~mv2.jpg", code: "" },
       { name: "Trojdverová detská skriňa s fotopotlačou „Tajomný vesmír\"", image: "https://static.wixstatic.com/media/713410_da3609a717ea45499c7781261f748830~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_da3609a717ea45499c7781261f748830~mv2.png", code: "" },
       { name: "Three-door children`s skriňa s fotopotlačou \"Staré mesto\"", image: "https://static.wixstatic.com/media/713410_81afb65d031d4d4b93f146ae3c11f429~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_81afb65d031d4d4b93f146ae3c11f429~mv2.jpg", code: "" },
@@ -5116,11 +5116,11 @@ export const kidsCatalog: CatalogSubcategory[] = [
     slug: "morske-dobrodruzstva",
     products: [
       { name: "Puf Kocka", image: "https://static.wixstatic.com/media/713410_d92eecefc5b44b7e9dc7d50e5b630d69~mv2.jpg/v1/fill/w_129,h_88,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D0%BB%D0%BE%D0%B3%D0%BE.jpg", code: "" },
-      { name: "Sedací vak Hruška 90х65 см", image: "https://static.wixstatic.com/media/713410_8f3aa4e1c4dc477cac33886492df67da~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8f3aa4e1c4dc477cac33886492df67da~mv2.png", code: "" },
+      { name: "Sedací vak Hruška 90х65 см", image: "/catalog/da623300724c0008.png", code: "" },
       { name: "Sedací vak Hruška 90х65", image: "https://static.wixstatic.com/media/713410_b5b36b5049f543eaa4953ac9a95ffd0f~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b5b36b5049f543eaa4953ac9a95ffd0f~mv2.png", code: "" },
       { name: "Sedací vak Hruška 100х70", image: "https://static.wixstatic.com/media/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png", code: "" },
       { name: "Sedací vak Hruška 100х75 см", image: "https://static.wixstatic.com/media/713410_2744813678884cd281404e31e2fd6c96~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2744813678884cd281404e31e2fd6c96~mv2.png", code: "" },
-      { name: "Detský stôl \"Острівець\" регулюється на ростові групи № 1-3", image: "https://static.wixstatic.com/media/713410_ad43dac1d48140769aa51ac08f3b7d3c~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ad43dac1d48140769aa51ac08f3b7d3c~mv2.png", code: "" },
+      { name: "Detský stôl \"Острівець\" регулюється на ростові групи № 1-3", image: "/catalog/151a7b52c3162b9a.png", code: "" },
       { name: "Detská stolička ISO, height group №2, with HPL covering", image: "https://static.wixstatic.com/media/713410_ebb977ed00ca40ee97ff8893f5e100c5~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ebb977ed00ca40ee97ff8893f5e100c5~mv2.png", code: "" },
       { name: "Stena \"Морські пригоди\"", image: "https://static.wixstatic.com/media/713410_a5822a8d19b8497ab2ac507616449c06~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a5822a8d19b8497ab2ac507616449c06~mv2.png", code: "" },
       { name: "Stena „Morské dobrodružstvá\" prvok č. 13", image: "https://static.wixstatic.com/media/713410_2744813678884cd281404e31e2fd6c96~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2744813678884cd281404e31e2fd6c96~mv2.png", code: "" },
@@ -5168,7 +5168,7 @@ export const officeCatalog: CatalogSubcategory[] = [
     name: "Písacie a konferenčné stoly, tumby",
     slug: "pisacie-konferencne-stoly",
     products: [
-      { name: "Konferenčný rokovací stôl", image: "https://static.wixstatic.com/media/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png", code: "6628х6" },
+      { name: "Konferenčný rokovací stôl", image: "/catalog/179ea440a517c455.png", code: "6628х6" },
       { name: "Konferenčný stôl na kovovej konštrukcii", image: "https://static.wixstatic.com/media/713410_50916f73b9574574b232fb9677a6ce9a~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_50916f73b9574574b232fb9677a6ce9a~mv2.jpg", code: "6640" },
       { name: "Rohový písací stôl na kovovej konštrukcii", image: "https://static.wixstatic.com/media/713410_8f9465cde4c14f1bac86251ec2bd1e0b~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8f9465cde4c14f1bac86251ec2bd1e0b~mv2.jpg", code: "6639" },
       { name: "Prístavný stôl na kovovej konštrukcii", image: "https://static.wixstatic.com/media/713410_aff9f554a97740979b0d8ca1ce231b8b~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_aff9f554a97740979b0d8ca1ce231b8b~mv2.jpg", code: "6635" },
@@ -5177,15 +5177,15 @@ export const officeCatalog: CatalogSubcategory[] = [
       { name: "Stôlець поворотний ultra gtp", image: "https://static.wixstatic.com/media/713410_181d3f5df5f242d9b67133c69fce2ae2~mv2.webp/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_181d3f5df5f242d9b67133c69fce2ae2~mv2.webp", code: "TILT" },
       { name: "Stôlpísací na kovovej konštrukcii", image: "https://static.wixstatic.com/media/713410_1fdba48f2b6447069daaee3f0d869f50~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1fdba48f2b6447069daaee3f0d869f50~mv2.png", code: "6636" },
       { name: "Stôlець з суцaльногнутим каркасом a фанерним моноблоком", image: "https://static.wixstatic.com/media/713410_80107266b65e4e8580e5073a02080613~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_80107266b65e4e8580e5073a02080613~mv2.jpg", code: "48490" },
-      { name: "Stôlець з суцaльногнутим каркасом a фанерним моноблоком", image: "https://static.wixstatic.com/media/713410_1f6e48e9dae34d82aa6ba52195218174~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1f6e48e9dae34d82aa6ba52195218174~mv2.png", code: "48490HPL" },
-      { name: "Písací stôl na kovovej konštrukcii", image: "https://static.wixstatic.com/media/713410_925c4a0fbc3848e58c5c7e6745da2ecf~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_925c4a0fbc3848e58c5c7e6745da2ecf~mv2.png", code: "6634" },
+      { name: "Stôlець з суцaльногнутим каркасом a фанерним моноблоком", image: "/catalog/b96180092aabca0a.png", code: "48490HPL" },
+      { name: "Písací stôl na kovovej konštrukcii", image: "/catalog/c0f7047c642749f6.png", code: "6634" },
       { name: "Konferenčný stolík", image: "https://static.wixstatic.com/media/713410_4cfb1e0a51d641cea21edf10c4467f36~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4cfb1e0a51d641cea21edf10c4467f36~mv2.jpg", code: "6630" },
       { name: "Konferenčný stolík pravouhlий", image: "https://static.wixstatic.com/media/713410_f71a12d1085248b5a46240168d48161d~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_f71a12d1085248b5a46240168d48161d~mv2.jpg", code: "6629" },
       { name: "Rokovací stôl pre конференц залу", image: "https://static.wixstatic.com/media/713410_141543c991134486b3bc35d7a436cb0d~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_141543c991134486b3bc35d7a436cb0d~mv2.jpg", code: "6628" },
       { name: "Пу трансформер м який 5 в", image: "https://static.wixstatic.com/media/713410_5a9dbb361d9a44b2b3e9d5af942e0292~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5a9dbb361d9a44b2b3e9d5af942e0292~mv2.png", code: "39321" },
       { name: "Tumba otvorená s podnosmi", image: "https://static.wixstatic.com/media/713410_537d40b7d2854630830ae9dff7e185a1~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_537d40b7d2854630830ae9dff7e185a1~mv2.jpg", code: "7807" },
       { name: "Tumba uzavretá з полицею", image: "https://static.wixstatic.com/media/713410_da80a7af2c2941d98af5c37c500a3530~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_da80a7af2c2941d98af5c37c500a3530~mv2.jpg", code: "7806" },
-      { name: "Stôlець розкладний naпaвм який шкaрзамaнник", image: "https://static.wixstatic.com/media/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png", code: "59216" },
+      { name: "Stôlець розкладний naпaвм який шкaрзамaнник", image: "/catalog/b6b7aa9e479b27af.png", code: "59216" },
       { name: "Komplet stolov кутових s Tumbaми", image: "https://static.wixstatic.com/media/713410_5d894735d93b4520881e806760960349~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5d894735d93b4520881e806760960349~mv2.jpg", code: "6622х4+6620х4" },
       { name: "Stôl prístavný k конференц столу", image: "https://static.wixstatic.com/media/713410_dd80336f9244455595add58d10b375cd~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_dd80336f9244455595add58d10b375cd~mv2.jpg", code: "6626" },
       { name: "Komplet stolov pre rokovania", image: "https://static.wixstatic.com/media/713410_3282814c21df48ffa28ca524e0c09568~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3282814c21df48ffa28ca524e0c09568~mv2.jpg", code: "33601" },
@@ -5221,7 +5221,7 @@ export const officeCatalog: CatalogSubcategory[] = [
       { name: "Tumba мобaльna", image: "https://static.wixstatic.com/media/713410_89fb8a4b883844d3b63d8602718fe90a~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_89fb8a4b883844d3b63d8602718fe90a~mv2.jpg", code: "8254" },
       { name: "Prístavná tumba", image: "https://static.wixstatic.com/media/713410_8e75471206764e428574cb63c2bc7c14~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8e75471206764e428574cb63c2bc7c14~mv2.jpg", code: "8261" },
       { name: "Stôlець naпaвм який престиж látka", image: "https://static.wixstatic.com/media/713410_154d49611c044afc87991057c9847cb2~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_154d49611c044afc87991057c9847cb2~mv2.jpg", code: "29537" },
-      { name: "Stôlець naпaвм який iso látka", image: "https://static.wixstatic.com/media/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png", code: "0222" },
+      { name: "Stôlець naпaвм який iso látka", image: "/catalog/c16aca73d6462176.png", code: "0222" },
       { name: "Stôlець naпaвм який iso шкaрзамaнник", image: "https://static.wixstatic.com/media/713410_6c8edd7ead7943f7878a59f3ca5f2bbd~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6c8edd7ead7943f7878a59f3ca5f2bbd~mv2.jpg", code: "0221" },
     ],
   },
@@ -5230,9 +5230,9 @@ export const officeCatalog: CatalogSubcategory[] = [
     slug: "kancelarske-skrine",
     products: [
       { name: "Pencil so policami a podnosmi", image: "https://static.wixstatic.com/media/713410_7c57c865afa14f2a835b02344e15184d~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_7c57c865afa14f2a835b02344e15184d~mv2.jpg", code: "7702+22702 №2 Лт" },
-      { name: "Šatňová skriňa (locker) locker", image: "https://static.wixstatic.com/media/713410_95fe1ca725504261a535a55a08586ae8~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_95fe1ca725504261a535a55a08586ae8~mv2.png", code: "7161Z+7262Z" },
-      { name: "Šatňová skriňa (locker) locker na 8 dvierok", image: "https://static.wixstatic.com/media/713410_95eeb0699098433b9f035c610e9e51e2~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_95eeb0699098433b9f035c610e9e51e2~mv2.png", code: "7262Z" },
-      { name: "Šatňová skriňa (locker) locker na 6 dvierok", image: "https://static.wixstatic.com/media/713410_4ddf10fad2774fc29be69f54559528aa~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4ddf10fad2774fc29be69f54559528aa~mv2.png", code: "7161Z" },
+      { name: "Šatňová skriňa (locker) locker", image: "/catalog/bff8d696e788bd9f.png", code: "7161Z+7262Z" },
+      { name: "Šatňová skriňa (locker) locker na 8 dvierok", image: "/catalog/f7b14d0d6cabbdde.png", code: "7262Z" },
+      { name: "Šatňová skriňa (locker) locker na 6 dvierok", image: "/catalog/5d813d558049c56e.png", code: "7161Z" },
       { name: "Uzavretá skriňa s podnosmi", image: "https://static.wixstatic.com/media/713410_b60b30ab5b7f4b46bfb7cedca494f394~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b60b30ab5b7f4b46bfb7cedca494f394~mv2.jpg", code: "7706+22706№2_Лт" },
       { name: "Polootvorená skriňa s podnosmi n2", image: "https://static.wixstatic.com/media/713410_22bbff14f2b94b4d8965d201d823cbd5~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_22bbff14f2b94b4d8965d201d823cbd5~mv2.jpg", code: "7705+22705№3_Лт" },
       { name: "Polootvorená skriňa s podnosmi n2", image: "https://static.wixstatic.com/media/713410_1e120dd5146f4d059ec43a3f7340842a~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1e120dd5146f4d059ec43a3f7340842a~mv2.jpg", code: "7705+22705№3_Лт" },
@@ -5245,8 +5245,8 @@ export const officeCatalog: CatalogSubcategory[] = [
       { name: "Pencil s policami a лотками", image: "https://static.wixstatic.com/media/713410_72e64ef44cbd42f09f623e3b3ab42bc2~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_72e64ef44cbd42f09f623e3b3ab42bc2~mv2.jpg", code: "7702+22702№3_Лт" },
       { name: "Pencil s policami a лотками", image: "https://static.wixstatic.com/media/713410_6efdaf645f1043ca895e0c251e03f7e9~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6efdaf645f1043ca895e0c251e03f7e9~mv2.jpg", code: "7702+22702№3_Лт" },
       { name: "Pencil s policami a лотками", image: "https://static.wixstatic.com/media/713410_bb3f0291f915493d8521ab21ae9fc7b7~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bb3f0291f915493d8521ab21ae9fc7b7~mv2.jpg", code: "7702+22702№1_Лт" },
-      { name: "Regál pre книг розбaрний 2 во секцaйний з 6 ма Policaми", image: "https://static.wixstatic.com/media/713410_68b5f2bfe1884bd79bc48cdab24eb47c~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_68b5f2bfe1884bd79bc48cdab24eb47c~mv2.png", code: "" },
-      { name: "Regál pre книг розбaрний 1 но секцaйний з 6 ма Policaми", image: "https://static.wixstatic.com/media/713410_3353e01d89bb4806ba58e2675d2677b8~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3353e01d89bb4806ba58e2675d2677b8~mv2.png", code: "69860" },
+      { name: "Regál pre книг розбaрний 2 во секцaйний з 6 ма Policaми", image: "/catalog/8660dfa098cbb4ea.png", code: "" },
+      { name: "Regál pre книг розбaрний 1 но секцaйний з 6 ма Policaми", image: "/catalog/9c5888c1b46e5656.png", code: "69860" },
       { name: "Šatníková skriňa з висувною шaнгою", image: "https://static.wixstatic.com/media/713410_c4a18ae707cb4aeda3794b2f1f7b3aa4~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c4a18ae707cb4aeda3794b2f1f7b3aa4~mv2.jpg", code: "7714" },
       { name: "Uzavretá skriňa 2 х дверna з Policaми", image: "https://static.wixstatic.com/media/713410_14789804bb13427aa33903e827ccd065~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_14789804bb13427aa33903e827ccd065~mv2.jpg", code: "6617" },
       { name: "Skriňa s policami otvorená", image: "https://static.wixstatic.com/media/713410_f8f1e5c26e1c4460ba888c510151b140~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_f8f1e5c26e1c4460ba888c510151b140~mv2.jpg", code: "6627" },
@@ -5270,7 +5270,7 @@ export const officeCatalog: CatalogSubcategory[] = [
       { name: "Skriňa 4 х дверna з 2 ма скляними дверцяaми a Policaми", image: "https://static.wixstatic.com/media/713410_7f53c56cd240454cb6c265d9f285bb20~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_7f53c56cd240454cb6c265d9f285bb20~mv2.jpg", code: "6609" },
       { name: "Polootvorená skriňa з 2 ма вaдкритими Policaми", image: "https://static.wixstatic.com/media/713410_871917fecb204647b7abea9980d9f538~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_871917fecb204647b7abea9980d9f538~mv2.jpg", code: "6604" },
       { name: "Pencil s policami правостороннaй", image: "https://static.wixstatic.com/media/713410_a50c0dec55e548109034a876dcc62caa~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a50c0dec55e548109034a876dcc62caa~mv2.jpg", code: "6606R" },
-      { name: "Skriňa s policami otvorená", image: "https://static.wixstatic.com/media/713410_881ef66c758e47e39c30fc62fc36e93f~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_881ef66c758e47e39c30fc62fc36e93f~mv2.png", code: "6607" },
+      { name: "Skriňa s policami otvorená", image: "/catalog/0c37bac5151e79f1.png", code: "6607" },
       { name: "Pencil s policami лaвостороннaй", image: "https://static.wixstatic.com/media/713410_1cf5b462b5fb449b970460eedc993281~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1cf5b462b5fb449b970460eedc993281~mv2.jpg", code: "6606L" },
       { name: "Polootvorená skriňa з однaєю вaдкритою полицею", image: "https://static.wixstatic.com/media/713410_2895607357044cb0a6df330b2546cf5a~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2895607357044cb0a6df330b2546cf5a~mv2.jpg", code: "6605" },
       { name: "Polootvorená skriňa з 3 ма вaдкритими Policaми", image: "https://static.wixstatic.com/media/713410_e59ecedb274e4d0aa610b3b5bae5e182~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_e59ecedb274e4d0aa610b3b5bae5e182~mv2.jpg", code: "6603" },
@@ -5298,19 +5298,19 @@ export const officeCatalog: CatalogSubcategory[] = [
       { name: "Komplet kancelárskych Sedačkaaв nina", image: "https://static.wixstatic.com/media/713410_9ff6b3ebac59401f8c8c57b282af98ee~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_9ff6b3ebac59401f8c8c57b282af98ee~mv2.jpg", code: "" },
       { name: "Sedačka nina 3 -miestny látka", image: "https://static.wixstatic.com/media/713410_3f551768814448d6ad8a0412520809bb~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3f551768814448d6ad8a0412520809bb~mv2.jpg", code: "79203" },
       { name: "Sedačka nina rohový látka", image: "https://static.wixstatic.com/media/713410_1517b16afdb545d5acba030c5ef1f625~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1517b16afdb545d5acba030c5ef1f625~mv2.jpg", code: "79204" },
-      { name: "Okrúhly pouf konštrukčný tela látka", image: "https://static.wixstatic.com/media/713410_9807209a8ddd4fb49a0b48d2ed495ac3~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_9807209a8ddd4fb49a0b48d2ed495ac3~mv2.png", code: "79490" },
-      { name: "Pouf kvapka konštrukčný tela látka", image: "https://static.wixstatic.com/media/713410_bdc631925c5e4563b45c336b64c9fbe9~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bdc631925c5e4563b45c336b64c9fbe9~mv2.png", code: "79494" },
-      { name: "Pouf lupienok konštrukčný tela látka", image: "https://static.wixstatic.com/media/713410_1adbcee669b04fa6b9328a6bc0fabd1a~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1adbcee669b04fa6b9328a6bc0fabd1a~mv2.png", code: "79497" },
+      { name: "Okrúhly pouf konštrukčný tela látka", image: "/catalog/530f5f42081dc8c0.png", code: "79490" },
+      { name: "Pouf kvapka konštrukčný tela látka", image: "/catalog/41f337374c630e44.png", code: "79494" },
+      { name: "Pouf lupienok konštrukčný tela látka", image: "/catalog/dd4ff78bd7b5fbeb.png", code: "79497" },
       { name: "Pouf nina látka", image: "https://static.wixstatic.com/media/713410_14717ffe7c3b49f8a3d9f3395461bbd3~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_14717ffe7c3b49f8a3d9f3395461bbd3~mv2.jpg", code: "79200" },
       { name: "Sedačka nina látka", image: "https://static.wixstatic.com/media/713410_cbd7ee1a7e7d46d08777462b74c0a4c0~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_cbd7ee1a7e7d46d08777462b74c0a4c0~mv2.jpg", code: "79201" },
       { name: "Sedačka nina látka", image: "https://static.wixstatic.com/media/713410_42b305a57584415bbc3598c6c71a0110~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_42b305a57584415bbc3598c6c71a0110~mv2.jpg", code: "79202" },
       { name: "Stôlець банкетний naпaвм який з пaдлокaтниками látka", image: "https://static.wixstatic.com/media/713410_d8b18fff4885458bae122784fa2aeb09~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d8b18fff4885458bae122784fa2aeb09~mv2.jpg", code: "62503" },
       { name: "Komplet Sedačkaaв kancelárskych шкaрзам s 5 prvokaв", image: "https://static.wixstatic.com/media/713410_26fbbc0a0be04ca994745e25b7c06b02~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_26fbbc0a0be04ca994745e25b7c06b02~mv2.jpg", code: "" },
       { name: "Pouf rohový forma látka", image: "https://static.wixstatic.com/media/713410_c970db4f23ad4fb5b2cf7a829c2d452a~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c970db4f23ad4fb5b2cf7a829c2d452a~mv2.jpg", code: "64146" },
-      { name: "Pouf forma látka", image: "https://static.wixstatic.com/media/713410_8b2e60c2a6bb430497caa6f2069b8cad~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8b2e60c2a6bb430497caa6f2069b8cad~mv2.png", code: "64143" },
+      { name: "Pouf forma látka", image: "/catalog/1e512195e6712cab.png", code: "64143" },
       { name: "Pouf forma látka", image: "https://static.wixstatic.com/media/713410_fe0013b36f27415a9395009f9b48b777~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_fe0013b36f27415a9395009f9b48b777~mv2.png", code: "64132" },
-      { name: "Pouf so спинкою forma látka", image: "https://static.wixstatic.com/media/713410_430e17f8ae124b5f994dec15347dac1d~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_430e17f8ae124b5f994dec15347dac1d~mv2.png", code: "64129" },
-      { name: "Kancelárska sedačka шкaрзам", image: "https://static.wixstatic.com/media/713410_138a78482f5747bfad9c6021bdf3e255~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_138a78482f5747bfad9c6021bdf3e255~mv2.png", code: "55602" },
+      { name: "Pouf so спинкою forma látka", image: "/catalog/b724b291723cccea.png", code: "64129" },
+      { name: "Kancelárska sedačka шкaрзам", image: "/catalog/c11efe75f0158935.png", code: "55602" },
       { name: "Kreslo lira gtp", image: "https://static.wixstatic.com/media/713410_c2464acf469e49b78eefe068d17fb1ac~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c2464acf469e49b78eefe068d17fb1ac~mv2.png", code: "TILT" },
       { name: "Kancelárska sedačka без спинки шкaрзам", image: "https://static.wixstatic.com/media/713410_0ab0027286154b9093cd88d8d42daf9a~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_0ab0027286154b9093cd88d8d42daf9a~mv2.jpg", code: "59709" },
       { name: "Kancelárska sedačka 2 -miestny шкaрзам", image: "https://static.wixstatic.com/media/713410_935858e337b54d12956f7a9b23efe7b4~mv2.jpg/v1/fill/w_500,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_935858e337b54d12956f7a9b23efe7b4~mv2.jpg", code: "59697" },
@@ -5340,7 +5340,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Stôl rokovací zasadací",
-        image: "https://static.wixstatic.com/media/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png",
+        image: "/catalog/cca172f5c0d4d9a0.png",
         code: "",
       },
       {
@@ -5355,22 +5355,22 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Stolička T-typu, výškovo nastaviteľný č.(3)4-6 s HPL",
-        image: "https://static.wixstatic.com/media/713410_01a85e94ece24e6893557292ad393d24~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01a85e94ece24e6893557292ad393d24~mv2.png",
+        image: "/catalog/1ba881aaf80abcb1.png",
         code: "",
       },
       {
         name: "Stolička T-typu, výškovo nastaviteľný č.(3)4-6",
-        image: "https://static.wixstatic.com/media/713410_01a85e94ece24e6893557292ad393d24~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01a85e94ece24e6893557292ad393d24~mv2.png",
+        image: "/catalog/1ba881aaf80abcb1.png",
         code: "",
       },
       {
         name: "Skriňa bunková (lokra)",
-        image: "https://static.wixstatic.com/media/713410_95fe1ca725504261a535a55a08586ae8~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_95fe1ca725504261a535a55a08586ae8~mv2.png",
+        image: "/catalog/012bb73f9b47d567.png",
         code: "",
       },
       {
         name: "Skriňa bunková (lokra) na 6 дверок",
-        image: "https://static.wixstatic.com/media/713410_4ddf10fad2774fc29be69f54559528aa~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4ddf10fad2774fc29be69f54559528aa~mv2.png",
+        image: "/catalog/d73cbd3696382f60.png",
         code: "",
       },
       {
@@ -5395,12 +5395,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Puf Куб",
-        image: "https://static.wixstatic.com/media/713410_8f3aa4e1c4dc477cac33886492df67da~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8f3aa4e1c4dc477cac33886492df67da~mv2.png",
+        image: "/catalog/da623300724c0008.png",
         code: "",
       },
       {
         name: "Stolička pre jedáleň s plastovým 3-vrstveným monoblokom",
-        image: "https://static.wixstatic.com/media/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png",
+        image: "/catalog/1da147dc0423576c.png",
         code: "",
       },
       {
@@ -5410,12 +5410,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Stolička s preglejkovým monoblokom",
-        image: "https://static.wixstatic.com/media/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png",
+        image: "/catalog/ab712e863f379e3e.png",
         code: "",
       },
       {
         name: "Stolička s preglejkovým monoblokom, s povrchom preglejky HPL",
-        image: "https://static.wixstatic.com/media/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png",
+        image: "/catalog/1b61ad6fc09c0725.png",
         code: "",
       },
       {
@@ -5430,7 +5430,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Kreslo-vak Hruška 90х65",
-        image: "https://static.wixstatic.com/media/713410_ad43dac1d48140769aa51ac08f3b7d3c~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_ad43dac1d48140769aa51ac08f3b7d3c~mv2.png",
+        image: "/catalog/151a7b52c3162b9a.png",
         code: "",
       },
       {
@@ -5480,22 +5480,22 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Lavica školská, stôl rozkladací na kovovej konštrukcii",
-        image: "https://static.wixstatic.com/media/713410_b1e5f8805a6c457393710ae5180ee0aa~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b1e5f8805a6c457393710ae5180ee0aa~mv2.png",
+        image: "/catalog/bb24206ed7254c0f.png",
         code: "",
       },
       {
         name: "Stolička rozkladací напівmäkký, шкірзамінник",
-        image: "https://static.wixstatic.com/media/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png",
+        image: "/catalog/efe0d8e339cc2097.png",
         code: "",
       },
       {
         name: "Stolička pre školskej jedálne so operadlom (з preglejkovým monoblokom, potiahnutý HPL)",
-        image: "https://static.wixstatic.com/media/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png",
+        image: "/catalog/f218e31d669434c0.png",
         code: "",
       },
       {
         name: "Stôl rozkladací na kovovej konštrukcii na колесиках",
-        image: "https://static.wixstatic.com/media/713410_87e7ad68a14247edb0a71361f0bd93bb~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_87e7ad68a14247edb0a71361f0bd93bb~mv2.png",
+        image: "/catalog/de6b1708b4e1657c.png",
         code: "",
       },
       {
@@ -5515,7 +5515,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Set of 1-seat student`s table without a shelf, č.4-7 + chair on slades, round tube, with HPL coating, č.6",
-        image: "https://static.wixstatic.com/media/713410_c360ba42f8f34fc3910f8eb4d07e0de5~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c360ba42f8f34fc3910f8eb4d07e0de5~mv2.png",
+        image: "/catalog/7cdaa939e7361d49.png",
         code: "",
       },
       {
@@ -5560,7 +5560,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Semi-soft bench with a back",
-        image: "https://static.wixstatic.com/media/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png",
+        image: "/catalog/2f3b17335c6f0881.png",
         code: "",
       },
       {
@@ -5790,7 +5790,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Semi-soft chair ISO, fabric",
-        image: "https://static.wixstatic.com/media/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png",
+        image: "/catalog/ce6ab835dde80f82.png",
         code: "",
       },
       {
@@ -5967,12 +5967,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
     products: [
       {
         name: "Stôl rokovací zasadací",
-        image: "https://static.wixstatic.com/media/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_09542a3a652d44abb408be0eeb6146a1~mv2.png",
+        image: "/catalog/cca172f5c0d4d9a0.png",
         code: "",
       },
       {
         name: "Stôl žiacky 1-miestny без police, č.4-7",
-        image: "https://static.wixstatic.com/media/713410_2cba92b3ccdc4c759f6794ba48f7ac45~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2cba92b3ccdc4c759f6794ba48f7ac45~mv2.png",
+        image: "/catalog/16d53a3eda3cecc8.png",
         code: "",
       },
       {
@@ -5992,12 +5992,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Lavica školská, stôl rozkladací na kovovej konštrukcii",
-        image: "https://static.wixstatic.com/media/713410_b1e5f8805a6c457393710ae5180ee0aa~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b1e5f8805a6c457393710ae5180ee0aa~mv2.png",
+        image: "/catalog/bb24206ed7254c0f.png",
         code: "",
       },
       {
         name: "Stôl rozkladací na kovovej konštrukcii na колесиках",
-        image: "https://static.wixstatic.com/media/713410_87e7ad68a14247edb0a71361f0bd93bb~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_87e7ad68a14247edb0a71361f0bd93bb~mv2.png",
+        image: "/catalog/de6b1708b4e1657c.png",
         code: "",
       },
       {
@@ -6133,12 +6133,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Stolička T-typu, výškovo nastaviteľný č.(3)4-6 s HPL",
-        image: "https://static.wixstatic.com/media/713410_01a85e94ece24e6893557292ad393d24~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01a85e94ece24e6893557292ad393d24~mv2.png",
+        image: "/catalog/1ba881aaf80abcb1.png",
         code: "",
       },
       {
         name: "Stolička T-typu, výškovo nastaviteľný č.(3)4-6",
-        image: "https://static.wixstatic.com/media/713410_01a85e94ece24e6893557292ad393d24~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_01a85e94ece24e6893557292ad393d24~mv2.png",
+        image: "/catalog/1ba881aaf80abcb1.png",
         code: "",
       },
       {
@@ -6158,7 +6158,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Stolička pre jedáleň s plastovým 3-vrstveným monoblokom",
-        image: "https://static.wixstatic.com/media/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png",
+        image: "/catalog/1da147dc0423576c.png",
         code: "",
       },
       {
@@ -6168,12 +6168,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Stolička s preglejkovým monoblokom",
-        image: "https://static.wixstatic.com/media/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png",
+        image: "/catalog/ab712e863f379e3e.png",
         code: "",
       },
       {
         name: "Stolička s preglejkovým monoblokom, s povrchom preglejky HPL",
-        image: "https://static.wixstatic.com/media/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png",
+        image: "/catalog/1b61ad6fc09c0725.png",
         code: "",
       },
       {
@@ -6198,12 +6198,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Stolička rozkladací напівmäkký, шкірзамінник",
-        image: "https://static.wixstatic.com/media/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c169b6e5b2144138bc99debd49d23c93~mv2.png",
+        image: "/catalog/efe0d8e339cc2097.png",
         code: "",
       },
       {
         name: "Stolička pre školskej jedálne so operadlom (з preglejkovým monoblokom, potiahnutý HPL)",
-        image: "https://static.wixstatic.com/media/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png",
+        image: "/catalog/f218e31d669434c0.png",
         code: "",
       },
       {
@@ -6238,7 +6238,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Semi-soft chair ISO, fabric",
-        image: "https://static.wixstatic.com/media/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bee3f7cd85dc4e789f258f71cc01b448~mv2.png",
+        image: "/catalog/ce6ab835dde80f82.png",
         code: "",
       },
       {
@@ -6459,7 +6459,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Stolička pre jedáleň s plastovým 3-vrstveným monoblokom",
-        image: "https://static.wixstatic.com/media/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_33a6fc4d4ab547ee8641151e786c3863~mv2.png",
+        image: "/catalog/1da147dc0423576c.png",
         code: "",
       },
       {
@@ -6469,12 +6469,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Stolička s preglejkovým monoblokom",
-        image: "https://static.wixstatic.com/media/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2f0928d6686a4c7f8e4ae800e979f4ae~mv2.png",
+        image: "/catalog/ab712e863f379e3e.png",
         code: "",
       },
       {
         name: "Stolička s preglejkovým monoblokom, s povrchom preglejky HPL",
-        image: "https://static.wixstatic.com/media/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_c4088abbb3bd4655b680b0b79b1570c1~mv2.png",
+        image: "/catalog/1b61ad6fc09c0725.png",
         code: "",
       },
       {
@@ -6504,7 +6504,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Stolička pre školskej jedálne so operadlom (з preglejkovým monoblokom, potiahnutý HPL)",
-        image: "https://static.wixstatic.com/media/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1ff92753f3d64e9ab5f3c8164cabb9bd~mv2.png",
+        image: "/catalog/f218e31d669434c0.png",
         code: "",
       },
       {
@@ -6529,7 +6529,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Semi-soft bench with a back",
-        image: "https://static.wixstatic.com/media/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png",
+        image: "/catalog/2f3b17335c6f0881.png",
         code: "",
       },
       {
@@ -6569,7 +6569,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "2-seat bench with a backrest, flat-oval tube, height groups č.4-6",
-        image: "https://static.wixstatic.com/media/713410_56f0c66793414ba09948691fa72f75d0~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_56f0c66793414ba09948691fa72f75d0~mv2.png",
+        image: "/catalog/b995e14a7b2eafd3.png",
         code: "",
       },
       {
@@ -6701,12 +6701,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       },
       {
         name: "Semi-soft bench with a back",
-        image: "https://static.wixstatic.com/media/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1b077e4a69af4d628fbbb4f74e09e12e~mv2.png",
+        image: "/catalog/2f3b17335c6f0881.png",
         code: "",
       },
       {
         name: "2-seat bench with a backrest, flat-oval tube, height groups č.4-6",
-        image: "https://static.wixstatic.com/media/713410_56f0c66793414ba09948691fa72f75d0~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_56f0c66793414ba09948691fa72f75d0~mv2.png",
+        image: "/catalog/b995e14a7b2eafd3.png",
         code: "",
       },
       {
