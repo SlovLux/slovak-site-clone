@@ -52,6 +52,11 @@ const SubcategoryBlock = ({ sub, imageBasePath }: { sub: CatalogSubcategory; ima
                 className="w-full h-full object-contain p-4 group-hover:scale-110 transition-transform duration-500 ease-out"
                 loading="lazy"
               />
+              {/* Prekryje logo "Ukraine Facility" v pravom hornom rohu fotiek */}
+              <div
+                aria-hidden="true"
+                className="absolute top-0 right-0 w-[28%] h-[14%] bg-white pointer-events-none"
+              />
               {product.code && (
                 <div className="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-background/90 backdrop-blur-sm border border-border/60 text-[10px] font-mono font-medium text-muted-foreground shadow-sm">
                   {product.code}
