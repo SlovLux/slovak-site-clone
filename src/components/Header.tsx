@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import effisLogo from "@/assets/effis-logo.png";
 
 const navItems = [
+  { label: "O nás", path: "/o-nas" },
   { label: "Školský nábytok", path: "/skolsky-nabytok" },
   { label: "Detský nábytok", path: "/detsky-nabytok" },
   { label: "Kancelársky nábytok", path: "/kancelarsky-nabytok" },

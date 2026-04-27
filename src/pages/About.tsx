@@ -8,16 +8,13 @@ const About = () => (
       <div className="grid md:grid-cols-2 gap-12">
         <div className="space-y-6 text-muted-foreground">
           <p>
-            NIKAN GROUP je popredný výrobca nábytku pre vzdelávacie inštitúcie, škôlky, kancelárie a verejné priestory. 
-            S dlhoročnými skúsenosťami v obore dodávame kvalitný a odolný nábytok, ktorý spĺňa najprísnejšie normy.
+            Spoločnosť effis ponúka široký sortiment nábytkových produktov vyrábaných v súlade s najvyššími európskymi štandardmi a s využitím moderných výrobných technológií. Naša produkcia je založená na použití kvalitných, ekologicky šetrných materiálov a spoľahlivých komponentov, čo zaručuje dlhú životnosť a vysokú úroveň spracovania.
           </p>
           <p>
-            Naša spoločnosť sa špecializuje na výrobu školského nábytku, detského nábytku pre materské školy, 
-            kancelárskeho nábytku a vybavenia pre univerzity a verejné inštitúcie.
+            Pre našich kupujúcich poskytujeme konkurencieschopné ceny. Všetky výrobky sú certifikované a podliehajú prísnej kontrole kvality, pričom na celý sortiment poskytujeme záruku.
           </p>
           <p>
-            Všetky naše produkty sú certifikované a prechádzajú prísnou kontrolou kvality. 
-            Spolupracujeme s vládnymi organizáciami, školami a súkromnými spoločnosťami v celej Európe.
+            Zabezpečujeme tiež spoľahlivé doručenie objednávok v rámci celej Európy.
           </p>
           <h3 className="text-xl font-semibold text-foreground">Prečo si vybrať nás?</h3>
           <ul className="space-y-3">
