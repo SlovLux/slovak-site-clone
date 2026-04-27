@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Layout from "@/components/Layout";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Building2 } from "lucide-react";
 
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
@@ -19,6 +19,15 @@ const Contact = () => {
           <div>
             <div className="space-y-6 mb-8">
               <div className="flex items-start gap-4">
+                <Building2 className="h-5 w-5 text-primary mt-1" />
+                <div>
+                  <h3 className="font-semibold">Spoločnosť</h3>
+                  <p className="text-muted-foreground">effis s.r.o.</p>
+                  <p className="text-muted-foreground">IČO: 45 241 848</p>
+                  <p className="text-muted-foreground">DIČ: 20 22 905 995</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
                 <Phone className="h-5 w-5 text-primary mt-1" />
                 <div>
                   <h3 className="font-semibold">Telefón</h3>
@@ -30,14 +39,16 @@ const Contact = () => {
                 <Mail className="h-5 w-5 text-primary mt-1" />
                 <div>
                   <h3 className="font-semibold">E-mail</h3>
-                  <p className="text-muted-foreground">info@nikan.sk</p>
+                  <p className="text-muted-foreground">info@effis.sk</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <MapPin className="h-5 w-5 text-primary mt-1" />
                 <div>
                   <h3 className="font-semibold">Adresa</h3>
-                  <p className="text-muted-foreground">Bratislava, Slovensko</p>
+                  <p className="text-muted-foreground">Zelená 883/13</p>
+                  <p className="text-muted-foreground">900 45 Malinovo</p>
+                  <p className="text-muted-foreground">Slovensko</p>
                 </div>
               </div>
             </div>
