@@ -1922,7 +1922,7 @@ export const schoolCatalog: CatalogSubcategory[] = [
       {
         image: "https://static.wixstatic.com/media/713410_be4b25f8a00c45c6be45a4ddd3793ba1~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_be4b25f8a00c45c6be45a4ddd3793ba1~mv2.jpg",
         code: "31937+132450HPL",
-        name: "Set 1-miestneho stola č. 4-7 + T-tvarovaná stolička s HPL poťahom, č. 4-7",
+        name: "Súprava 1-miestneho stola č. 4-7 + T-tvarovaná stolička s HPL poťahom, č. 4-7",
         link: "",
       },
       {
@@ -2102,7 +2102,7 @@ export const schoolCatalog: CatalogSubcategory[] = [
       {
         image: "https://static.wixstatic.com/media/713410_be4b25f8a00c45c6be45a4ddd3793ba1~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_be4b25f8a00c45c6be45a4ddd3793ba1~mv2.jpg",
         code: "31937+132450HPL",
-        name: "Set 1-miestneho stola č. 4-7 + T-tvarovaná stolička s HPL poťahom, č. 4-7",
+        name: "Súprava 1-miestneho stola č. 4-7 + T-tvarovaná stolička s HPL poťahom, č. 4-7",
         link: "",
       },
       {
@@ -3224,7 +3224,7 @@ export const schoolCatalog: CatalogSubcategory[] = [
       {
         image: "https://static.wixstatic.com/media/713410_be4b25f8a00c45c6be45a4ddd3793ba1~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_be4b25f8a00c45c6be45a4ddd3793ba1~mv2.jpg",
         code: "31937+132450HPL",
-        name: "Set 1-miestneho stola č. 4-7 + T-tvarovaná stolička s HPL poťahom, č. 4-7",
+        name: "Súprava 1-miestneho stola č. 4-7 + T-tvarovaná stolička s HPL poťahom, č. 4-7",
         link: "",
       },
       {
@@ -3656,7 +3656,7 @@ export const schoolCatalog: CatalogSubcategory[] = [
       {
         image: "https://static.wixstatic.com/media/713410_be4b25f8a00c45c6be45a4ddd3793ba1~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_be4b25f8a00c45c6be45a4ddd3793ba1~mv2.jpg",
         code: "31937+132450HPL",
-        name: "Set 1-miestneho stola č. 4-7 + T-tvarovaná stolička s HPL poťahom, č. 4-7",
+        name: "Súprava 1-miestneho stola č. 4-7 + T-tvarovaná stolička s HPL poťahom, č. 4-7",
         link: "",
       },
       {
@@ -5514,12 +5514,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
         code: "63987",
       },
       {
-        name: "Set 1-miestneho študentského stola bez police, č.4-7 + stolička na lyžinách, okrúhla trúbka, s HPL poťahom, č.6",
+        name: "Súprava 1-miestneho študentského stola bez police, č.4-7 + stolička na lyžinách, okrúhla trúbka, s HPL poťahom, č.6",
         image: "/catalog/7cdaa939e7361d49.png",
         code: "",
       },
       {
-        name: "Set 1-miestneho študentského stola bez police, č.4-7 + stolička s plastovým monoblokom",
+        name: "Súprava 1-miestneho študentského stola bez police, č.4-7 + stolička s plastovým monoblokom",
         image: "https://static.wixstatic.com/media/713410_a714ae8cc6074a579616e3fdaddbc0e7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a714ae8cc6074a579616e3fdaddbc0e7~mv2.jpg",
         code: "",
       },
