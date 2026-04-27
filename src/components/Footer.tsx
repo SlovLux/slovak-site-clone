@@ -60,15 +60,11 @@ const Footer = () => {
             <dl className="text-sm divide-y divide-border">
               <div className="flex justify-between py-2.5">
                 <dt className="text-muted-foreground">IČO</dt>
-                <dd className="font-mono font-medium">54 766 206</dd>
+                <dd className="font-mono font-medium">45 241 848</dd>
               </div>
               <div className="flex justify-between py-2.5">
                 <dt className="text-muted-foreground">DIČ</dt>
-                <dd className="font-mono font-medium">2121955561</dd>
-              </div>
-              <div className="flex justify-between py-2.5">
-                <dt className="text-muted-foreground">IČ DPH</dt>
-                <dd className="font-mono font-medium">SK2121955561</dd>
+                <dd className="font-mono font-medium">2022905995</dd>
               </div>
             </dl>
           </div>
