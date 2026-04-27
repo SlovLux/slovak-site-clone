@@ -5346,7 +5346,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Stolička školská T-typu na okrúhlej trubke s HPL povrchom, č.4-7",
         image: "https://static.wixstatic.com/media/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg",
-        code: "",
+        code: "190169",
       },
       {
         name: "Stolička školská T-typu na okrúhlej trubke s HPL povrchom, č.4-6",
@@ -5426,7 +5426,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Kreslo-vak Hruška 90х65 cm",
         image: "https://static.wixstatic.com/media/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png",
-        code: "",
+        code: "54503",
       },
       {
         name: "Kreslo-vak Hruška 90х65",
@@ -5446,12 +5446,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Kreslo-vak Hruška 130х100 cm",
         image: "https://static.wixstatic.com/media/713410_aec9648fdbd44df5951bed36064c6d8b~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_aec9648fdbd44df5951bed36064c6d8b~mv2.png",
-        code: "",
+        code: "63983",
       },
       {
         name: "Kreslo-vak Hruška 100х75 cm",
         image: "https://static.wixstatic.com/media/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_afcb2d40cfe44520bad4df0d86a50968~mv2.png",
-        code: "",
+        code: "54503",
       },
       {
         name: "Lavica školská, stôl žiacky pre skupinovú prácu č.4-6",
@@ -5506,12 +5506,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Beanbag chair, size S",
         image: "https://static.wixstatic.com/media/713410_2744813678884cd281404e31e2fd6c96~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2744813678884cd281404e31e2fd6c96~mv2.png",
-        code: "",
+        code: "63987",
       },
       {
         name: "Beanbag chair, size M",
         image: "https://static.wixstatic.com/media/713410_2744813678884cd281404e31e2fd6c96~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_2744813678884cd281404e31e2fd6c96~mv2.png",
-        code: "",
+        code: "63987",
       },
       {
         name: "Set of 1-seat student`s table without a shelf, č.4-7 + chair on slades, round tube, with HPL coating, č.6",
@@ -5541,7 +5541,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Set of round children's game poufs",
         image: "https://static.wixstatic.com/media/713410_8695adb416a04fd28fe480316dd34545~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_8695adb416a04fd28fe480316dd34545~mv2.jpg",
-        code: "",
+        code: "52130",
       },
       {
         name: "Round children's game pouf (chair)",
@@ -5616,12 +5616,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Children's rectangular table, adjustable, height groups č.1-3",
         image: "https://static.wixstatic.com/media/713410_11d5586cfc914d63b26d1d73caac41cb~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_11d5586cfc914d63b26d1d73caac41cb~mv2.jpg",
-        code: "",
+        code: "17238",
       },
       {
         name: "Children`s square table, adjustable, height groups č.1-3",
         image: "https://static.wixstatic.com/media/713410_fae164b0b49c47dea79ebc32d44d4966~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_fae164b0b49c47dea79ebc32d44d4966~mv2.jpg",
-        code: "",
+        code: "17240",
       },
       {
         name: "Trapezoidal children`s table, adjustable, height groups č.1-3",
@@ -5646,12 +5646,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "2-seat children`s table without a shelf, height adjustable, height groups č.1-3",
         image: "https://static.wixstatic.com/media/713410_5c3e0d3d130f4ba0ba8a88d2d2a1f4e4~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5c3e0d3d130f4ba0ba8a88d2d2a1f4e4~mv2.jpg",
-        code: "",
+        code: "90151",
       },
       {
         name: "Children`s T-shaped chair, on a square tube, height adjusted for groups č.1-3",
         image: "https://static.wixstatic.com/media/713410_def1306fe5fb40b0bb4333cda3e202a6~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_def1306fe5fb40b0bb4333cda3e202a6~mv2.jpg",
-        code: "",
+        code: "90290",
       },
       {
         name: "Children's T-shaped chair on round tube, height adjusted for groups č.1-3",
@@ -5711,17 +5711,17 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Children's chair ISO, height group č. 1",
         image: "https://static.wixstatic.com/media/713410_a7c12f51681443fba50b5b3e40aa213b~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a7c12f51681443fba50b5b3e40aa213b~mv2.jpg",
-        code: "",
+        code: "0242",
       },
       {
         name: "Children`s chair ISO, height group č.1, with HPL coating",
         image: "https://static.wixstatic.com/media/713410_3035dab837c0456cb37c5def400b37c4~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3035dab837c0456cb37c5def400b37c4~mv2.png",
-        code: "",
+        code: "0242",
       },
       {
         name: "Children`s chair ISO, height group č.1, painted",
         image: "https://static.wixstatic.com/media/713410_d08ef3aad14b4bb9b1a73c2abb0e4c38~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d08ef3aad14b4bb9b1a73c2abb0e4c38~mv2.png",
-        code: "",
+        code: "0242",
       },
       {
         name: "Plywood children's chair \"Fantasy\", height group č.3",
@@ -5751,32 +5751,32 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Children`s chair ISO, height group č.2",
         image: "https://static.wixstatic.com/media/713410_abf516ea2f874d758bd85123ebc4ff59~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_abf516ea2f874d758bd85123ebc4ff59~mv2.jpg",
-        code: "",
+        code: "0250",
       },
       {
         name: "Children's chair ISO, height group č.2, with HPL covering",
         image: "https://static.wixstatic.com/media/713410_61b00740ef584528ba5940f5a8d0a83b~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_61b00740ef584528ba5940f5a8d0a83b~mv2.png",
-        code: "",
+        code: "0250",
       },
       {
         name: "Children`s chair ISO, painted, height group č.2",
         image: "https://static.wixstatic.com/media/713410_4f7770f12de749729fa5a6b51e06089d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4f7770f12de749729fa5a6b51e06089d~mv2.jpg",
-        code: "",
+        code: "0250",
       },
       {
         name: "Writing table without a shelf",
         image: "https://static.wixstatic.com/media/713410_5c0ba4007a16420dbbbd5c42f85681f4~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5c0ba4007a16420dbbbd5c42f85681f4~mv2.jpg",
-        code: "",
+        code: "4105",
       },
       {
         name: "Writing table with a shelf",
         image: "https://static.wixstatic.com/media/713410_0b2d8d2cbdad4d0d984457affd274c3d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_0b2d8d2cbdad4d0d984457affd274c3d~mv2.jpg",
-        code: "",
+        code: "4108",
       },
       {
         name: "One-door writing table",
         image: "https://static.wixstatic.com/media/713410_b28f8b9592f54baab134f52a61800a17~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b28f8b9592f54baab134f52a61800a17~mv2.jpg",
-        code: "",
+        code: "4141",
       },
       {
         name: "Chair ISO č.6, the plywood is coated with HPL plastic",
@@ -5811,12 +5811,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Student`s T-shaped chair, height groups č.4-7",
         image: "https://static.wixstatic.com/media/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg",
-        code: "",
+        code: "190169",
       },
       {
         name: "Student's T-shaped chair, height groups č.4-7 with HPL coating",
         image: "https://static.wixstatic.com/media/713410_11361ba9cfe1421a84b0961898906dbb~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_11361ba9cfe1421a84b0961898906dbb~mv2.jpg",
-        code: "",
+        code: "90169HPL",
       },
       {
         name: "Student`s chair on slades, height groups č.4-6 coated with HPL",
@@ -5831,7 +5831,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Student`s chair on slades, a round tube, č.4-6, with HPL coating",
         image: "https://static.wixstatic.com/media/713410_a965ff594e66437990bef8957688d4ae~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a965ff594e66437990bef8957688d4ae~mv2.jpg",
-        code: "",
+        code: "190109HPL",
       },
       {
         name: "Student`s T-shaped chair, height groups č.4-6, with HPL coating",
@@ -5856,7 +5856,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Chair on skids, square tube, č.6, with HPL coating",
         image: "https://static.wixstatic.com/media/713410_972f1c7653e0498381b0deefb4dd0db7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_972f1c7653e0498381b0deefb4dd0db7~mv2.jpg",
-        code: "",
+        code: "190212HPL",
       },
       {
         name: "Chair on skids, square tube, č.6",
@@ -5902,7 +5902,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Posteľ jednolôžková kovové",
         image: "https://static.wixstatic.com/media/713410_5ecad4de66244e2192836bd15d2f08f6~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5ecad4de66244e2192836bd15d2f08f6~mv2.jpg",
-        code: "",
+        code: "76513",
       },
       {
         name: "Vešiak na oblečenie",
@@ -5912,7 +5912,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Matrac z polyuretánovej peny pre dospelých",
         image: "https://static.wixstatic.com/media/713410_6f94e921f8ac44e09865ae61f43905e1~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_6f94e921f8ac44e09865ae61f43905e1~mv2.jpg",
-        code: "",
+        code: "58670",
       },
       {
         name: "Posteľ poschodová na kovovej konštrukcii",
@@ -5922,7 +5922,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Hanger with a shelf and 5 hooks",
         image: "https://static.wixstatic.com/media/713410_3296bfea0ba440adbefb086fbdbbd254~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3296bfea0ba440adbefb086fbdbbd254~mv2.jpg",
-        code: "",
+        code: "58443",
       },
       {
         name: "Single bed, headbacks with rounded corners",
@@ -5932,12 +5932,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Low cabinet on adjustable legs with a door and a niche",
         image: "https://static.wixstatic.com/media/713410_776898ebd6b7432cb65faf9db212d43b~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_776898ebd6b7432cb65faf9db212d43b~mv2.jpg",
-        code: "",
+        code: "0821",
       },
       {
         name: "Low cabinet on adjustable legs with a door and a drawer",
         image: "https://static.wixstatic.com/media/713410_1f8afa118dbe459fb198744715b517fd~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_1f8afa118dbe459fb198744715b517fd~mv2.jpg",
-        code: "",
+        code: "0824",
       },
       {
         name: "Low cabinet on adjustable legs with 3 drawers",
@@ -5952,12 +5952,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Double side hanger on a metal frame with 22 hooks",
         image: "https://static.wixstatic.com/media/713410_bfd45177f3d84a99a4d5d4cee7eeafe7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_bfd45177f3d84a99a4d5d4cee7eeafe7~mv2.jpg",
-        code: "",
+        code: "31102",
       },
       {
         name: "Mattress of cotton for adults",
         image: "https://static.wixstatic.com/media/713410_41133e9830a14aaf940af4447131aea6~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_41133e9830a14aaf940af4447131aea6~mv2.jpg",
-        code: "",
+        code: "006350",
       },
     ],
   },
@@ -6013,17 +6013,17 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "One-door writing table",
         image: "https://static.wixstatic.com/media/713410_b28f8b9592f54baab134f52a61800a17~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b28f8b9592f54baab134f52a61800a17~mv2.jpg",
-        code: "",
+        code: "4141",
       },
       {
         name: "Writing table without a shelf",
         image: "https://static.wixstatic.com/media/713410_5c0ba4007a16420dbbbd5c42f85681f4~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5c0ba4007a16420dbbbd5c42f85681f4~mv2.jpg",
-        code: "",
+        code: "4105",
       },
       {
         name: "Writing table with a shelf",
         image: "https://static.wixstatic.com/media/713410_0b2d8d2cbdad4d0d984457affd274c3d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_0b2d8d2cbdad4d0d984457affd274c3d~mv2.jpg",
-        code: "",
+        code: "4108",
       },
       {
         name: "Student`s 2-seat table with a shelf, č. 6",
@@ -6073,12 +6073,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Children's rectangular table, adjustable, height groups č.1-3",
         image: "https://static.wixstatic.com/media/713410_11d5586cfc914d63b26d1d73caac41cb~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_11d5586cfc914d63b26d1d73caac41cb~mv2.jpg",
-        code: "",
+        code: "17238",
       },
       {
         name: "Children`s square table, adjustable, height groups č.1-3",
         image: "https://static.wixstatic.com/media/713410_fae164b0b49c47dea79ebc32d44d4966~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_fae164b0b49c47dea79ebc32d44d4966~mv2.jpg",
-        code: "",
+        code: "17240",
       },
       {
         name: "Trapezoidal children`s table, adjustable, height groups č.1-3",
@@ -6103,7 +6103,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "2-seat children`s table without a shelf, height adjustable, height groups č.1-3",
         image: "https://static.wixstatic.com/media/713410_5c3e0d3d130f4ba0ba8a88d2d2a1f4e4~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_5c3e0d3d130f4ba0ba8a88d2d2a1f4e4~mv2.jpg",
-        code: "",
+        code: "90151",
       },
     ],
   },
@@ -6124,7 +6124,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Stolička školská T-typu na okrúhlej trubke s HPL povrchom, č.4-7",
         image: "https://static.wixstatic.com/media/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg",
-        code: "",
+        code: "190169",
       },
       {
         name: "Stolička školská T-typu na okrúhlej trubke s HPL povrchom, č.4-6",
@@ -6259,7 +6259,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Chair on skids, square tube, č.6, with HPL coating",
         image: "https://static.wixstatic.com/media/713410_972f1c7653e0498381b0deefb4dd0db7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_972f1c7653e0498381b0deefb4dd0db7~mv2.jpg",
-        code: "",
+        code: "190212HPL",
       },
       {
         name: "T-shaped chair, height-adjustable, with HPL coating No. 4-7",
@@ -6269,12 +6269,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Student`s T-shaped chair, height groups č.4-7",
         image: "https://static.wixstatic.com/media/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b7b47f8bd399482f8b6277c9a7228c2f~mv2.jpg",
-        code: "",
+        code: "190169",
       },
       {
         name: "Student's T-shaped chair, height groups č.4-7 with HPL coating",
         image: "https://static.wixstatic.com/media/713410_11361ba9cfe1421a84b0961898906dbb~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_11361ba9cfe1421a84b0961898906dbb~mv2.jpg",
-        code: "",
+        code: "90169HPL",
       },
       {
         name: "Student`s chair on slades, a round tube, č.4-6",
@@ -6284,7 +6284,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Student`s chair on slades, a round tube, č.4-6, with HPL coating",
         image: "https://static.wixstatic.com/media/713410_a965ff594e66437990bef8957688d4ae~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a965ff594e66437990bef8957688d4ae~mv2.jpg",
-        code: "",
+        code: "190109HPL",
       },
       {
         name: "Student`s T-shaped chair, height groups č.4-6, with HPL coating",
@@ -6319,12 +6319,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Children's chair ISO, height group č. 1",
         image: "https://static.wixstatic.com/media/713410_a7c12f51681443fba50b5b3e40aa213b~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a7c12f51681443fba50b5b3e40aa213b~mv2.jpg",
-        code: "",
+        code: "0242",
       },
       {
         name: "Children`s chair ISO, height group č.2",
         image: "https://static.wixstatic.com/media/713410_abf516ea2f874d758bd85123ebc4ff59~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_abf516ea2f874d758bd85123ebc4ff59~mv2.jpg",
-        code: "",
+        code: "0250",
       },
       {
         name: "Children`s chair ISO, height group č.3",
@@ -6334,12 +6334,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Children`s chair ISO, height group č.1, with HPL coating",
         image: "https://static.wixstatic.com/media/713410_3035dab837c0456cb37c5def400b37c4~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3035dab837c0456cb37c5def400b37c4~mv2.png",
-        code: "",
+        code: "0242",
       },
       {
         name: "Children's chair ISO, height group č.2, with HPL covering",
         image: "https://static.wixstatic.com/media/713410_61b00740ef584528ba5940f5a8d0a83b~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_61b00740ef584528ba5940f5a8d0a83b~mv2.png",
-        code: "",
+        code: "0250",
       },
       {
         name: "Children`s chair ISO, height group č.3, with HPL coating",
@@ -6349,12 +6349,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Children`s chair ISO, height group č.1, painted",
         image: "https://static.wixstatic.com/media/713410_d08ef3aad14b4bb9b1a73c2abb0e4c38~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_d08ef3aad14b4bb9b1a73c2abb0e4c38~mv2.png",
-        code: "",
+        code: "0242",
       },
       {
         name: "Children`s chair ISO, painted, height group č.2",
         image: "https://static.wixstatic.com/media/713410_4f7770f12de749729fa5a6b51e06089d~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_4f7770f12de749729fa5a6b51e06089d~mv2.jpg",
-        code: "",
+        code: "0250",
       },
       {
         name: "Children's chair ISO, painted, height group č.3",
@@ -6424,7 +6424,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Children`s T-shaped chair, on a square tube, height adjusted for groups č.1-3",
         image: "https://static.wixstatic.com/media/713410_def1306fe5fb40b0bb4333cda3e202a6~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_def1306fe5fb40b0bb4333cda3e202a6~mv2.jpg",
-        code: "",
+        code: "90290",
       },
       {
         name: "Children's T-shaped chair on round tube, height adjusted for groups č.1-3",
@@ -6445,7 +6445,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Stôl pre školskej jedálne 4 miestny, nastaviteľný č.4-6 s HPL",
         image: "https://static.wixstatic.com/media/713410_57b1126eb7bd4038b69de0227729c575~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_57b1126eb7bd4038b69de0227729c575~mv2.jpg",
-        code: "",
+        code: "34260",
       },
       {
         name: "Stôl pre školskej jedálne 4-miestny štvorcový, okrúhla trubka, výšková skupina č.6,HPL",
@@ -6545,12 +6545,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "6-seat table for dining rooms, flat-oval tube, č.4-6",
         image: "https://static.wixstatic.com/media/713410_57b1126eb7bd4038b69de0227729c575~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_57b1126eb7bd4038b69de0227729c575~mv2.jpg",
-        code: "",
+        code: "34260",
       },
       {
         name: "4-seat table for dining rooms, flat-oval tube, height group č.4-6",
         image: "https://static.wixstatic.com/media/713410_396a5da5ec5f4363bcf7c76fca6bf2a5~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_396a5da5ec5f4363bcf7c76fca6bf2a5~mv2.jpg",
-        code: "",
+        code: "34248",
       },
       {
         name: "Chair ISO č.6, the plywood is coated with HPL plastic",
@@ -6560,12 +6560,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "2-seat bench without a backrest, flat-oval tube, height groups č.4-6",
         image: "https://static.wixstatic.com/media/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg",
-        code: "",
+        code: "34256",
       },
       {
         name: "3-seat bench without a backrest, flat-oval tube, height groups č.4-6",
         image: "https://static.wixstatic.com/media/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg",
-        code: "",
+        code: "34256",
       },
       {
         name: "2-seat bench with a backrest, flat-oval tube, height groups č.4-6",
@@ -6606,12 +6606,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Stôlá doska do kuchyne (1036-1385 mm)",
         image: "https://static.wixstatic.com/media/713410_a0ee0596dd1f4ee6874ec48dac40cbc6~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a0ee0596dd1f4ee6874ec48dac40cbc6~mv2.png",
-        code: "",
+        code: "81830",
       },
       {
         name: "Stôlá doska do kuchyne ( do 1035 mm)",
         image: "https://static.wixstatic.com/media/713410_a0ee0596dd1f4ee6874ec48dac40cbc6~mv2.png/v1/fill/w_279,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_a0ee0596dd1f4ee6874ec48dac40cbc6~mv2.png",
-        code: "",
+        code: "81830",
       },
       {
         name: "Skriňa spodná \"Komfort\" 60V",
@@ -6712,12 +6712,12 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "3-seat bench without a backrest, flat-oval tube, height groups č.4-6",
         image: "https://static.wixstatic.com/media/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg",
-        code: "",
+        code: "34256",
       },
       {
         name: "2-seat bench without a backrest, flat-oval tube, height groups č.4-6",
         image: "https://static.wixstatic.com/media/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_3809a7ac90db40758a79786b8bfb88f7~mv2.jpg",
-        code: "",
+        code: "34256",
       },
       {
         name: "2-seat bench with a backrest, height group č.6",
@@ -6727,7 +6727,7 @@ export const shelterCatalog: CatalogSubcategory[] = [
       {
         name: "Children`s bench for a locker room with rounded corners",
         image: "https://static.wixstatic.com/media/713410_b8afa8713a574e70b48e7e34b8adb81c~mv2.jpg/v1/fill/w_279,h_279,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/713410_b8afa8713a574e70b48e7e34b8adb81c~mv2.jpg",
-        code: "",
+        code: "4615-",
       },
     ],
   },
