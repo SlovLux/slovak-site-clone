@@ -10,10 +10,10 @@ const Footer = () => {
           <div className="md:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
               <div className="h-12 w-12 rounded-xl bg-background border border-border flex items-center justify-center p-1.5">
-                <img src={ardLogo} alt="ARD Consulting" className="h-full w-full object-contain" />
+                <img src={ardLogo} alt="effis s.r.o." className="h-full w-full object-contain" />
               </div>
               <div>
-                <h3 className="text-xl font-bold tracking-tight leading-none">ARD Consulting</h3>
+                <h3 className="text-xl font-bold tracking-tight leading-none">effis s.r.o.</h3>
               </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-sm">
@@ -40,9 +40,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@nikan.sk" className="flex items-center gap-3 text-foreground/85 hover:text-primary transition-colors">
+                <a href="mailto:info@effis.sk" className="flex items-center gap-3 text-foreground/85 hover:text-primary transition-colors">
                   <Mail className="h-4 w-4 shrink-0" />
-                  <span>info@nikan.sk</span>
+                  <span>info@effis.sk</span>
                 </a>
               </li>
               <li className="flex items-start gap-3 text-foreground/85">
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-6 border-t border-border text-center text-xs text-muted-foreground">
-          © 2025 ARD Consulting. Všetky práva vyhradené.
+          © 2025 effis s.r.o. Všetky práva vyhradené.
         </div>
       </div>
     </footer>
