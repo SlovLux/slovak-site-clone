@@ -1,4 +1,8 @@
 import Layout from "@/components/Layout";
+import showcase02 from "@/assets/showcase/showcase-02.png";
+import showcase04 from "@/assets/showcase/showcase-04.png";
+import showcase07 from "@/assets/showcase/showcase-07.png";
+import showcase09 from "@/assets/showcase/showcase-09.png";
 
 const About = () => (
   <Layout>
@@ -37,12 +41,19 @@ const About = () => (
           </ul>
         </div>
 
-        <div className="rounded-2xl overflow-hidden">
-          <img
-            src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800"
-            alt="Naša výroba"
-            className="w-full h-full object-cover"
-          />
+        <div className="grid grid-cols-2 gap-4">
+          <div className="rounded-2xl overflow-hidden aspect-square shadow-md">
+            <img src={showcase02} alt="Detský nábytok" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+          </div>
+          <div className="rounded-2xl overflow-hidden aspect-square shadow-md mt-8">
+            <img src={showcase04} alt="Školský nábytok" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+          </div>
+          <div className="rounded-2xl overflow-hidden aspect-square shadow-md">
+            <img src={showcase07} alt="Detské sedenie" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+          </div>
+          <div className="rounded-2xl overflow-hidden aspect-square shadow-md mt-8">
+            <img src={showcase09} alt="Kancelársky nábytok" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+          </div>
         </div>
       </div>
     </section>
