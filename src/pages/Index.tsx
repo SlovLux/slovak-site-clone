@@ -2,18 +2,19 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight, CheckCircle } from "lucide-react";
 import Layout from "@/components/Layout";
+import effisLogo from "@/assets/effis-logo.png";
+import hero1 from "@/assets/hero-1.png";
+import hero2 from "@/assets/hero-2.png";
+import hero3 from "@/assets/hero-3.png";
+import hero4 from "@/assets/hero-4.png";
+import hero5 from "@/assets/hero-5.png";
+import hero6 from "@/assets/hero-6.png";
+import hero7 from "@/assets/hero-7.png";
+import hero8 from "@/assets/hero-8.png";
+import hero9 from "@/assets/hero-9.png";
+import hero10 from "@/assets/hero-10.png";
 
-const heroTitle = "Moderný nábytok pre laboratórne učebne";
-
-const heroSlides = [
-  "https://static.wixstatic.com/media/713410_beeb14688cb440bab3d89ddfe9a1221a~mv2.png/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_beeb14688cb440bab3d89ddfe9a1221a~mv2.png",
-  "https://static.wixstatic.com/media/713410_8c28f1ddf7494ddf8cdeb8741f069dee~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_8c28f1ddf7494ddf8cdeb8741f069dee~mv2.jpg",
-  "https://static.wixstatic.com/media/713410_217caf697f3043448681a605953813ed~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_217caf697f3043448681a605953813ed~mv2.jpg",
-  "https://static.wixstatic.com/media/713410_f3877bf4d9e14b3c80ce270def5d9461~mv2.png/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_f3877bf4d9e14b3c80ce270def5d9461~mv2.png",
-  "https://static.wixstatic.com/media/713410_3887448ac2ee4ba394bbb0f427c3cbb3~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_3887448ac2ee4ba394bbb0f427c3cbb3~mv2.jpg",
-  "https://static.wixstatic.com/media/713410_51b9211f0c274a7e851bb3466c07ed3a~mv2.png/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_51b9211f0c274a7e851bb3466c07ed3a~mv2.png",
-  "https://static.wixstatic.com/media/713410_92dc581073644398821686bdbe71ecf7~mv2.jpg/v1/fill/w_1920,h_608,al_c,q_90,enc_auto/713410_92dc581073644398821686bdbe71ecf7~mv2.jpg",
-];
+const heroSlides = [hero1, hero2, hero3, hero4, hero5, hero6, hero7, hero8, hero9, hero10];
 
 const categories = [
   {
@@ -71,28 +72,59 @@ const Index = () => {
   return (
     <Layout>
       {/* Hero Slider */}
-      <section className="relative h-[500px] md:h-[600px] overflow-hidden">
+      <section className="relative h-[520px] md:h-[640px] overflow-hidden bg-foreground">
         {heroSlides.map((slide, i) => (
           <div
             key={i}
-            className={`absolute inset-0 transition-opacity duration-700 ${
+            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
               i === currentSlide ? "opacity-100" : "opacity-0"
             }`}
           >
             <div
-              className="absolute inset-0 bg-cover bg-center"
+              className={`absolute inset-0 bg-cover bg-center transition-transform duration-[6000ms] ease-out ${
+                i === currentSlide ? "scale-110" : "scale-100"
+              }`}
               style={{ backgroundImage: `url(${slide})` }}
             />
-            <div className="absolute inset-0 bg-black/30" />
-            <div className="relative h-full flex items-center justify-center text-center px-4">
-              <div className="bg-background/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 max-w-2xl">
-                <h1 className="text-2xl md:text-4xl font-bold text-foreground">
-                  {heroTitle}
-                </h1>
-              </div>
-            </div>
           </div>
         ))}
+
+        {/* Gradient overlay for readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-background/20 md:from-background/90 md:via-background/50 md:to-transparent" />
+
+        {/* Hero content: logo + popis */}
+        <div className="relative h-full flex items-center">
+          <div className="container mx-auto px-6 md:px-10">
+            <div className="max-w-2xl">
+              <div className="inline-flex items-center mb-6 md:mb-8">
+                <div className="relative">
+                  <div className="absolute -inset-4 bg-primary/10 blur-2xl rounded-full" />
+                  <img
+                    src={effisLogo}
+                    alt="effis s.r.o."
+                    className="relative h-28 md:h-40 lg:h-48 w-auto object-contain drop-shadow-lg"
+                  />
+                </div>
+              </div>
+
+              <div className="flex items-center gap-3 mb-4">
+                <span className="h-px w-10 bg-primary" />
+                <span className="text-xs md:text-sm font-semibold uppercase tracking-[0.2em] text-primary">
+                  effis s.r.o.
+                </span>
+              </div>
+
+              <h1 className="text-2xl md:text-4xl lg:text-[2.75rem] font-bold leading-tight text-foreground">
+                Kvalitný nábytok pre{" "}
+                <span className="text-primary">škôlky</span>,{" "}
+                <span className="text-primary">školy</span>,{" "}
+                <span className="text-primary">univerzity</span>,{" "}
+                <span className="text-primary">kancelárie</span> a{" "}
+                <span className="text-primary">sociálne ubytovanie</span>.
+              </h1>
+            </div>
+          </div>
+        </div>
 
         <button
           onClick={() => setCurrentSlide((prev) => (prev - 1 + heroSlides.length) % heroSlides.length)}
@@ -112,9 +144,10 @@ const Index = () => {
             <button
               key={i}
               onClick={() => setCurrentSlide(i)}
-              className={`w-3 h-3 rounded-full transition-colors ${
-                i === currentSlide ? "bg-primary" : "bg-background/50"
+              className={`h-1.5 rounded-full transition-all ${
+                i === currentSlide ? "bg-primary w-8" : "bg-foreground/30 hover:bg-foreground/50 w-3"
               }`}
+              aria-label={`Slide ${i + 1}`}
             />
           ))}
         </div>
