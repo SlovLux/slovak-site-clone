@@ -4,7 +4,8 @@ import effisLogo from "@/assets/effis-logo.png";
 
 const Footer = () => {
   const location = useLocation();
-  const isContactPage = location.pathname === "/kontakt";
+  const isContactPage = location.pathname.replace(/\/$/, "").toLowerCase() === "/kontakt";
+  if (isContactPage) return null;
   return (
     <footer className="relative bg-muted text-foreground border-t border-border">
       <div className="container mx-auto px-4 py-14">
