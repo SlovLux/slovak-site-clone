@@ -1,11 +1,14 @@
 import { Phone, Mail, MapPin } from "lucide-react";
+import { useLocation } from "react-router-dom";
 import effisLogo from "@/assets/effis-logo.png";
 
 const Footer = () => {
+  const location = useLocation();
+  const isContactPage = location.pathname === "/kontakt";
   return (
     <footer className="relative bg-muted text-foreground border-t border-border">
       <div className="container mx-auto px-4 py-14">
-        <div className="grid gap-10 lg:gap-14 md:grid-cols-12">
+        <div className={`grid gap-10 lg:gap-14 ${isContactPage ? "md:grid-cols-8" : "md:grid-cols-12"}`}>
           {/* Brand */}
           <div className="md:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
@@ -22,6 +25,7 @@ const Footer = () => {
           </div>
 
           {/* Kontakt */}
+          {!isContactPage && (
           <div className="md:col-span-4 space-y-4">
             <h4 className="text-[11px] font-semibold tracking-widest uppercase text-muted-foreground">
               Kontakt
@@ -51,6 +55,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          )}
 
           {/* Fakturačné údaje */}
           <div className="md:col-span-4 space-y-4">
