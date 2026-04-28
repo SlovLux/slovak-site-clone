@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight, CheckCircle } from "lucide-react";
 import Layout from "@/components/Layout";
-import effisLogo from "@/assets/effis-logo.png";
 import hero1 from "@/assets/hero-1.png";
 import hero2 from "@/assets/hero-2.png";
 import hero3 from "@/assets/hero-3.png";
@@ -71,8 +70,29 @@ const Index = () => {
 
   return (
     <Layout>
+      {/* Brand intro above slider */}
+      <section className="bg-background py-10 md:py-14">
+        <div className="container mx-auto px-6 md:px-10 text-center">
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <span className="h-px w-10 bg-primary" />
+            <span className="text-xs md:text-sm font-semibold uppercase tracking-[0.2em] text-primary">
+              effis s.r.o.
+            </span>
+            <span className="h-px w-10 bg-primary" />
+          </div>
+          <h1 className="text-2xl md:text-4xl lg:text-[2.5rem] font-bold leading-tight text-foreground max-w-4xl mx-auto">
+            Kvalitný nábytok pre{" "}
+            <span className="text-primary">škôlky</span>,{" "}
+            <span className="text-primary">školy</span>,{" "}
+            <span className="text-primary">univerzity</span>,{" "}
+            <span className="text-primary">kancelárie</span> a{" "}
+            <span className="text-primary">sociálne ubytovanie</span>.
+          </h1>
+        </div>
+      </section>
+
       {/* Hero Slider */}
-      <section className="relative h-[520px] md:h-[640px] overflow-hidden bg-foreground">
+      <section className="relative h-[420px] md:h-[560px] overflow-hidden bg-foreground">
         {heroSlides.map((slide, i) => (
           <div
             key={i}
@@ -88,43 +108,6 @@ const Index = () => {
             />
           </div>
         ))}
-
-        {/* Gradient overlay for readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-background/20 md:from-background/90 md:via-background/50 md:to-transparent" />
-
-        {/* Hero content: logo + popis */}
-        <div className="relative h-full flex items-center">
-          <div className="container mx-auto px-6 md:px-10">
-            <div className="max-w-2xl">
-              <div className="inline-flex items-center mb-6 md:mb-8">
-                <div className="relative">
-                  <div className="absolute -inset-4 bg-primary/10 blur-2xl rounded-full" />
-                  <img
-                    src={effisLogo}
-                    alt="effis s.r.o."
-                    className="relative h-28 md:h-40 lg:h-48 w-auto object-contain drop-shadow-lg"
-                  />
-                </div>
-              </div>
-
-              <div className="flex items-center gap-3 mb-4">
-                <span className="h-px w-10 bg-primary" />
-                <span className="text-xs md:text-sm font-semibold uppercase tracking-[0.2em] text-primary">
-                  effis s.r.o.
-                </span>
-              </div>
-
-              <h1 className="text-2xl md:text-4xl lg:text-[2.75rem] font-bold leading-tight text-foreground">
-                Kvalitný nábytok pre{" "}
-                <span className="text-primary">škôlky</span>,{" "}
-                <span className="text-primary">školy</span>,{" "}
-                <span className="text-primary">univerzity</span>,{" "}
-                <span className="text-primary">kancelárie</span> a{" "}
-                <span className="text-primary">sociálne ubytovanie</span>.
-              </h1>
-            </div>
-          </div>
-        </div>
 
         <button
           onClick={() => setCurrentSlide((prev) => (prev - 1 + heroSlides.length) % heroSlides.length)}
