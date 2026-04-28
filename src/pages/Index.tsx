@@ -70,7 +70,7 @@ const Index = () => {
             }`}
           >
             <div
-              className={`absolute inset-0 bg-cover bg-center transition-transform duration-[6000ms] ease-out ${
+              className={`absolute inset-0 bg-cover bg-center transition-transform [transition-duration:6000ms] ease-out ${
                 i === currentSlide ? "scale-110" : "scale-100"
               }`}
               style={{ backgroundImage: `url(${slide})` }}
