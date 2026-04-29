@@ -21,7 +21,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-sm">
-              Kvalitný nábytok pre školy, škôlky, kancelárie a sociálne ubytovanie.
+              Kvalitný nábytok pre škôlky, školy, univerzity, kancelárie a sociálne ubytovanie.
             </p>
           </div>
 
