@@ -84,6 +84,12 @@ const Contact = () => {
             </div>
           </div>
         </div>
+
+        <div className="mt-12 max-w-3xl mx-auto text-center">
+          <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
+            Ceny produktov závisia od objednaného množstva, zvoleného prevedenia a konkrétnych požiadaviek zákazníka. Pre vypracovanie nezáväznej cenovej ponuky nás neváhajte kontaktovať.
+          </p>
+        </div>
       </section>
     </Layout>
   );
