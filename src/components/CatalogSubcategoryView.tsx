@@ -18,7 +18,7 @@ const SubcategoryBlock = ({ sub, imageBasePath }: { sub: CatalogSubcategory; ima
   const start = (page - 1) * PAGE_SIZE;
   const visible = sub.products.slice(start, start + PAGE_SIZE);
 
-  const isExternal = (src: string) => /^https?:\/\//.test(src);
+  const isAbsolute = (src: string) => /^https?:\/\//.test(src) || src.startsWith("/");
 
   return (
     <section id={sub.slug} className="scroll-mt-24">
@@ -47,7 +47,7 @@ const SubcategoryBlock = ({ sub, imageBasePath }: { sub: CatalogSubcategory; ima
           >
             <div className="relative aspect-[4/5] bg-gradient-to-br from-secondary/60 to-muted overflow-hidden">
               <img
-                src={isExternal(product.image) ? product.image : `${imageBasePath}${product.image}`}
+                src={isAbsolute(product.image) ? product.image : `${imageBasePath}${product.image}`}
                 alt={product.name}
                 className="w-full h-full object-contain p-4 group-hover:scale-110 transition-transform duration-500 ease-out"
                 loading="lazy"
