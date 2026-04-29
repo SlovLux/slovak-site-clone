@@ -104,6 +104,15 @@ const Index = () => {
           ))}
         </div>
       </section>
+
+      {/* Pricing note */}
+      <section className="bg-background py-10 md:py-14">
+        <div className="container mx-auto px-6 md:px-10 text-center">
+          <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-3xl mx-auto">
+            Ceny produktov závisia od objednaného množstva, zvoleného prevedenia a konkrétnych požiadaviek zákazníka. Pre vypracovanie nezáväznej cenovej ponuky nás neváhajte kontaktovať.
+          </p>
+        </div>
+      </section>
     </Layout>
   );
 };
