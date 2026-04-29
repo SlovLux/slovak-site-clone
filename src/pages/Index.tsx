@@ -58,7 +58,7 @@ const Index = () => {
         <div className="container mx-auto px-6 md:px-10 text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
             <span className="h-px w-10 bg-primary" />
-            <span className="text-xs md:text-sm font-semibold uppercase tracking-[0.2em] text-primary">
+            <span className="text-xs md:text-sm font-semibold tracking-[0.2em] text-primary">
               effis s.r.o.
             </span>
             <span className="h-px w-10 bg-primary" />
