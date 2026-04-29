@@ -21,10 +21,17 @@ import hero17 from "@/assets/hero-17.png";
 import hero18 from "@/assets/hero-18.png";
 import hero19 from "@/assets/hero-19.png";
 import hero20 from "@/assets/hero-20.png";
+import hero21 from "@/assets/hero-21.png";
+import hero22 from "@/assets/hero-22.png";
+import hero23 from "@/assets/hero-23.png";
+import hero24 from "@/assets/hero-24.png";
+import hero25 from "@/assets/hero-25.png";
+import hero26 from "@/assets/hero-26.png";
 
 const heroSlides = [
   hero1, hero11, hero2, hero12, hero3, hero13, hero4, hero14, hero5, hero15,
   hero6, hero16, hero7, hero17, hero8, hero18, hero9, hero19, hero10, hero20,
+  hero21, hero22, hero23, hero24, hero25, hero26,
 ];
 
 const Index = () => {
