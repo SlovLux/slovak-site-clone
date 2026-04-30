@@ -1,9 +1,19 @@
 // Auto-generated from nikan.in.ua – školský nábytok
+export interface CatalogProductDetails {
+ description?: string; // hlavný popis
+ dimensions?: string; // napr. "1400×700×718-1178 mm"
+ specs?: { label: string; value: string }[]; // technické parametre
+ frameColors?: string[]; // farby konštrukcie
+ boardColors?: string[]; // farby dosky / DSP
+ notes?: string[]; // doplňujúce poznámky
+}
+
 export interface CatalogProduct {
  image: string;
  code: string;
  name: string;
  link?: string;
+ details?: CatalogProductDetails;
 }
 
 export interface CatalogSubcategory {
