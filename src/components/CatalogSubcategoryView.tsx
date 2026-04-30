@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { CatalogSubcategory } from "@/data/catalogData";
+import { CatalogProduct } from "@/data/catalogData";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import ProductDetailDialog from "./ProductDetailDialog";
 
 interface Props {
   title: string;
@@ -12,7 +14,15 @@ interface Props {
 
 const PAGE_SIZE = 12;
 
-const SubcategoryBlock = ({ sub, imageBasePath }: { sub: CatalogSubcategory; imageBasePath: string }) => {
+const SubcategoryBlock = ({
+  sub,
+  imageBasePath,
+  onProductClick,
+}: {
+  sub: CatalogSubcategory;
+  imageBasePath: string;
+  onProductClick: (p: CatalogProduct) => void;
+}) => {
   const [page, setPage] = useState(1);
   const totalPages = Math.max(1, Math.ceil(sub.products.length / PAGE_SIZE));
   const start = (page - 1) * PAGE_SIZE;
@@ -43,7 +53,16 @@ const SubcategoryBlock = ({ sub, imageBasePath }: { sub: CatalogSubcategory; ima
         {visible.map((product) => (
           <article
             key={`${sub.slug}-${product.code}-${start + visible.indexOf(product)}`}
-            className="group relative bg-card rounded-2xl overflow-hidden border border-border/60 hover:border-primary/40 hover:shadow-2xl hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300"
+            onClick={() => onProductClick(product)}
+            className="group relative bg-card rounded-2xl overflow-hidden border border-border/60 hover:border-primary/40 hover:shadow-2xl hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary"
+            tabIndex={0}
+            role="button"
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                onProductClick(product);
+              }
+            }}
           >
             <div className="relative aspect-[4/5] bg-gradient-to-br from-secondary/60 to-muted overflow-hidden">
               <img
@@ -95,6 +114,19 @@ const SubcategoryBlock = ({ sub, imageBasePath }: { sub: CatalogSubcategory; ima
 };
 
 const CatalogSubcategoryView = ({ title, intro, subcategories, imageBasePath }: Props) => {
+  const [selected, setSelected] = useState<CatalogProduct | null>(null);
+  const [open, setOpen] = useState(false);
+
+  const handleProductClick = (p: CatalogProduct) => {
+    // ak je relatívna cesta, použijeme imageBasePath aby dialog ukázal správny obrázok
+    const isAbsolute = /^https?:\/\//.test(p.image) || p.image.startsWith("/");
+    setSelected({
+      ...p,
+      image: isAbsolute ? p.image : `${imageBasePath}${p.image}`,
+    });
+    setOpen(true);
+  };
+
   return (
     <div className="bg-gradient-to-b from-secondary/40 via-background to-background">
       <section className="container mx-auto px-4 py-16">
@@ -137,10 +169,17 @@ const CatalogSubcategoryView = ({ title, intro, subcategories, imageBasePath }: 
 
         <div className="space-y-20">
           {subcategories.map((sub) => (
-            <SubcategoryBlock key={sub.slug} sub={sub} imageBasePath={imageBasePath} />
+            <SubcategoryBlock
+              key={sub.slug}
+              sub={sub}
+              imageBasePath={imageBasePath}
+              onProductClick={handleProductClick}
+            />
           ))}
         </div>
       </section>
+
+      <ProductDetailDialog product={selected} open={open} onOpenChange={setOpen} />
     </div>
   );
 };
