@@ -1,8 +1,9 @@
 import { createContext, useContext, useEffect, useState, ReactNode, useCallback } from "react";
 import { catalogHu } from "@/data/catalogTranslations";
+import { catalogDe } from "@/data/catalogTranslationsDe";
 import { uiTranslations } from "./translations";
 
-export type Lang = "sk" | "hu";
+export type Lang = "sk" | "hu" | "de";
 
 interface Ctx {
   lang: Lang;
@@ -17,7 +18,9 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const [lang, setLangState] = useState<Lang>(() => {
     if (typeof window === "undefined") return "sk";
     const stored = localStorage.getItem("lang");
-    return stored === "hu" ? "hu" : "sk";
+    if (stored === "hu") return "hu";
+    if (stored === "de") return "de";
+    return "sk";
   });
 
   useEffect(() => {
@@ -41,7 +44,9 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const tx = useCallback(
     (sk: string) => {
       if (lang === "sk") return sk;
-      return catalogHu[sk] || sk;
+      if (lang === "hu") return catalogHu[sk] || sk;
+      if (lang === "de") return catalogDe[sk] || sk;
+      return sk;
     },
     [lang]
   );
