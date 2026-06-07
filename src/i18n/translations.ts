@@ -172,7 +172,7 @@ export const uiTranslations = {
     "idx.h1.universities": "egyetemek",
     "idx.h1.offices": "irodák",
     "idx.h1.and": "és",
-    "idx.h1.social": "szociális szállások",
+    "idx.h1.social": "szociális szállások számára",
     "idx.pricing": "A termékek árai a megrendelt mennyiségtől, a választott kiviteltől és a vevő egyedi igényeitől függenek. Nem kötelező érvényű árajánlat kéréséhez vegye fel velünk a kapcsolatot.",
     "footer.tagline": "Minőségi bútorok óvodák, iskolák, egyetemek, irodák és szociális szállások számára.",
     "footer.contact": "Kapcsolat",
