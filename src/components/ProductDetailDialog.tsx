@@ -24,11 +24,6 @@ const ProductDetailDialog = ({ product, open, onOpenChange }: Props) => {
               alt={tx(product.name)}
               className="max-w-full max-h-full object-contain"
             />
-            {product.code && (
-              <div className="absolute top-4 left-4 px-2.5 py-1 rounded-full bg-background/90 backdrop-blur-sm border border-border/60 text-[11px] font-mono font-medium text-muted-foreground shadow-sm">
-                {t("pd.code")}: {product.code}
-              </div>
-            )}
           </div>
 
           {/* Detaily */}

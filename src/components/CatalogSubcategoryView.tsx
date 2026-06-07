@@ -73,11 +73,6 @@ const SubcategoryBlock = ({
                 className="w-full h-full object-contain p-4 group-hover:scale-110 transition-transform duration-500 ease-out"
                 loading="lazy"
               />
-              {product.code && (
-                <div className="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-background/90 backdrop-blur-sm border border-border/60 text-[10px] font-mono font-medium text-muted-foreground shadow-sm">
-                  {product.code}
-                </div>
-              )}
             </div>
             <div className="p-5 space-y-3">
               <h3 className="text-lg font-semibold text-foreground leading-tight group-hover:text-primary transition-colors">
