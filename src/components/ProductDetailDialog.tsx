@@ -1,5 +1,6 @@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { CatalogProduct } from "@/data/catalogData";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 interface Props {
   product: CatalogProduct | null;
@@ -8,6 +9,7 @@ interface Props {
 }
 
 const ProductDetailDialog = ({ product, open, onOpenChange }: Props) => {
+  const { t, tx } = useLanguage();
   if (!product) return null;
   const d = product.details;
 
@@ -19,12 +21,12 @@ const ProductDetailDialog = ({ product, open, onOpenChange }: Props) => {
           <div className="relative aspect-square md:aspect-auto bg-gradient-to-br from-secondary/60 to-muted flex items-center justify-center p-6">
             <img
               src={product.image}
-              alt={product.name}
+              alt={tx(product.name)}
               className="max-w-full max-h-full object-contain"
             />
             {product.code && (
               <div className="absolute top-4 left-4 px-2.5 py-1 rounded-full bg-background/90 backdrop-blur-sm border border-border/60 text-[11px] font-mono font-medium text-muted-foreground shadow-sm">
-                Kód: {product.code}
+                {t("pd.code")}: {product.code}
               </div>
             )}
           </div>
@@ -35,15 +37,15 @@ const ProductDetailDialog = ({ product, open, onOpenChange }: Props) => {
               <div className="flex items-center gap-3">
                 <div className="h-px w-8 bg-primary" />
                 <span className="text-xs font-semibold tracking-widest uppercase text-primary">
-                  Detail produktu
+                  {t("pd.detail")}
                 </span>
               </div>
               <DialogTitle className="text-2xl md:text-3xl font-bold leading-tight pr-8">
-                {product.name}
+                {tx(product.name)}
               </DialogTitle>
               {d?.dimensions && (
                 <DialogDescription className="text-sm text-muted-foreground">
-                  Rozmery: <span className="font-medium text-foreground">{d.dimensions}</span>
+                  {t("pd.dims")}: <span className="font-medium text-foreground">{d.dimensions}</span>
                 </DialogDescription>
               )}
             </DialogHeader>
@@ -56,7 +58,7 @@ const ProductDetailDialog = ({ product, open, onOpenChange }: Props) => {
 
             {d?.specs && d.specs.length > 0 && (
               <div>
-                <h4 className="text-sm font-semibold mb-2 text-foreground">Technické parametre</h4>
+                <h4 className="text-sm font-semibold mb-2 text-foreground">{t("pd.specs")}</h4>
                 <dl className="text-sm divide-y divide-border/60 border border-border/60 rounded-lg overflow-hidden">
                   {d.specs.map((s) => (
                     <div key={s.label} className="grid grid-cols-2 gap-2 px-3 py-2 odd:bg-secondary/30">
@@ -72,13 +74,13 @@ const ProductDetailDialog = ({ product, open, onOpenChange }: Props) => {
               <div className="space-y-2">
                 {d?.frameColors && d.frameColors.length > 0 && (
                   <p className="text-sm">
-                    <span className="font-semibold">Farba konštrukcie:</span>{" "}
+                    <span className="font-semibold">{t("pd.frame")}:</span>{" "}
                     <span className="text-muted-foreground">{d.frameColors.join(", ")}</span>
                   </p>
                 )}
                 {d?.boardColors && d.boardColors.length > 0 && (
                   <p className="text-sm">
-                    <span className="font-semibold">Farba dosky:</span>{" "}
+                    <span className="font-semibold">{t("pd.board")}:</span>{" "}
                     <span className="text-muted-foreground">{d.boardColors.join(", ")}</span>
                   </p>
                 )}
@@ -95,11 +97,11 @@ const ProductDetailDialog = ({ product, open, onOpenChange }: Props) => {
 
             {!d && (
               <div className="rounded-lg border border-dashed border-border/60 bg-secondary/30 p-4 text-sm text-muted-foreground">
-                Pre podrobné parametre, dostupné farby a možnosti tohto produktu nás prosím{" "}
+                {t("pd.empty")}{" "}
                 <a href="/kontakt" className="text-primary font-medium hover:underline">
-                  kontaktujte
+                  {t("pd.empty.link")}
                 </a>
-                . Radi vám pripravíme cenovú ponuku na mieru.
+                {t("pd.empty.tail")}
               </div>
             )}
           </div>

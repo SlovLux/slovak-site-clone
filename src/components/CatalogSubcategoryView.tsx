@@ -4,6 +4,7 @@ import { CatalogProduct } from "@/data/catalogData";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import ProductDetailDialog from "./ProductDetailDialog";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 interface Props {
   title: string;
@@ -24,6 +25,7 @@ const SubcategoryBlock = ({
   onProductClick: (p: CatalogProduct) => void;
 }) => {
   const [page, setPage] = useState(1);
+  const { t, tx } = useLanguage();
   const totalPages = Math.max(1, Math.ceil(sub.products.length / PAGE_SIZE));
   const start = (page - 1) * PAGE_SIZE;
   const visible = sub.products.slice(start, start + PAGE_SIZE);
@@ -37,15 +39,15 @@ const SubcategoryBlock = ({
           <div className="flex items-center gap-3 mb-2">
             <div className="h-px w-12 bg-primary" />
             <span className="text-xs font-semibold tracking-widest uppercase text-primary">
-              Podkategória
+              {t("csv.subcat")}
             </span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">
-            {sub.name}
+            {tx(sub.name)}
           </h2>
         </div>
         <span className="hidden md:inline-block text-sm text-muted-foreground">
-          {sub.products.length} {sub.products.length === 1 ? "produkt" : sub.products.length < 5 ? "produkty" : "produktov"}
+          {sub.products.length} {sub.products.length === 1 ? t("csv.products.one") : sub.products.length < 5 ? t("csv.products.few") : t("csv.products.many")}
         </span>
       </div>
 
@@ -67,7 +69,7 @@ const SubcategoryBlock = ({
             <div className="relative aspect-[4/5] bg-gradient-to-br from-secondary/60 to-muted overflow-hidden">
               <img
                 src={isAbsolute(product.image) ? product.image : `${imageBasePath}${product.image}`}
-                alt={product.name}
+                alt={tx(product.name)}
                 className="w-full h-full object-contain p-4 group-hover:scale-110 transition-transform duration-500 ease-out"
                 loading="lazy"
               />
@@ -79,7 +81,7 @@ const SubcategoryBlock = ({
             </div>
             <div className="p-5 space-y-3">
               <h3 className="text-lg font-semibold text-foreground leading-tight group-hover:text-primary transition-colors">
-                {product.name}
+                {tx(product.name)}
               </h3>
             </div>
           </article>
@@ -94,10 +96,10 @@ const SubcategoryBlock = ({
             onClick={() => setPage((p) => Math.max(1, p - 1))}
             disabled={page === 1}
           >
-            <ChevronLeft className="h-4 w-4 mr-1" /> Predchádzajúca
+            <ChevronLeft className="h-4 w-4 mr-1" /> {t("csv.prev")}
           </Button>
           <span className="text-sm text-muted-foreground px-3">
-            Strana {page} z {totalPages}
+            {t("csv.page")} {page} {t("csv.of")} {totalPages}
           </span>
           <Button
             variant="outline"
@@ -105,7 +107,7 @@ const SubcategoryBlock = ({
             onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
             disabled={page === totalPages}
           >
-            Ďalšia <ChevronRight className="h-4 w-4 ml-1" />
+            {t("csv.next")} <ChevronRight className="h-4 w-4 ml-1" />
           </Button>
         </div>
       )}
@@ -116,6 +118,7 @@ const SubcategoryBlock = ({
 const CatalogSubcategoryView = ({ title, intro, subcategories, imageBasePath }: Props) => {
   const [selected, setSelected] = useState<CatalogProduct | null>(null);
   const [open, setOpen] = useState(false);
+  const { t, tx } = useLanguage();
 
   const handleProductClick = (p: CatalogProduct) => {
     // ak je relatívna cesta, použijeme imageBasePath aby dialog ukázal správny obrázok
@@ -140,12 +143,12 @@ const CatalogSubcategoryView = ({ title, intro, subcategories, imageBasePath }: 
         </header>
 
         {/* Subcategory quick nav */}
-        <nav aria-label="Podkategórie" className="mb-16">
+        <nav aria-label={t("csv.subcatAria")} className="mb-16">
           <div className="rounded-3xl bg-gradient-to-br from-card to-secondary/40 border border-border/60 p-6 md:p-8 shadow-sm">
             <div className="flex items-center gap-3 mb-5">
               <div className="h-px w-8 bg-primary" />
               <span className="text-xs font-semibold tracking-widest uppercase text-primary">
-                Prehľad podkategórií
+                {t("csv.overview")}
               </span>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
@@ -159,7 +162,7 @@ const CatalogSubcategoryView = ({ title, intro, subcategories, imageBasePath }: 
                     {String(idx + 1).padStart(2, "0")}
                   </span>
                   <span className="text-sm font-medium leading-tight">
-                    {sub.name}
+                    {tx(sub.name)}
                   </span>
                 </a>
               ))}

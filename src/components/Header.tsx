@@ -2,53 +2,51 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown, GraduationCap, Baby, Briefcase, Home, BookOpen } from "lucide-react";
 import effisLogo from "@/assets/effis-logo.png";
-
-const furnitureItems = [
-  {
-    label: "Školský nábytok",
-    path: "/skolsky-nabytok",
-    description: "Lavice, stoličky a vybavenie pre školy",
-    icon: GraduationCap,
-  },
-  {
-    label: "Detský nábytok",
-    path: "/detsky-nabytok",
-    description: "Nábytok pre škôlky a detské kútiky",
-    icon: Baby,
-  },
-  {
-    label: "Kancelársky nábytok",
-    path: "/kancelarsky-nabytok",
-    description: "Stoly, kreslá a úložné riešenia",
-    icon: Briefcase,
-  },
-  {
-    label: "Nábytok pre sociálne ubytovanie",
-    path: "/nabytok-pre-utulky",
-    description: "Praktické vybavenie pre ubytovacie zariadenia",
-    icon: Home,
-  },
-  {
-    label: "Nábytok pre univerzity",
-    path: "/nabytok-pre-univerzity",
-    description: "Vybavenie posluchární a študovní",
-    icon: BookOpen,
-  },
-];
-
-const navItems = [
-  { label: "Úvod", path: "/" },
-  { label: "O nás", path: "/o-nas" },
-  { label: "Nábytok", path: "#furniture", isDropdown: true },
-  { label: "Realizované projekty", path: "/realizovane-projekty" },
-  { label: "Kontakt", path: "/kontakt" },
-];
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [furnitureOpen, setFurnitureOpen] = useState(false);
   const [mobileFurnitureOpen, setMobileFurnitureOpen] = useState(false);
   const location = useLocation();
+  const { lang, setLang, t } = useLanguage();
+
+  const furnitureItems = [
+    { label: t("fm.school"), path: "/skolsky-nabytok", description: t("fm.school.desc"), icon: GraduationCap },
+    { label: t("fm.kids"), path: "/detsky-nabytok", description: t("fm.kids.desc"), icon: Baby },
+    { label: t("fm.office"), path: "/kancelarsky-nabytok", description: t("fm.office.desc"), icon: Briefcase },
+    { label: t("fm.shelter"), path: "/nabytok-pre-utulky", description: t("fm.shelter.desc"), icon: Home },
+    { label: t("fm.uni"), path: "/nabytok-pre-univerzity", description: t("fm.uni.desc"), icon: BookOpen },
+  ];
+
+  const navItems = [
+    { label: t("nav.home"), path: "/" },
+    { label: t("nav.about"), path: "/o-nas" },
+    { label: t("nav.furniture"), path: "#furniture", isDropdown: true },
+    { label: t("nav.projects"), path: "/realizovane-projekty" },
+    { label: t("nav.contact"), path: "/kontakt" },
+  ];
+
+  const LangSwitch = ({ className = "" }: { className?: string }) => (
+    <div className={`inline-flex items-center rounded-full border border-border bg-background overflow-hidden text-xs font-semibold ${className}`}>
+      <button
+        type="button"
+        onClick={() => setLang("sk")}
+        className={`px-2.5 py-1 transition-colors ${lang === "sk" ? "bg-primary text-primary-foreground" : "text-foreground hover:bg-muted"}`}
+        aria-pressed={lang === "sk"}
+      >
+        SK
+      </button>
+      <button
+        type="button"
+        onClick={() => setLang("hu")}
+        className={`px-2.5 py-1 transition-colors ${lang === "hu" ? "bg-primary text-primary-foreground" : "text-foreground hover:bg-muted"}`}
+        aria-pressed={lang === "hu"}
+      >
+        HU
+      </button>
+    </div>
+  );
 
   const isFurnitureActive = furnitureItems.some((i) => location.pathname === i.path);
 
@@ -62,12 +60,19 @@ const Header = () => {
 
         <div className="hidden md:flex flex-1" />
 
-        <button
-          className="md:hidden p-2"
-          onClick={() => setMobileOpen(!mobileOpen)}
-        >
-          {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-        </button>
+        <div className="hidden md:block">
+          <LangSwitch />
+        </div>
+
+        <div className="md:hidden flex items-center gap-2">
+          <LangSwitch />
+          <button
+            className="p-2"
+            onClick={() => setMobileOpen(!mobileOpen)}
+          >
+            {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </button>
+        </div>
       </div>
 
       {/* Navigation */}

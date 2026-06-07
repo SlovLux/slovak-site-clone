@@ -1,59 +1,36 @@
 import Layout from "@/components/Layout";
 import { Truck, CreditCard, Clock, Shield } from "lucide-react";
+import { useLanguage } from "@/i18n/LanguageContext";
 
-const PaymentDelivery = () => (
+const PaymentDelivery = () => {
+  const { t } = useLanguage();
+  const blocks = [
+    { Icon: CreditCard, title: t("pd.pay"), items: [t("pd.pay1"), t("pd.pay2"), t("pd.pay3")] },
+    { Icon: Truck, title: t("pd.delivery"), items: [t("pd.delivery1"), t("pd.delivery2"), t("pd.delivery3")] },
+    { Icon: Clock, title: t("pd.times"), items: [t("pd.times1"), t("pd.times2"), t("pd.times3")] },
+    { Icon: Shield, title: t("pd.warranty"), items: [t("pd.warranty1"), t("pd.warranty2"), t("pd.warranty3")] },
+  ];
+  return (
   <Layout>
     <section className="container mx-auto px-4 py-16">
-      <h1 className="text-3xl md:text-4xl font-bold mb-8">Platba a dodanie</h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-8">{t("pd.title")}</h1>
 
       <div className="grid md:grid-cols-2 gap-8 mb-12">
-        <div className="bg-muted rounded-xl p-6 flex gap-4">
-          <CreditCard className="h-8 w-8 text-primary shrink-0" />
-          <div>
-            <h3 className="font-semibold text-foreground mb-2">Spôsoby platby</h3>
-            <ul className="text-sm text-muted-foreground space-y-1">
-              <li>• Bankový prevod</li>
-              <li>• Platba na faktúru (pre firmy)</li>
-              <li>• Platba vopred</li>
-            </ul>
+        {blocks.map(({ Icon, title, items }) => (
+          <div key={title} className="bg-muted rounded-xl p-6 flex gap-4">
+            <Icon className="h-8 w-8 text-primary shrink-0" />
+            <div>
+              <h3 className="font-semibold text-foreground mb-2">{title}</h3>
+              <ul className="text-sm text-muted-foreground space-y-1">
+                {items.map((it) => <li key={it}>• {it}</li>)}
+              </ul>
+            </div>
           </div>
-        </div>
-        <div className="bg-muted rounded-xl p-6 flex gap-4">
-          <Truck className="h-8 w-8 text-primary shrink-0" />
-          <div>
-            <h3 className="font-semibold text-foreground mb-2">Dodanie</h3>
-            <ul className="text-sm text-muted-foreground space-y-1">
-              <li>• Dodanie po celom Slovensku</li>
-              <li>• Možnosť osobného odberu</li>
-              <li>• Montáž na mieste</li>
-            </ul>
-          </div>
-        </div>
-        <div className="bg-muted rounded-xl p-6 flex gap-4">
-          <Clock className="h-8 w-8 text-primary shrink-0" />
-          <div>
-            <h3 className="font-semibold text-foreground mb-2">Dodacie lehoty</h3>
-            <ul className="text-sm text-muted-foreground space-y-1">
-              <li>• Skladové produkty: 5-7 pracovných dní</li>
-              <li>• Zákazková výroba: 3-6 týždňov</li>
-              <li>• Veľké objednávky: individuálne</li>
-            </ul>
-          </div>
-        </div>
-        <div className="bg-muted rounded-xl p-6 flex gap-4">
-          <Shield className="h-8 w-8 text-primary shrink-0" />
-          <div>
-            <h3 className="font-semibold text-foreground mb-2">Záruka</h3>
-            <ul className="text-sm text-muted-foreground space-y-1">
-              <li>• 2-ročná záruka na všetky produkty</li>
-              <li>• Možnosť predĺženej záruky</li>
-              <li>• Servisná podpora</li>
-            </ul>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   </Layout>
-);
+  );
+};
 
 export default PaymentDelivery;
