@@ -45,6 +45,14 @@ const Header = () => {
       >
         HU
       </button>
+      <button
+        type="button"
+        onClick={() => setLang("de")}
+        className={`px-2.5 py-1 transition-colors ${lang === "de" ? "bg-primary text-primary-foreground" : "text-foreground hover:bg-muted"}`}
+        aria-pressed={lang === "de"}
+      >
+        DE
+      </button>
     </div>
   );
 
