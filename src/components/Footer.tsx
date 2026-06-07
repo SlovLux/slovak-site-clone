@@ -1,9 +1,11 @@
 import { Phone, Mail, MapPin } from "lucide-react";
 import { useLocation } from "react-router-dom";
 import effisLogo from "@/assets/effis-logo.png";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const Footer = () => {
   const location = useLocation();
+  const { t } = useLanguage();
   const isContactPage = location.pathname.replace(/\/$/, "").toLowerCase() === "/kontakt";
   if (isContactPage) return null;
   return (
@@ -21,7 +23,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-sm">
-              Kvalitný nábytok pre škôlky, školy, univerzity, kancelárie a sociálne ubytovanie.
+              {t("footer.tagline")}
             </p>
           </div>
 
@@ -29,7 +31,7 @@ const Footer = () => {
           {!isContactPage && (
           <div className="md:col-span-4 space-y-4">
             <h4 className="text-[11px] font-semibold tracking-widest uppercase text-muted-foreground">
-              Kontakt
+              {t("footer.contact")}
             </h4>
             <ul className="space-y-3 text-sm">
               <li>
@@ -61,7 +63,7 @@ const Footer = () => {
           {/* Fakturačné údaje */}
           <div className="md:col-span-4 space-y-4">
             <h4 className="text-[11px] font-semibold tracking-widest uppercase text-muted-foreground">
-              Fakturačné údaje
+              {t("footer.billing")}
             </h4>
             <dl className="text-sm divide-y divide-border">
               <div className="flex justify-between py-2.5">
@@ -77,7 +79,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-6 border-t border-border text-center text-xs text-muted-foreground">
-          © 2025 effis s.r.o. Všetky práva vyhradené.
+          {t("footer.rights")}
         </div>
       </div>
     </footer>
