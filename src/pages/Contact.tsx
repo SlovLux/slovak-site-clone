@@ -1,11 +1,13 @@
 import Layout from "@/components/Layout";
 import { Phone, Mail, MapPin, Building2 } from "lucide-react";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const Contact = () => {
+  const { t } = useLanguage();
   return (
     <Layout>
       <section className="container mx-auto px-4 py-16">
-        <h1 className="text-3xl md:text-4xl font-bold mb-8">Kontakt</h1>
+        <h1 className="text-3xl md:text-4xl font-bold mb-8">{t("contact.title")}</h1>
 
         <div className="grid gap-10 items-start">
           {/* Contact details cards */}
@@ -15,7 +17,7 @@ const Contact = () => {
                 <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center">
                   <Building2 className="h-5 w-5 text-primary" />
                 </div>
-                <h3 className="font-semibold">Spoločnosť</h3>
+                <h3 className="font-semibold">{t("contact.company")}</h3>
               </div>
               <p className="text-muted-foreground text-sm">effis s.r.o.</p>
               <p className="text-muted-foreground text-sm">IČO: 45 241 848</p>
@@ -27,7 +29,7 @@ const Contact = () => {
                 <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center">
                   <Phone className="h-5 w-5 text-primary" />
                 </div>
-                <h3 className="font-semibold">Telefón</h3>
+                <h3 className="font-semibold">{t("contact.phone")}</h3>
               </div>
               <a href="tel:+421907024315" className="block text-muted-foreground hover:text-primary text-sm transition-colors">+421 907 024 315</a>
               <a href="tel:+421903434591" className="block text-muted-foreground hover:text-primary text-sm transition-colors">+421 903 434 591</a>
@@ -38,7 +40,7 @@ const Contact = () => {
                 <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center">
                   <Mail className="h-5 w-5 text-primary" />
                 </div>
-                <h3 className="font-semibold">E-mail</h3>
+                <h3 className="font-semibold">{t("contact.email")}</h3>
               </div>
               <a href="mailto:info@effis.sk" className="text-muted-foreground hover:text-primary text-sm transition-colors">info@effis.sk</a>
             </div>
@@ -48,18 +50,18 @@ const Contact = () => {
                 <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center">
                   <MapPin className="h-5 w-5 text-primary" />
                 </div>
-                <h3 className="font-semibold">Adresa</h3>
+                <h3 className="font-semibold">{t("contact.address")}</h3>
               </div>
               <p className="text-muted-foreground text-sm">Zelená 883/13</p>
               <p className="text-muted-foreground text-sm">900 45 Malinovo</p>
-              <p className="text-muted-foreground text-sm">Slovensko</p>
+              <p className="text-muted-foreground text-sm">{t("contact.country")}</p>
             </div>
           </div>
         </div>
 
         <div className="mt-12 max-w-3xl mx-auto text-center">
           <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
-            Ceny produktov závisia od objednaného množstva, zvoleného prevedenia a konkrétnych požiadaviek zákazníka. Pre vypracovanie nezáväznej cenovej ponuky nás neváhajte kontaktovať.
+            {t("contact.pricing")}
           </p>
         </div>
       </section>

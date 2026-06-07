@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Layout from "@/components/Layout";
+import { useLanguage } from "@/i18n/LanguageContext";
 import hero1 from "@/assets/hero-1.png";
 import hero2 from "@/assets/hero-2.png";
 import hero3 from "@/assets/hero-3.png";
@@ -43,6 +44,7 @@ const heroSlides = [
 
 const Index = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const { t } = useLanguage();
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -64,12 +66,12 @@ const Index = () => {
             <span className="h-px w-10 bg-primary" />
           </div>
           <h1 className="text-2xl md:text-4xl lg:text-[2.5rem] font-bold leading-tight text-foreground max-w-4xl mx-auto">
-            Kvalitný nábytok pre{" "}
-            <span className="text-primary">škôlky</span>,{" "}
-            <span className="text-primary">školy</span>,{" "}
-            <span className="text-primary">univerzity</span>,{" "}
-            <span className="text-primary">kancelárie</span> a{" "}
-            <span className="text-primary">sociálne ubytovanie</span>.
+            {t("idx.h1.before")}{" "}
+            <span className="text-primary">{t("idx.h1.kindergartens")}</span>,{" "}
+            <span className="text-primary">{t("idx.h1.schools")}</span>,{" "}
+            <span className="text-primary">{t("idx.h1.universities")}</span>,{" "}
+            <span className="text-primary">{t("idx.h1.offices")}</span> {t("idx.h1.and")}{" "}
+            <span className="text-primary">{t("idx.h1.social")}</span>.
           </h1>
         </div>
       </section>
@@ -123,7 +125,7 @@ const Index = () => {
       <section className="bg-background py-10 md:py-14">
         <div className="container mx-auto px-6 md:px-10 text-center">
           <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-3xl mx-auto">
-            Ceny produktov závisia od objednaného množstva, zvoleného prevedenia a konkrétnych požiadaviek zákazníka. Pre vypracovanie nezáväznej cenovej ponuky nás neváhajte kontaktovať.
+            {t("idx.pricing")}
           </p>
         </div>
       </section>
