@@ -20,8 +20,8 @@ const Contact = () => {
                 <h3 className="font-semibold">{t("contact.company")}</h3>
               </div>
               <p className="text-muted-foreground text-sm">effis s.r.o.</p>
-              <p className="text-muted-foreground text-sm">IČO: 45 241 848</p>
-              <p className="text-muted-foreground text-sm">DIČ: 20 22 905 995</p>
+              <p className="text-muted-foreground text-sm">{t("footer.ico")}: 45 241 848</p>
+              <p className="text-muted-foreground text-sm">{t("footer.dic")}: 20 22 905 995</p>
             </div>
 
             <div className="rounded-2xl border bg-card p-6 shadow-sm hover:shadow-md transition-shadow">
