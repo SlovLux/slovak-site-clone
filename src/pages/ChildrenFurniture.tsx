@@ -1,16 +1,20 @@
 import Layout from "@/components/Layout";
 import CatalogSubcategoryView from "@/components/CatalogSubcategoryView";
 import { kidsCatalog } from "@/data/catalogData";
+import { useLanguage } from "@/i18n/LanguageContext";
 
-const ChildrenFurniture = () => (
+const ChildrenFurniture = () => {
+  const { t } = useLanguage();
+  return (
   <Layout>
     <CatalogSubcategoryView
-      title="Detský nábytok"
-      intro="Bezpečný, farebný a praktický nábytok pre materské školy a detské zariadenia – stolíky, stoličky, postieľky, herné steny a viac."
+      title={t("cat.kids.title")}
+      intro={t("cat.kids.intro")}
       subcategories={kidsCatalog}
       imageBasePath="/catalog/"
     />
   </Layout>
-);
+  );
+};
 
 export default ChildrenFurniture;

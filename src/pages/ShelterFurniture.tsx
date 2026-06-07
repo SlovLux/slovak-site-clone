@@ -1,16 +1,20 @@
 import Layout from "@/components/Layout";
 import CatalogSubcategoryView from "@/components/CatalogSubcategoryView";
 import { shelterCatalog } from "@/data/catalogData";
+import { useLanguage } from "@/i18n/LanguageContext";
 
-const ShelterFurniture = () => (
+const ShelterFurniture = () => {
+  const { t } = useLanguage();
+  return (
   <Layout>
     <CatalogSubcategoryView
-      title="Nábytok pre sociálne ubytovanie"
-      intro="Odolný a praktický nábytok pre ubytovne, internáty a sociálne ubytovacie zariadenia – postele, skrine, jedálenský a spoločenský nábytok navrhnutý pre intenzívne každodenné používanie."
+      title={t("cat.shelter.title")}
+      intro={t("cat.shelter.intro")}
       subcategories={shelterCatalog}
       imageBasePath="/catalog/"
     />
   </Layout>
-);
+  );
+};
 
 export default ShelterFurniture;
