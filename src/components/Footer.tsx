@@ -67,11 +67,11 @@ const Footer = () => {
             </h4>
             <dl className="text-sm divide-y divide-border">
               <div className="flex justify-between py-2.5">
-                <dt className="text-muted-foreground">IČO</dt>
+                <dt className="text-muted-foreground">{t("footer.ico")}</dt>
                 <dd className="font-mono font-medium">45 241 848</dd>
               </div>
               <div className="flex justify-between py-2.5">
-                <dt className="text-muted-foreground">DIČ</dt>
+                <dt className="text-muted-foreground">{t("footer.dic")}</dt>
                 <dd className="font-mono font-medium">2022 905 995</dd>
               </div>
             </dl>
